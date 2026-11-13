@@ -2,13 +2,13 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "run": "a7b488fd8b37",
+    "run": "a05cf424f8e6",
     "proxy": false,
-    "generated": "2026-11-13 17:26:57 UTC"
+    "generated": "2026-11-13 18:08:09 UTC"
   },
   "passed": true,
-  "total": 76,
-  "ok": 76,
+  "total": 77,
+  "ok": 77,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -695,6 +695,15 @@
       "title": "自证 / 静默放行 / 不可复现三类缺陷加锁 + 12 位 run_id 与硬阻断行为用例",
       "ok": true,
       "detail": "复查硬化：清单派生 / 4xx 不静默 / 抽样可复现 / 死分支与自证式均加锁",
+      "critical": true
+    },
+    {
+      "id": "B60",
+      "group": "构建链路",
+      "origin": "2026-11-14 第三轮：区间用「裸 p̂ + Jeffreys 方差 + z=1.96」混合语言，0/106 层上界比超几何精确界窄一倍；748 个 drpy 站的 jar/ext 全挂在一个反代上；history/ 不发布导致抽样无法复算；fetch(retries=) 无人调用",
+      "title": "区间口径自洽 + 反代多路分摊 + 逐日摘要 + retries 真接通（含行为用例）",
+      "ok": true,
+      "detail": "区间 CP+FPC / 反代多路分摊 / 逐日摘要可复现 / retries 接通",
       "critical": true
     }
   ]

@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-12",
+  "env": {
+    "env": "github-actions",
+    "proxy": false,
+    "generated": "2026-11-12 14:51:31 UTC",
+    "run": "legacy"
+  },
+  "build": {
+    "sites": 2676,
+    "published": 2560,
+    "lite": 1144,
+    "network": 473,
+    "sources_ok": 28,
+    "observation": 161,
+    "parses": 290,
+    "parses_deduped": 394,
+    "lives": 140,
+    "dropped": 0,
+    "sources": [
+      {
+        "tag": "qist/js",
+        "added": 261,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "qist/jsm",
+        "added": 120,
+        "dup": 24,
+        "note": "ok"
+      },
+      {
+        "tag": "qist/ds",
+        "added": 1,
+        "dup": 144,
+        "note": "ok"
+      },
+      {
+        "tag": "cyao/ok",
+        "added": 55,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "cyao/xs",
+        "added": 52,
+        "dup": 2,
+        "note": "ok"
+      },
+      {
+        "tag": "cyao/m",
+        "added": 7,
+        "dup": 8,
+        "note": "ok"
+      },
+      {
+        "tag": "noimank",
+        "added": 61,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "gao/js",
+        "added": 250,
+        "dup": 15,
+        "note": "ok"
+      },
+      {
+        "tag": "clun",
+        "added": 0,
+        "dup": 0,
+        "note": "拉取失败:JSONDecodeError"
+      },
+      {
+        "tag": "yw88075",
+        "added": 294,
+        "dup": 5,
+        "note": "ok"
+      },
+      {
+        "tag": "ssr/ts888",
+        "added": 226,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/laoliubei",
+        "added": 215,
+        "dup": 7,
+        "note": "ok"
+      },
+      {
+        "tag": "juhe-subhub",
+        "added": 144,
+        "dup": 71,
+        "note": "ok"
+      },
+      {
+        "tag": "hkf/merged",
+        "added": 120,
+        "dup": 18,
+        "note": "ok"
+      },
+      {
+        "tag": "dongli/api",
+        "added": 56,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "ssr/ct",
+        "added": 60,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "jyoketsu/m",
+        "added": 53,
+        "dup": 5,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/xiaoma",
+        "added": 39,
+        "dup": 22,
+        "note": "ok"
+      },
+      {
+        "tag": "fish2018",
+        "added": 104,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/w2x",
+        "added": 87,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/xhb",
+        "added": 98,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/vox",
+        "added": 54,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/aowu",
+        "added": 78,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/wangerxiao",
+        "added": 60,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/xiaohezi",
+        "added": 47,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/4k",
+        "added": 35,
+        "dup": 14,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/xm",
+        "added": 40,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/fm",
+        "added": 36,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "jundie/top98",
+        "added": 23,
+        "dup": 0,
+        "note": "ok"
+      }
+    ]
+  },
+  "home": {
+    "sites": 844,
+    "scanned": 2560,
+    "inferred_count": 324,
+    "grades": {
+      "unknown": 941,
+      "likely": 774,
+      "fail": 775,
+      "ok": 59,
+      "classes_only": 11
+    }
+  },
+  "play": {
+    "sampled": 150,
+    "list_rate": 0.38,
+    "detail_rate": 0.3733,
+    "play_rate": 0.0933,
+    "search_rate": 0.34,
+    "playable": 14,
+    "parses_alive_rate": 0.35
+  },
+  "play_coverage": null,
+  "recheck": {
+    "checked": 50,
+    "revived": 12,
+    "false_kill_rate": 0.24,
+    "revived_sigs": [
+      "c342effe63c3ac98",
+      "914c574aa81885ee",
+      "5ab919b0c395308e",
+      "a9efcbfff5525f50",
+      "879f985963443c36",
+      "29d54f2d10dc9ad5",
+      "0ea4d98b10d3e477",
+      "8e70dbc6205356ab",
+      "0284dad6b4d81792",
+      "da180ad638df4ff8",
+      "08ed855b225fb3da",
+      "46acc5315c4dff2c"
+    ]
+  },
+  "assertions": {
+    "passed": true,
+    "failed": []
+  },
+  "build_status": {
+    "degraded": false,
+    "failed_steps": [],
+    "config_steps_failed": []
+  },
+  "sample_rates": {
+    "jar": 0.55,
+    "ext": 0.6
+  },
+  "sample_rates_final": null,
+  "sample_retry": null,
+  "files_sha256_16": {
+    "tvbox.json": "414ff787b7a0535d",
+    "tvbox-lite.json": "c27eea5bea3a7cda",
+    "tvbox-network.json": "8bb743103baf2b24",
+    "tvbox-home.json": "e9aeb3b93d95666b",
+    "tvbox-full-homefirst.json": "779c12d56e5c54d7",
+    "tvbox-lite-homefirst.json": "c8de5b8519301516",
+    "tvbox-network-homefirst.json": "fe26c5c29bd5ee39",
+    "tvbox-quality.json": "6d932128ae09dca0",
+    "tvbox-cn-fast.json": "887c33f6cd462214",
+    "tvbox-stable7.json": "8e6add62251d1f0d"
+  }
+}
