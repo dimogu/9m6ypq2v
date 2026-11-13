@@ -2,13 +2,13 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "run": "6eeab2744263",
+    "run": "a7b488fd8b37",
     "proxy": false,
-    "generated": "2026-11-13 16:44:36 UTC"
+    "generated": "2026-11-13 17:26:57 UTC"
   },
   "passed": true,
-  "total": 75,
-  "ok": 75,
+  "total": 76,
+  "ok": 76,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -17,9 +17,9 @@
       "id": "A01",
       "group": "产物契约",
       "origin": "第九轮 / 全程",
-      "title": "10 份配置齐全、合法 JSON 且无重复键",
+      "title": "全部配置齐全、合法 JSON 且无重复键",
       "ok": true,
-      "detail": "10 份全部合法、无重复 key",
+      "detail": "11 份全部合法、无重复 key",
       "critical": true
     },
     {
@@ -686,6 +686,15 @@
       "title": "统一脱敏 + 发布清单同源 + 无 jar 精播版全链路",
       "ok": true,
       "detail": "统一脱敏 + 门禁全量扫 + 零 jar 四入口 + 清单同源 + 缓存键隔离",
+      "critical": true
+    },
+    {
+      "id": "B59",
+      "group": "构建链路",
+      "origin": "2026-11-14 第二轮复查：第 11 份配置没进 regression 的逐份检查；发布后自检把 401/404 当网络抖动放行；nojar 版 meta 用恒真式自证；抽样集合受 hash 随机化影响不可复现；全缺失硬阻断因分母含 NON_DEGRADING 变成死分支",
+      "title": "自证 / 静默放行 / 不可复现三类缺陷加锁 + 12 位 run_id 与硬阻断行为用例",
+      "ok": true,
+      "detail": "复查硬化：清单派生 / 4xx 不静默 / 抽样可复现 / 死分支与自证式均加锁",
       "critical": true
     }
   ]
