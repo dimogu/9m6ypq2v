@@ -2,13 +2,13 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43339929532",
+    "runner": "43364846896",
     "proxy": false,
-    "generated": "2026-11-13 01:13:57 UTC"
+    "generated": "2026-11-13 04:38:30 UTC"
   },
   "passed": true,
-  "total": 65,
-  "ok": 65,
+  "total": 66,
+  "ok": 66,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -262,7 +262,7 @@
       "origin": "第十轮：误杀率 52% 证明单日判定不可信",
       "title": "quality.json 保留多日历史与抽样基线",
       "ok": true,
-      "detail": "多日历史 / 连败 / 抽样基线字段齐全（3 天）",
+      "detail": "多日历史 / 连败 / 抽样基线字段齐全（4 天）",
       "critical": true
     },
     {
@@ -289,7 +289,7 @@
       "origin": "每轮交付前的基础检查",
       "title": "全部 scripts/*.py 可编译",
       "ok": true,
-      "detail": "32 个脚本全部编译通过",
+      "detail": "33 个脚本全部编译通过",
       "critical": true
     },
     {
@@ -298,7 +298,7 @@
       "origin": "本轮：tag 复用时指针 commit 写成当前 HEAD、与不可变 tag 不一致",
       "title": "stable.json 的 commit 指向 tag 实际提交",
       "ok": true,
-      "detail": "tag=stable-20261112 / 指针 commit=cf9231ab68 / tag 实际=cf9231ab68",
+      "detail": "tag=stable-20261113 / 指针 commit=31e80f38a2 / tag 实际=31e80f38a2",
       "critical": true
     },
     {
@@ -596,6 +596,15 @@
       "title": "稳定版指针校验精确匹配链接 + 误报可诊断",
       "ok": true,
       "detail": "稳定版指针校验只拦真实链接且带诊断",
+      "critical": true
+    },
+    {
+      "id": "B49",
+      "group": "构建链路",
+      "origin": "2026-11-13：点播源只有三天一次的人工候选报告，11-11 的 6 个高分候选一直没人并入、上游清单停在 11-10；改成每日自动扩源后，步骤顺序 / 报告提交 / 清单入库 / 页面不变任何一环漏掉都会静默失效",
+      "title": "点播源起始多渠道搜新 + dry-run 后达标自动并入",
+      "ok": true,
+      "detail": "点播每日扩源：六渠道 → dry-run → 复核自动并入，提交/生成物/页面边界齐全",
       "critical": true
     }
   ]

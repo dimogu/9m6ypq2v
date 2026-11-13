@@ -2,18 +2,18 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43339929532",
+    "runner": "43364846896",
     "proxy": false,
-    "generated": "2026-11-13 01:13:59 UTC"
+    "generated": "2026-11-13 04:38:32 UTC"
   },
   "versions": [
     {
       "file": "tvbox-quality.json",
       "label": "精播版",
       "note": "只留实测可播 / 首页实测有影片的节点，宁缺毋滥",
-      "sites": 515,
+      "sites": 513,
       "home_first": null,
-      "bytes": 257385,
+      "bytes": 261684,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-quality.json"
@@ -22,9 +22,9 @@
       "file": "tvbox-cn-fast.json",
       "label": "国内极速版",
       "note": "国内直连、无 spider jar、最多取前 120 个，老盒子开屏最快",
-      "sites": 61,
+      "sites": 60,
       "home_first": null,
-      "bytes": 48865,
+      "bytes": 51333,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-cn-fast.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-cn-fast.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-cn-fast.json"
@@ -33,9 +33,9 @@
       "file": "tvbox-stable7.json",
       "label": "7 天稳定版",
       "note": "近 7 天多次可用且当前无连败，不追新源、不随上游抖动",
-      "sites": 73,
+      "sites": 200,
       "home_first": null,
-      "bytes": 98933,
+      "bytes": 142613,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-stable7.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-stable7.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-stable7.json"
@@ -44,9 +44,9 @@
       "file": "tvbox-full-homefirst.json",
       "label": "全量 + 首页优先",
       "note": "功能最全，推荐桌面/高性能盒子",
-      "sites": 2565,
-      "home_first": 861,
-      "bytes": 808167,
+      "sites": 2412,
+      "home_first": 859,
+      "bytes": 778223,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-full-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-full-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-full-homefirst.json"
@@ -55,9 +55,9 @@
       "file": "tvbox-lite-homefirst.json",
       "label": "精简 + 首页优先",
       "note": "不依赖 spider jar，低性能盒子首选",
-      "sites": 1057,
-      "home_first": 80,
-      "bytes": 325256,
+      "sites": 909,
+      "home_first": 79,
+      "bytes": 297305,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-lite-homefirst.json"
@@ -66,9 +66,9 @@
       "file": "tvbox-network-homefirst.json",
       "label": "网络优化 + 首页优先",
       "note": "不依赖境外代码托管，国内直连最稳",
-      "sites": 389,
-      "home_first": 80,
-      "bytes": 117987,
+      "sites": 241,
+      "home_first": 79,
+      "bytes": 90026,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-network-homefirst.json"
@@ -77,9 +77,9 @@
       "file": "tvbox-home.json",
       "label": "首页版",
       "note": "只保留能出主界面推荐的节点",
-      "sites": 861,
+      "sites": 859,
       "home_first": null,
-      "bytes": 353283,
+      "bytes": 353639,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-home.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-home.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-home.json"
@@ -88,9 +88,9 @@
       "file": "tvbox.json",
       "label": "全量（原序）",
       "note": "全部节点，原始顺序",
-      "sites": 2565,
+      "sites": 2412,
       "home_first": null,
-      "bytes": 807761,
+      "bytes": 777815,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox.json"
@@ -99,9 +99,9 @@
       "file": "tvbox-lite.json",
       "label": "精简（原序）",
       "note": "仅 http 站点",
-      "sites": 1057,
+      "sites": 909,
       "home_first": null,
-      "bytes": 324881,
+      "bytes": 296928,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-lite.json"
@@ -110,9 +110,9 @@
       "file": "tvbox-network.json",
       "label": "网络优化（原序）",
       "note": "仅国内直连友好站点",
-      "sites": 389,
+      "sites": 241,
       "home_first": null,
-      "bytes": 117627,
+      "bytes": 89664,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-network.json"
@@ -386,24 +386,24 @@
     "clun"
   ],
   "home_grades": {
-    "likely": 783,
     "unknown": 944,
-    "fail": 760,
-    "ok": 58,
+    "likely": 780,
+    "fail": 609,
+    "ok": 59,
     "classes_only": 20
   },
   "home_inferred": 327,
   "play": {
-    "sampled": 150,
-    "list_rate": 0.38,
-    "detail_rate": 0.3667,
-    "play_rate": 0.12,
-    "search_rate": 0.3333,
+    "sampled": 122,
+    "list_rate": 0.4836,
+    "detail_rate": 0.4754,
+    "play_rate": 0.1475,
+    "search_rate": 0.4262,
     "playable": 18,
-    "parses_alive_rate": 0.2,
+    "parses_alive_rate": 0.55,
     "parses_total": 285
   },
-  "false_kill_rate": 0.36,
+  "false_kill_rate": 0.32,
   "assert_passed": true,
   "assert_ran": true,
   "assert_pass_streak": 4,
@@ -429,7 +429,7 @@
       "jar_health": "success",
       "regression": "success"
     },
-    "run_id": "43339929532"
+    "run_id": "43364846896"
   },
   "stable": {
     "tag": "stable-20261113",
@@ -482,14 +482,14 @@
     },
     {
       "date": "2026-11-13",
-      "sites": 2677,
-      "published": 2565,
-      "lite": 1142,
-      "network": 471,
-      "home_sites": 861,
-      "home_ok": 58,
-      "play_rate": 0.12,
-      "false_kill_rate": 0.36,
+      "sites": 2517,
+      "published": 2412,
+      "lite": 982,
+      "network": 311,
+      "home_sites": 859,
+      "home_ok": 59,
+      "play_rate": 0.1475,
+      "false_kill_rate": 0.32,
       "sources_ok": 28,
       "assert_passed": true,
       "degraded": false
@@ -507,9 +507,9 @@
     {
       "label": "全量版",
       "file": "tvbox.json",
-      "keys": 674,
+      "keys": 672,
       "content_dup": 24,
-      "client_norm": 1700,
+      "client_norm": 1545,
       "ext": 299,
       "names": 718,
       "parse_renamed": 50,
@@ -522,7 +522,7 @@
       "file": "tvbox-lite.json",
       "keys": 359,
       "content_dup": 1,
-      "client_norm": 860,
+      "client_norm": 710,
       "ext": 1,
       "names": 517,
       "parse_renamed": 48,
@@ -535,7 +535,7 @@
       "file": "tvbox-network.json",
       "keys": 2,
       "content_dup": 1,
-      "client_norm": 743,
+      "client_norm": 593,
       "ext": 1,
       "names": 49,
       "parse_renamed": 48,
@@ -547,33 +547,38 @@
   "regression": {
     "ran": true,
     "passed": true,
-    "ok": 65,
-    "total": 65,
+    "ok": 66,
+    "total": 66,
     "failed": 0,
     "hard_failed": [],
     "failed_checks": []
   },
   "live": {
     "ran": true,
-    "henan_playable": 64,
-    "henan_probed": 467,
-    "henan_main": 49,
+    "henan_playable": 61,
+    "henan_probed": 465,
+    "henan_main": 45,
     "list_lines": 20,
     "list_exists": true,
     "list_txt_exists": true,
     "sources_total": 133,
-    "sources_ok": 74,
+    "sources_ok": 75,
     "shells": [],
     "henan_sources": [
-      {
-        "name": "游魂",
-        "url": "https://www.iyouhun.com/tv/zb",
-        "ok": 11
-      },
       {
         "name": "Trysknee01/tvbox-live",
         "url": "https://ghproxy.net/https://raw.githubusercontent.com/Trysknee01/tvbox-live/main/live.txt",
         "ok": 10
+      },
+      {
+        "name": "综合直播",
+        "url": "https://ds65.tv1288.xyz",
+        "ok": 9
+      },
+      {
+        "name": "游魂",
+        "url": "https://www.iyouhun.com/tv/zb",
+        "ok": 9
       },
       {
         "name": "gh-proxy.org/iptv.txt",
@@ -581,40 +586,35 @@
         "ok": 9
       },
       {
-        "name": "综合直播",
-        "url": "https://ds65.tv1288.xyz",
-        "ok": 8
-      },
-      {
-        "name": "kimwang/白名单",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/kimwang1978/collect-txt/main/assets/blacklist1/whitelist_auto_tv.txt",
+        "name": "wget.la/itvlist.txt",
+        "url": "https://wget.la/https://github.com/two2025/tv/raw/main/itvlist.txt",
         "ok": 6
       },
       {
-        "name": "best-fan/iptv-sources cn_all",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
-        "ok": 5
+        "name": "wnhhh/iptv-list·2",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
+        "ok": 6
       },
       {
-        "name": "wnhhh/iptv-list·2",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
-        "ok": 5
+        "name": "aa3151036158/tvbox-config",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/aa3151036158/tvbox-config/main/output/live.txt",
+        "ok": 6
       },
       {
         "name": "wnhhh/iptv-list",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
-        "ok": 5
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
+        "ok": 6
       }
     ],
     "blocklist": 1,
     "source_health": {
-      "tested": 74,
+      "tested": 75,
       "ok": 30,
       "partial": 25,
-      "dead": 19,
+      "dead": 20,
       "badlist": 4,
-      "unknown": 55,
-      "dead_streak_ready": 11,
+      "unknown": 54,
+      "dead_streak_ready": 0,
       "bad_streak_ready": 4,
       "pick_max": 8,
       "dead_streak": 3,
@@ -625,25 +625,31 @@
     "discover": {
       "ran": true,
       "adopted": 40,
-      "tested": 126,
-      "pool": 126,
-      "new": 42,
+      "tested": 98,
+      "pool": 98,
+      "new": 9,
       "fresh_days": 3,
       "channels": {
-        "已采纳复测": 36,
-        "GitHub 配置 lives": 1,
-        "GitHub 活跃仓库": 3
+        "已采纳复测": 39,
+        "站外·网页": 1
       },
       "offsite": {
         "web_pages": 5,
         "web_links": 20,
         "web_failed": 0,
-        "bili_items": 80,
-        "bili_links": 33,
+        "bili_items": 60,
+        "bili_links": 36,
         "bili_pan": 0,
-        "adopted": 0
+        "adopted": 1
       },
       "top": [
+        {
+          "name": "wget.la/itvlist.txt",
+          "url": "https://wget.la/https://github.com/two2025/tv/raw/main/itvlist.txt",
+          "rate": 1.0,
+          "chans": 301,
+          "henan": 3
+        },
         {
           "name": "Trysknee01/tvbox-live",
           "url": "https://raw.githubusercontent.com/Trysknee01/tvbox-live/main/live.txt",
@@ -654,7 +660,7 @@
         {
           "name": "feichangHELI/tvsource valid",
           "url": "https://raw.githubusercontent.com/feichangHELI/tvsource/main/valid.m3u",
-          "rate": 0.762,
+          "rate": 0.81,
           "chans": 653,
           "henan": 0
         },
@@ -666,25 +672,11 @@
           "henan": 2
         },
         {
-          "name": "vbskycn/iptv iptv4",
-          "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
-          "rate": 0.8,
-          "chans": 549,
-          "henan": 0
-        },
-        {
-          "name": "WangMCweijia/m3u-auto",
-          "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.m3u",
-          "rate": 0.652,
-          "chans": 929,
-          "henan": 1
-        },
-        {
-          "name": "hejm2000/moontv-live",
-          "url": "https://raw.githubusercontent.com/hejm2000/moontv-live/main/iptv.m3u",
-          "rate": 0.85,
-          "chans": 336,
-          "henan": 1
+          "name": "best-fan/iptv-sources cn_all",
+          "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+          "rate": 0.783,
+          "chans": 334,
+          "henan": 2
         },
         {
           "name": "Qingyxiong/live-sources",
@@ -694,17 +686,24 @@
           "henan": 1
         },
         {
-          "name": "alanhsun/subcast playlist_source",
-          "url": "https://raw.githubusercontent.com/alanhsun/subcast/main/data/playlist_source.txt",
-          "rate": 0.762,
-          "chans": 332,
+          "name": "vbskycn/iptv iptv4",
+          "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
+          "rate": 0.75,
+          "chans": 549,
+          "henan": 0
+        },
+        {
+          "name": "WangMCweijia/m3u-auto·2",
+          "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.txt",
+          "rate": 0.609,
+          "chans": 621,
           "henan": 1
         }
       ]
     },
     "sites": {
       "ran": true,
-      "total": 2648,
+      "total": 2493,
       "detected": 177,
       "checked": 177,
       "alive": 60,
@@ -788,27 +787,27 @@
   },
   "jar_health": {
     "probed": true,
-    "jar_total": 52,
-    "jar_dead": 27,
-    "jar_alive_rate": 0.4807692307692308,
+    "jar_total": 51,
+    "jar_dead": 26,
+    "jar_alive_rate": 0.49019607843137253,
     "ext_total": 1248,
-    "ext_dead": 677,
+    "ext_dead": 670,
     "jar_fail_streak": 44,
-    "jar_fail_ge2": 27,
-    "ext_fail_streak": 1248,
-    "ext_fail_ge2": 597
+    "jar_fail_ge2": 26,
+    "ext_fail_streak": 1264,
+    "ext_fail_ge2": 575
   },
   "freshness": {
     "level": "ok",
     "label": "自动更新正常",
     "hours": 0.2,
     "advice": "",
-    "page_hours": 0.00010261184639400906,
-    "config_hours": 0.19426927851306067,
-    "duration": "12 分钟",
-    "generated": "2026-11-13 01:13:59 UTC",
-    "config_updated": "2026-11-13 01:02:20 UTC",
-    "generated_epoch": 1794532439,
-    "config_epoch": 1794531740
+    "page_hours": 2.2247632344563802e-05,
+    "config_hours": 0.23530002541012235,
+    "duration": "14 分钟",
+    "generated": "2026-11-13 04:38:32 UTC",
+    "config_updated": "2026-11-13 04:24:25 UTC",
+    "generated_epoch": 1794544712,
+    "config_epoch": 1794543865
   }
 }
