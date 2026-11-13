@@ -4,9 +4,9 @@
   "metric_version": "2026-11-14",
   "env": {
     "env": "github-actions",
-    "run": "a05cf424f8e6",
+    "run": "8d08523bcaf6",
     "proxy": false,
-    "generated": "2026-11-13 18:08:10 UTC"
+    "generated": "2026-11-13 18:33:29 UTC"
   },
   "versions": [
     {
@@ -14,9 +14,9 @@
       "label": "精播版",
       "note": "只留实测可播 / 首页实测有影片的节点，宁缺毋滥",
       "badge": "",
-      "sites": 108,
+      "sites": 105,
       "home_first": null,
-      "bytes": 112677,
+      "bytes": 111770,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-quality.json"
@@ -28,7 +28,7 @@
       "badge": "",
       "sites": 120,
       "home_first": null,
-      "bytes": 109223,
+      "bytes": 109336,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality-nojar.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality-nojar.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-quality-nojar.json"
@@ -40,7 +40,7 @@
       "badge": "",
       "sites": 75,
       "home_first": null,
-      "bytes": 58461,
+      "bytes": 59165,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-cn-fast.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-cn-fast.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-cn-fast.json"
@@ -50,9 +50,9 @@
       "label": "7 天稳定版",
       "note": "近 7 天多次可用且当前无连败，不追新源、不随上游抖动（本版过滤条件放宽到 home_days>=2）",
       "badge": "已放宽",
-      "sites": 155,
+      "sites": 158,
       "home_first": null,
-      "bytes": 123048,
+      "bytes": 122581,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-stable7.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-stable7.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-stable7.json"
@@ -63,8 +63,8 @@
       "note": "功能最全，推荐桌面/高性能盒子",
       "badge": "",
       "sites": 3298,
-      "home_first": 1193,
-      "bytes": 1043709,
+      "home_first": 1182,
+      "bytes": 1044302,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-full-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-full-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-full-homefirst.json"
@@ -75,8 +75,8 @@
       "note": "不依赖 spider jar，低性能盒子首选",
       "badge": "",
       "sites": 1175,
-      "home_first": 91,
-      "bytes": 362341,
+      "home_first": 95,
+      "bytes": 362934,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-lite-homefirst.json"
@@ -87,8 +87,8 @@
       "note": "不依赖境外代码托管，国内直连最稳",
       "badge": "",
       "sites": 419,
-      "home_first": 91,
-      "bytes": 129159,
+      "home_first": 95,
+      "bytes": 129752,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-network-homefirst.json"
@@ -98,9 +98,9 @@
       "label": "首页版",
       "note": "只保留能出主界面推荐的节点",
       "badge": "",
-      "sites": 1193,
+      "sites": 1182,
       "home_first": null,
-      "bytes": 467113,
+      "bytes": 461433,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-home.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-home.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-home.json"
@@ -112,7 +112,7 @@
       "badge": "",
       "sites": 3298,
       "home_first": null,
-      "bytes": 1043302,
+      "bytes": 1043892,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox.json"
@@ -124,7 +124,7 @@
       "badge": "",
       "sites": 1175,
       "home_first": null,
-      "bytes": 361967,
+      "bytes": 362557,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-lite.json"
@@ -136,7 +136,7 @@
       "badge": "",
       "sites": 419,
       "home_first": null,
-      "bytes": 128800,
+      "bytes": 129390,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-network.json"
@@ -446,22 +446,22 @@
     "clun"
   ],
   "home_grades": {
+    "likely": 1087,
     "unknown": 1006,
-    "likely": 1102,
-    "fail": 1099,
-    "ok": 74,
-    "classes_only": 17
+    "fail": 1110,
+    "ok": 75,
+    "classes_only": 20
   },
-  "home_inferred": 410,
+  "home_inferred": 404,
   "play": {
     "sampled": 150,
-    "list_rate": 0.2467,
-    "detail_rate": 0.2467,
-    "play_rate": 0.1,
-    "play_rate_adjusted": 0.0999,
+    "list_rate": 0.22,
+    "detail_rate": 0.22,
+    "play_rate": 0.0667,
+    "play_rate_adjusted": 0.0666,
     "play_rate_adjusted_ci": [
-      0.068,
-      0.1543
+      0.0431,
+      0.1153
     ],
     "coverage": {
       "total_sites": 3298,
@@ -472,16 +472,16 @@
       "weight_covered": 1.0,
       "strata": {
         "home_ok": {
-          "population": 91,
-          "sampled": 46,
-          "playable": 14,
-          "rate": 0.3043
+          "population": 95,
+          "sampled": 48,
+          "playable": 10,
+          "rate": 0.2083
         },
         "other": {
-          "population": 206,
-          "sampled": 104,
-          "playable": 1,
-          "rate": 0.0096
+          "population": 202,
+          "sampled": 102,
+          "playable": 0,
+          "rate": 0.0
         }
       },
       "note": "可播率只覆盖 CMS 接口类站点，spider/jar 与 drpy 站点无法用「列表→详情→播放地址」这条链路验证；抽样按层规模比例分配，加权估计已按层规模还原，权重覆盖率见 weight_covered"
@@ -489,172 +489,7 @@
     "interval_method": "cp-fpc-mc",
     "sampled_sigs": [
       {
-        "sig": "f124bf472f6f1827",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "fa073b5357637c4c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "1e305308431d4372",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "9d388e62a140ef34",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "86f3aedd5bfde671",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "8dbecbe39ae4ab3a",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ca942f9767aa971b",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "fcf35541d6f4a33d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "bb3e1d19c6fb5b1c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "4734525d13404c4a",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "ba62eea35ed73f09",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "410f0bd67c8fdbeb",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ed04594008de354d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "6211c248ecef02e1",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "fe5c8ae05658ea4f",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "318c3e53e015d8e1",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "398c3eca31b38834",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "5eaed64959bfcb48",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "2efbdc387eddbe2e",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "b2b8eaa67b42ae28",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "4b681d0e397433fb",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "a58307061ab292f7",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "6ed90acc985224af",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "02a5654848eebcc6",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "534f10a8a416aa7c",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "a2fb6789e26f1c2f",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "ddb48b652b30840b",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "acc33a3bcd39cbcd",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "6b207e9bec954df4",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "dd9e694843837263",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "82a8ea3611f4d8ee",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "84ea491b54c203b9",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "1428e67643637396",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "71bdd344c0f21077",
+        "sig": "667f72fb4e29dd16",
         "stratum": "home_ok",
         "play": false
       },
@@ -664,67 +499,167 @@
         "play": false
       },
       {
-        "sig": "183ab96e54e18e54",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "d906714226a103a5",
+        "sig": "9a6d04ea03f05ed1",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "6f245b8d1cbfd270",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "b3663c98c5cad5b9",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "e747dcadde871e21",
+        "sig": "410f0bd67c8fdbeb",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "b796a0c28cd8bfa9",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "0ad2b96c6dc8a99e",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "229feeb61146f1ae",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "ad4618fa1497d5e4",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "d083dd2b53c2cb36",
+        "sig": "cb816e5ef2698a1f",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "9f76096c5467e772",
+        "sig": "6ed90acc985224af",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "2672f62ef9bac4d6",
+        "sig": "2efbdc387eddbe2e",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "f3beb64ccf7da690",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "bb3e1d19c6fb5b1c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "36bcbc91279ad350",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "ba62eea35ed73f09",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "a0723201ba05943f",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6809c051150e2563",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "524ba097f379b87b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "420693b3628eeec2",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "1e305308431d4372",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "cc92b544bfa009c0",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "da638556c17d3dce",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "f57ddfa0a5a59655",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "534f10a8a416aa7c",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "5b256ec2918cee67",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "fa073b5357637c4c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9794a29b9d2910fb",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "d98a3c80313394a0",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9bab3b2df67e8d47",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "2d8f2474e965c4db",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "5684590b6c256f6b",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "ceebbab82bfb8cd1",
+        "sig": "79ac3f8a47ceb7f5",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "5df2fde6e008f4d9",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "60761abe60d17a31",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "8dbecbe39ae4ab3a",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "fcf35541d6f4a33d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9a5fb1b4d783e143",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "a213e00c1834be51",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "89a28adceb79f72d",
         "stratum": "other",
         "play": false
       },
@@ -734,8 +669,93 @@
         "play": false
       },
       {
-        "sig": "dca243260c606436",
+        "sig": "e38248a96b74ed5e",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "70572ac083690060",
         "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "677391a64d57b510",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "8c80ff2ddb32f9e9",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "dba9aa08f8c99bc3",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "fd6cbc0559f3994b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6b648b00f9d2740c",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d0fb625f3d3e686d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "480fb862b054468d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "01cf5180cdd3cc2e",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "debc0e41feb68a38",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f89664c95fdf6e40",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6cbecff20bf887d3",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "ca80e502cff4e221",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d804d9fcdfd4e4dd",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "4cefd6eb11f5453a",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "5eaed64959bfcb48",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "e8b66f2f832f3e7d",
+        "stratum": "home_ok",
         "play": false
       },
       {
@@ -744,12 +764,102 @@
         "play": false
       },
       {
-        "sig": "6ecd4309ba4ad11c",
+        "sig": "35e3e08bf0c01cd1",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9f76096c5467e772",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "edc36ed403350fe8",
+        "sig": "d083dd2b53c2cb36",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "602805508f09a873",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b8be3f6166f6dd79",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "8130c3401be9650a",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "84233ffe8a51c489",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d0505166f9cb6a4d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "56b209d5e635bdbd",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "8f06c7cd494f00af",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "5e39cf978d252e29",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e92f6cc1a73c224b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "64dabd6738314d11",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a3a010d3acea9288",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "646205e727d9576b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b41c6810ddc48094",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b01c0fdcd341dd14",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "924239774d8adfb0",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "dc441dd48000257f",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "183ab96e54e18e54",
         "stratum": "other",
         "play": false
       },
@@ -764,42 +874,57 @@
         "play": false
       },
       {
-        "sig": "7c4b74fcedf5b3ca",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "b8be3f6166f6dd79",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "559acdc54e7ec7b2",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "da638556c17d3dce",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
         "sig": "1e77e74033c31d08",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "947e2df056f79203",
+        "sig": "f1e429d6d1a0821b",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "a8a215453fc58635",
+        "sig": "0a9bac866cd72b64",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "abbb4b8bcf637ea8",
+        "sig": "624f8c08ba7ca5b5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "71bdd344c0f21077",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "dfac6ce76e9291af",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "1347800f49fb9ff5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e14459708ac57101",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "598e649626964a28",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ad4618fa1497d5e4",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "be7e3ed5d5b4d0a5",
         "stratum": "other",
         "play": false
       },
@@ -814,162 +939,7 @@
         "play": false
       },
       {
-        "sig": "81d0a997e251f4a7",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "9bab3b2df67e8d47",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "eb1fb78a274ca2e4",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "2350f571f18afde5",
-        "stratum": "other",
-        "play": true
-      },
-      {
-        "sig": "f1e429d6d1a0821b",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "9b0ce53804129c8e",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "591477a9ac5b8217",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "df25e743740b6eea",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "5684590b6c256f6b",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "6b648b00f9d2740c",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "ad4bcc929e468d46",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "2d8f2474e965c4db",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "d021ad94ca71a344",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "83cfb40ff7b87832",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "d6e891804cb849d4",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "2e83e2c1b7e2aa21",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "ca80e502cff4e221",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "84bd326243d13cd5",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "85811d4424a30c15",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "f15ed10aabe0363c",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "646205e727d9576b",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "54e386c383fdde97",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "26bc5fa2ac1946d1",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "b41c6810ddc48094",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "091884987d95fbab",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "be7e3ed5d5b4d0a5",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "74dc554058395fd5",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "290b64927c969903",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "bf685a062ffad1e2",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "921d9ee9975f6255",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "b6aa46da825409e7",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "3d76ec38b842e9a5",
+        "sig": "a524c55899e49c21",
         "stratum": "other",
         "play": false
       },
@@ -979,97 +949,47 @@
         "play": false
       },
       {
-        "sig": "dadf463c5ef12ba2",
+        "sig": "83cfb40ff7b87832",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "f8d66d6dd8a2ea27",
+        "sig": "aaf42b45a1508997",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "c847113f13e34339",
+        "sig": "dd9e694843837263",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "45b2ad7032a456b5",
+        "sig": "97376ad907fdda74",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "d06ca841280d3fdd",
+        "sig": "b796a0c28cd8bfa9",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "e47faa0d8595d5ec",
+        "sig": "59255168a54031a2",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "01c68f1f409b95f6",
+        "sig": "53c432432b95bdc1",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "2468ecee0e4f54da",
+        "sig": "393e908155aa06bb",
         "stratum": "home_ok",
-        "play": false
+        "play": true
       },
       {
-        "sig": "0696536ef59d5805",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "268da8e9b6312f23",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "35e3e08bf0c01cd1",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "1db22e40763a2c57",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "a524c55899e49c21",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "dba9aa08f8c99bc3",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "b8b11af99f68c57d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "624f8c08ba7ca5b5",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "1550c7c358e5945f",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "dfea1e23231672d8",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "d0fb625f3d3e686d",
+        "sig": "290b64927c969903",
         "stratum": "other",
         "play": false
       },
@@ -1079,57 +999,37 @@
         "play": false
       },
       {
-        "sig": "6cbecff20bf887d3",
+        "sig": "abbb4b8bcf637ea8",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "e14459708ac57101",
+        "sig": "4cd26a6384c92d68",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "0f47819b33212ab3",
+        "sig": "9812caf9ff5be1bc",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "079d52f7b03b6053",
+        "sig": "591477a9ac5b8217",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "56b209d5e635bdbd",
+        "sig": "f8d66d6dd8a2ea27",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "ae97a283b0744ba9",
+        "sig": "f7e2afb5016cf9c0",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "c8e3cd2b57059aec",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "9cae9200dffde13d",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "ac0c756f13da3403",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "377842bb64a17631",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "6819a5c0dd125411",
+        "sig": "8c9ee7632a42e66b",
         "stratum": "other",
         "play": false
       },
@@ -1139,7 +1039,127 @@
         "play": false
       },
       {
+        "sig": "54e386c383fdde97",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "c3cf774f4d30c293",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "84bd326243d13cd5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6819a5c0dd125411",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "7c4b74fcedf5b3ca",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "09bd4acd6282a43f",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9d6eeb4ec34443c2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "4ed3b6c3e5dda441",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "df25e743740b6eea",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9bc8a7cd0d770c0f",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ae97a283b0744ba9",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "41eb50cce5cfe2dc",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d06ca841280d3fdd",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b682e5ad54215f57",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6412e3ee4f0057fa",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "01c68f1f409b95f6",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "fe53878dadd30832",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d6e891804cb849d4",
+        "stratum": "other",
+        "play": false
+      },
+      {
         "sig": "7f9f56e53b1b3a99",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "0c0a676dffb83c5a",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "559acdc54e7ec7b2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "de39a599dc113235",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "091884987d95fbab",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e37b5962414b2860",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "f49259edfeeda3aa",
         "stratum": "other",
         "play": false
       },
@@ -1149,37 +1169,22 @@
         "play": false
       },
       {
-        "sig": "676e95384cf9644a",
+        "sig": "6cc254961da941c9",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "500a6ed5995f4a62",
+        "sig": "edc36ed403350fe8",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "e720d1f1d1579e34",
+        "sig": "7fbf2e030bf2bc9d",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "c95b168c2df4e071",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "6bec2b65bbc45eee",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "e13937638e709f45",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "356f41493ddd77c4",
+        "sig": "1d8af829a63a5c8f",
         "stratum": "other",
         "play": false
       },
@@ -1189,12 +1194,12 @@
         "play": false
       },
       {
-        "sig": "d99270756ab51794",
+        "sig": "8bc41b8dd3afc13f",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "a4646fa52b754dfc",
+        "sig": "eeded084509c56c2",
         "stratum": "other",
         "play": false
       },
@@ -1209,53 +1214,48 @@
         "play": false
       },
       {
-        "sig": "d63fb93cde48dd22",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "a1d75cd14d7045ee",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "0cb7cd7765d86110",
-        "stratum": "other",
-        "play": false
-      },
-      {
         "sig": "ce7991d74a937f1c",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "8bc41b8dd3afc13f",
+        "sig": "d99270756ab51794",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "11c6f86690c630e5",
+        "sig": "d55b7e57744b3996",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d63fb93cde48dd22",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "481d475d0be814c5",
         "stratum": "other",
         "play": false
       }
     ],
-    "search_rate": 0.2267,
-    "playable": 15,
-    "parses_alive_rate": 0.35,
+    "search_rate": 0.2,
+    "playable": 10,
+    "parses_alive_rate": 0.4,
     "parses_total": 286,
     "weight_covered": 1.0
   },
-  "false_kill_rate": 0.18,
+  "false_kill_rate": 0.16,
   "false_kill_ci": [
-    0.0977,
-    0.308
+    0.0834,
+    0.2851
   ],
   "false_kill_checked": 50,
-  "false_kill_failed_total": 1108,
-  "false_kill_estimated": 199,
+  "false_kill_failed_total": 1118,
+  "false_kill_estimated": 179,
   "false_kill_estimated_ci": [
-    108.2516,
-    341.264
+    93.2412,
+    318.7418
   ],
   "assert_passed": true,
   "assert_ran": true,
@@ -1284,7 +1284,7 @@
       "jar_health": "success",
       "regression": "success"
     },
-    "run": "a05cf424f8e6"
+    "run": "8d08523bcaf6"
   },
   "cdn_stale": null,
   "stable": {
@@ -1374,10 +1374,10 @@
       "published": 3298,
       "lite": 1283,
       "network": 524,
-      "home_sites": 1193,
-      "home_ok": 74,
-      "play_rate": 0.1,
-      "play_rate_adj": 0.0999,
+      "home_sites": 1182,
+      "home_ok": 75,
+      "play_rate": 0.0667,
+      "play_rate_adj": 0.0666,
       "play_cms_share": 0.0901,
       "sample_rates": {
         "jar": 0.55,
@@ -1397,10 +1397,10 @@
           "rescued": 0
         }
       },
-      "false_kill_rate": 0.18,
+      "false_kill_rate": 0.16,
       "false_kill_ci": [
-        0.0977,
-        0.308
+        0.0834,
+        0.2851
       ],
       "weight_covered": 1.0,
       "metric_version": "2026-11-14",
@@ -1423,12 +1423,12 @@
       "file": "tvbox.json",
       "keys": 1031,
       "content_dup": 43,
-      "client_norm": 1899,
+      "client_norm": 1903,
       "ext": 422,
-      "names": 1264,
+      "names": 1263,
       "parse_renamed": 50,
       "parse_capped": 0,
-      "offshore_live": 81,
+      "offshore_live": 83,
       "wallpaper": true
     },
     {
@@ -1436,12 +1436,12 @@
       "file": "tvbox-lite.json",
       "keys": 395,
       "content_dup": 1,
-      "client_norm": 942,
+      "client_norm": 946,
       "ext": 1,
-      "names": 597,
+      "names": 596,
       "parse_renamed": 48,
       "parse_capped": 200,
-      "offshore_live": 81,
+      "offshore_live": 83,
       "wallpaper": true
     },
     {
@@ -1449,12 +1449,12 @@
       "file": "tvbox-network.json",
       "keys": 4,
       "content_dup": 1,
-      "client_norm": 815,
+      "client_norm": 819,
       "ext": 1,
-      "names": 58,
+      "names": 57,
       "parse_renamed": 48,
       "parse_capped": 220,
-      "offshore_live": 81,
+      "offshore_live": 83,
       "wallpaper": true
     }
   ],
@@ -1469,24 +1469,24 @@
   },
   "live": {
     "ran": true,
-    "henan_playable": 61,
+    "henan_playable": 58,
     "henan_probed": 459,
-    "henan_main": 46,
+    "henan_main": 43,
     "list_lines": 20,
     "list_exists": true,
     "list_txt_exists": true,
-    "sources_total": 147,
-    "sources_ok": 84,
+    "sources_total": 148,
+    "sources_ok": 85,
     "shells": [],
     "henan_sources": [
       {
-        "name": "游魂",
-        "url": "https://www.iyouhun.com/tv/zb",
-        "ok": 12
-      },
-      {
         "name": "综合直播",
         "url": "https://ds65.tv1288.xyz",
+        "ok": 11
+      },
+      {
+        "name": "游魂",
+        "url": "https://www.iyouhun.com/tv/zb",
         "ok": 11
       },
       {
@@ -1505,9 +1505,9 @@
         "ok": 6
       },
       {
-        "name": "kimwang/白名单",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/kimwang1978/collect-txt/main/assets/blacklist1/whitelist_auto_tv.txt",
-        "ok": 6
+        "name": "wnhhh/iptv-list·2",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
+        "ok": 5
       },
       {
         "name": "best-fan/iptv-sources cn_all",
@@ -1515,16 +1515,16 @@
         "ok": 5
       },
       {
-        "name": "best-fan/iptv-sources cn_province",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
+        "name": "wnhhh/iptv-list",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
         "ok": 5
       }
     ],
     "blocklist": 1,
     "source_health": {
-      "tested": 84,
+      "tested": 85,
       "ok": 34,
-      "partial": 28,
+      "partial": 29,
       "dead": 22,
       "badlist": 4,
       "unknown": 59,
@@ -1539,48 +1539,55 @@
     "discover": {
       "ran": true,
       "adopted": 40,
-      "tested": 132,
-      "pool": 132,
-      "new": 4,
+      "tested": 95,
+      "pool": 95,
+      "new": 0,
       "fresh_days": 3,
       "channels": {
         "已采纳复测": 38,
-        "GitHub 代码搜索": 2
+        "站外·网页": 2
       },
       "offsite": {
         "web_pages": 5,
         "web_links": 20,
         "web_failed": 0,
-        "bili_items": 40,
-        "bili_links": 31,
+        "bili_items": 80,
+        "bili_links": 37,
         "bili_pan": 0,
-        "adopted": 0
+        "adopted": 2
       },
       "top": [
         {
           "name": "ysc.tengxuntaobao.win/live",
           "url": "https://ysc.tengxuntaobao.win/live",
-          "rate": 1.0,
+          "rate": 0.955,
           "chans": 184,
           "henan": 2
         },
         {
+          "name": "wnhhh/iptv-list·2",
+          "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
+          "rate": 0.696,
+          "chans": 2737,
+          "henan": 3
+        },
+        {
           "name": "best-fan/iptv-sources cn_all",
           "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
-          "rate": 0.826,
+          "rate": 0.783,
           "chans": 334,
           "henan": 2
         },
         {
-          "name": "gh-proxy.org/live.txt",
-          "url": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
-          "rate": 0.609,
-          "chans": 1126,
+          "name": "wnhhh/iptv-list",
+          "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
+          "rate": 0.652,
+          "chans": 2736,
           "henan": 3
         },
         {
-          "name": "live.zbds.top/iptv4.txt",
-          "url": "https://live.zbds.top/tv/iptv4.txt",
+          "name": "gh-proxy.com/iptv4.txt",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
           "rate": 0.85,
           "chans": 522,
           "henan": 0
@@ -1591,13 +1598,6 @@
           "rate": 0.727,
           "chans": 289,
           "henan": 3
-        },
-        {
-          "name": "WangMCweijia/m3u-auto·2",
-          "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.txt",
-          "rate": 0.565,
-          "chans": 627,
-          "henan": 1
         },
         {
           "name": "best-fan/iptv-sources cn_province",
@@ -1621,8 +1621,8 @@
       "detected": 220,
       "checked": 200,
       "alive": 53,
-      "dead": 61,
-      "unreachable": 19,
+      "dead": 62,
+      "unreachable": 18,
       "spider": 66,
       "by_kind": {
         "cms": {
@@ -1632,13 +1632,13 @@
         },
         "csp": {
           "sites": 152,
-          "alive": 17,
+          "alive": 18,
           "dead": 50
         },
         "js": {
           "sites": 45,
-          "alive": 34,
-          "dead": 11
+          "alive": 33,
+          "dead": 12
         },
         "py": {
           "sites": 2,
@@ -1649,13 +1649,13 @@
       "lists": [],
       "dead_top": [
         {
-          "name": "玩偶 • 4K · wogg.live",
+          "name": "玩偶 • 4K · wogg.live (2)",
           "kind": "csp",
           "detail": "HTTP403",
           "target": "https://www.wogg.live"
         },
         {
-          "name": "玩偶 • 4K · wogg.live (2)",
+          "name": "玩偶 • 4K · wogg.live",
           "kind": "csp",
           "detail": "HTTP403",
           "target": "https://www.wogg.live"
@@ -1665,12 +1665,6 @@
           "kind": "csp",
           "detail": "返回网页",
           "target": "http://www.88kanqiu.one"
-        },
-        {
-          "name": "⚽瓜子┃体育",
-          "kind": "csp",
-          "detail": "返回网页",
-          "target": "https://dm.211.li/nonay"
         },
         {
           "name": "❤🐟┃斗鱼┃直播",
@@ -1691,10 +1685,16 @@
           "target": "https://dm.211.li/nonay"
         },
         {
-          "name": "🎮游戏┃直播",
+          "name": "⚽瓜子┃体育",
           "kind": "csp",
           "detail": "返回网页",
           "target": "https://dm.211.li/nonay"
+        },
+        {
+          "name": "💕电视直播",
+          "kind": "csp",
+          "detail": "返回网页",
+          "target": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬"
         }
       ]
     }
@@ -1705,23 +1705,23 @@
     "jar_dead": 37,
     "jar_alive_rate": 0.4788732394366197,
     "ext_total": 1642,
-    "ext_dead": 1060,
+    "ext_dead": 1093,
     "jar_fail_streak": 58,
     "jar_fail_ge2": 23,
-    "ext_fail_streak": 1799,
-    "ext_fail_ge2": 430
+    "ext_fail_streak": 1803,
+    "ext_fail_ge2": 459
   },
   "freshness": {
     "level": "ok",
     "label": "自动更新正常",
     "hours": 0.2,
     "advice": "",
-    "page_hours": 0.00018632882171207003,
-    "config_hours": 0.20907521771060095,
-    "duration": "13 分钟",
-    "generated": "2026-11-13 18:08:10 UTC",
-    "config_updated": "2026-11-13 17:55:38 UTC",
-    "generated_epoch": 1794593290,
-    "config_epoch": 1794592538
+    "page_hours": 6.563365459442139e-05,
+    "config_hours": 0.23951007809903888,
+    "duration": "14 分钟",
+    "generated": "2026-11-13 18:33:29 UTC",
+    "config_updated": "2026-11-13 18:19:07 UTC",
+    "generated_epoch": 1794594809,
+    "config_epoch": 1794593947
   }
 }
