@@ -2,13 +2,13 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43421944381",
+    "runner": "43435176367",
     "proxy": false,
-    "generated": "2026-11-13 12:25:56 UTC"
+    "generated": "2026-11-13 13:58:01 UTC"
   },
   "passed": true,
-  "total": 73,
-  "ok": 73,
+  "total": 74,
+  "ok": 74,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -253,7 +253,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-13 / passed=True，42 项检查，失败 []",
+      "detail": "date=2026-11-13 / passed=True，43 项检查，失败 []",
       "critical": true
     },
     {
@@ -668,6 +668,15 @@
       "title": "抽样断言只加失败项重测，阈值不降、真 404 仍拦",
       "ok": true,
       "detail": "失败项重测消噪 + 阈值与抽样量不变 + 整批 404 仍拦",
+      "critical": true
+    },
+    {
+      "id": "B57",
+      "group": "构建链路",
+      "origin": "2026-11-13 事故：TV app 一搜索就崩（对照实验锁定 csp_/jar 爬虫），且 10 份配置里 6 份没有置顶项 —— 断言只查全量版一份，42 项全过却漏检",
+      "title": "置顶名单多档备用 + 逐份检查 + 零 jar 版不被污染",
+      "ok": true,
+      "detail": "10 份配置逐份有置顶 + 零 jar 版保持零 jar",
       "critical": true
     }
   ]
