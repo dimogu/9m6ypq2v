@@ -2,9 +2,9 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43377806781",
+    "runner": "43395468385",
     "proxy": false,
-    "generated": "2026-11-13 06:23:11 UTC"
+    "generated": "2026-11-13 08:48:28 UTC"
   },
   "queries": {
     "code": [
@@ -43,34 +43,35 @@
         "tvbox 直播源 分享",
         "直播源 接口 分享"
       ],
-      "items": 80,
-      "links": 37,
+      "items": 60,
+      "links": 11,
       "pan": 0,
       "pages": [
         "https://github.com/qfw66/xiugou-tv",
         "https://github.com/qfw66/xiugou-tv/releases",
         "https://gitee.com/explorerromos/zhiboyuandiy/raw/master/%E7%A7%BB%E5%8A%A8iptv6.txt",
-        "http://xhztv.top/4k.json",
-        "https://9280.kstore.vip/newwex.json",
-        "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-        "https://qist.wyfc.qzz.io/fty.json",
-        "https://www.252035.xyz/z/FongMi.json"
+        "https://blog.0wo.cn/index.php/archives/15.html",
+        "https://my.dnshe.com/注册一个帐号",
+        "https://dash.cloudflare.com/注册一个账号",
+        "https://share.feijipan.com/s/Yv7wIt0F",
+        "http://xhztv.top/4k.json"
       ]
     }
   },
   "by_origin": {
     "adopted": {
-      "已采纳复测": 40
+      "已采纳复测": 38,
+      "站外·网页": 1
     },
     "tested": {
       "种子聚合": 4,
       "已采纳复测": 40,
       "站外·网页": 18,
-      "站外·视频": 36
+      "站外·视频": 11
     }
   },
-  "pool": 98,
-  "tested": 98,
+  "pool": 73,
+  "tested": 73,
   "new": 0,
   "adopted": [
     {
@@ -78,19 +79,13 @@
       "url": "https://wget.la/https://github.com/two2025/tv/raw/main/itvlist.txt",
       "chans": 301,
       "cn": 289,
+      "cn_ratio": 0.96,
       "rate": 1.0,
+      "rate_lower": 0.8513,
+      "picks": 22,
+      "playable": 22,
       "henan": 3,
-      "score": 146.1,
-      "origin": "adopted"
-    },
-    {
-      "name": "feichangHELI/tvsource valid",
-      "url": "https://raw.githubusercontent.com/feichangHELI/tvsource/main/valid.m3u",
-      "chans": 653,
-      "cn": 213,
-      "rate": 0.81,
-      "henan": 0,
-      "score": 134.0,
+      "score": 165.3,
       "origin": "adopted"
     },
     {
@@ -98,9 +93,13 @@
       "url": "https://ysc.tengxuntaobao.win/live",
       "chans": 184,
       "cn": 172,
+      "cn_ratio": 0.935,
       "rate": 0.955,
+      "rate_lower": 0.782,
+      "picks": 22,
+      "playable": 21,
       "henan": 2,
-      "score": 125.8,
+      "score": 144.5,
       "origin": "adopted"
     },
     {
@@ -108,129 +107,13 @@
       "url": "https://raw.githubusercontent.com/Trysknee01/tvbox-live/main/live.txt",
       "chans": 605,
       "cn": 550,
+      "cn_ratio": 0.909,
       "rate": 0.636,
+      "rate_lower": 0.4295,
+      "picks": 22,
+      "playable": 14,
       "henan": 1,
-      "score": 122.6,
-      "origin": "adopted"
-    },
-    {
-      "name": "Qingyxiong/live-sources",
-      "url": "https://raw.githubusercontent.com/Qingyxiong/live-sources/main/live.m3u",
-      "chans": 525,
-      "cn": 236,
-      "rate": 0.682,
-      "henan": 1,
-      "score": 121.0,
-      "origin": "adopted"
-    },
-    {
-      "name": "WangMCweijia/m3u-auto",
-      "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.txt",
-      "chans": 621,
-      "cn": 617,
-      "rate": 0.609,
-      "henan": 1,
-      "score": 119.9,
-      "origin": "adopted"
-    },
-    {
-      "name": "WangMCweijia/m3u-auto·2",
-      "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.m3u",
-      "chans": 931,
-      "cn": 343,
-      "rate": 0.545,
-      "henan": 1,
-      "score": 113.5,
-      "origin": "adopted"
-    },
-    {
-      "name": "gh-proxy.org/live.txt",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
-      "chans": 1126,
-      "cn": 360,
-      "rate": 0.478,
-      "henan": 2,
-      "score": 112.8,
-      "origin": "adopted"
-    },
-    {
-      "name": "yy-niuma/live-tv all_merged",
-      "url": "https://raw.githubusercontent.com/yy-niuma/live-tv/main/output/all_merged.m3u",
-      "chans": 1439,
-      "cn": 242,
-      "rate": 0.478,
-      "henan": 2,
-      "score": 112.8,
-      "origin": "adopted"
-    },
-    {
-      "name": "hejm2000/moontv-live",
-      "url": "https://raw.githubusercontent.com/hejm2000/moontv-live/main/iptv.m3u",
-      "chans": 336,
-      "cn": 127,
-      "rate": 0.75,
-      "henan": 1,
-      "score": 112.0,
-      "origin": "adopted"
-    },
-    {
-      "name": "g.blfrp.cn/Internet_iTV.m3u",
-      "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/iTCoffe/Collect-iTV/main/Internet_iTV.m3u",
-      "chans": 678,
-      "cn": 227,
-      "rate": 0.524,
-      "henan": 1,
-      "score": 111.4,
-      "origin": "adopted"
-    },
-    {
-      "name": "ljz704/iptv-hub",
-      "url": "https://raw.githubusercontent.com/ljz704/iptv-hub/main/dist/live.txt",
-      "chans": 464,
-      "cn": 152,
-      "rate": 0.7,
-      "henan": 0,
-      "score": 108.7,
-      "origin": "adopted"
-    },
-    {
-      "name": "ghfast.top/live.m3u",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljz704/iptv-hub/main/dist/live.m3u",
-      "chans": 463,
-      "cn": 152,
-      "rate": 0.7,
-      "henan": 0,
-      "score": 108.6,
-      "origin": "adopted"
-    },
-    {
-      "name": "wnhhh/iptv-list",
-      "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
-      "chans": 2916,
-      "cn": 316,
-      "rate": 0.435,
-      "henan": 2,
-      "score": 108.5,
-      "origin": "adopted"
-    },
-    {
-      "name": "vbskycn/iptv iptv4",
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
-      "chans": 551,
-      "cn": 201,
-      "rate": 0.6,
-      "henan": 0,
-      "score": 105.9,
-      "origin": "adopted"
-    },
-    {
-      "name": "zoe.im/vbskycn-iptv4.m3u",
-      "url": "https://zoe.im/tvbox/shared/lives/vbskycn-iptv4.m3u",
-      "chans": 544,
-      "cn": 196,
-      "rate": 0.571,
-      "henan": 0,
-      "score": 105.4,
+      "score": 140.8,
       "origin": "adopted"
     },
     {
@@ -238,59 +121,27 @@
       "url": "https://raw.githubusercontent.com/aa3151036158/tvbox-config/main/output/live.txt",
       "chans": 375,
       "cn": 340,
-      "rate": 0.591,
+      "cn_ratio": 0.907,
+      "rate": 0.727,
+      "rate_lower": 0.5185,
+      "picks": 22,
+      "playable": 16,
       "henan": 2,
-      "score": 105.3,
+      "score": 137.1,
       "origin": "adopted"
     },
     {
-      "name": "alanhsun/subcast playlist_source",
-      "url": "https://raw.githubusercontent.com/alanhsun/subcast/main/data/playlist_source.txt",
-      "chans": 332,
-      "cn": 161,
-      "rate": 0.667,
+      "name": "WangMCweijia/m3u-auto",
+      "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.txt",
+      "chans": 621,
+      "cn": 617,
+      "cn_ratio": 0.994,
+      "rate": 0.565,
+      "rate_lower": 0.3681,
+      "picks": 23,
+      "playable": 13,
       "henan": 1,
-      "score": 103.4,
-      "origin": "adopted"
-    },
-    {
-      "name": "gchust/iptv-daily regional",
-      "url": "https://raw.githubusercontent.com/gchust/iptv-daily/main/playlists/regional.m3u",
-      "chans": 112,
-      "cn": 41,
-      "rate": 0.773,
-      "henan": 2,
-      "score": 101.6,
-      "origin": "adopted"
-    },
-    {
-      "name": "jincg99/tvbox",
-      "url": "https://raw.githubusercontent.com/jincg99/tvbox/main/live.txt",
-      "chans": 1339,
-      "cn": 163,
-      "rate": 0.5,
-      "henan": 0,
-      "score": 100.0,
-      "origin": "adopted"
-    },
-    {
-      "name": "zo.gt.tc/%E7%A6%81.txt",
-      "url": "http://zo.gt.tc/o/i/%E7%A6%81.txt",
-      "chans": 3320,
-      "cn": 57,
-      "rate": 0.5,
-      "henan": 0,
-      "score": 100.0,
-      "origin": "adopted"
-    },
-    {
-      "name": "fswws/tvbox-source live_all2",
-      "url": "https://raw.githubusercontent.com/fswws/tvbox-source/main/live_all2.txt",
-      "chans": 588,
-      "cn": 119,
-      "rate": 0.478,
-      "henan": 0,
-      "score": 99.8,
+      "score": 135.4,
       "origin": "adopted"
     },
     {
@@ -298,169 +149,69 @@
       "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
       "chans": 334,
       "cn": 331,
-      "rate": 0.609,
+      "cn_ratio": 0.991,
+      "rate": 0.739,
+      "rate_lower": 0.5353,
+      "picks": 23,
+      "playable": 17,
       "henan": 1,
-      "score": 97.7,
+      "score": 130.6,
       "origin": "adopted"
     },
     {
-      "name": "ljz704/iptv-hub live_multi",
-      "url": "https://raw.githubusercontent.com/ljz704/iptv-hub/main/dist/live_multi.m3u",
-      "chans": 426,
-      "cn": 140,
-      "rate": 0.6,
-      "henan": 0,
-      "score": 95.5,
-      "origin": "adopted"
-    },
-    {
-      "name": "wnhhh/iptv-list·2",
-      "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
-      "chans": 2915,
-      "cn": 316,
-      "rate": 0.304,
-      "henan": 2,
-      "score": 95.4,
-      "origin": "adopted"
-    },
-    {
-      "name": "zilong7728/Collect-IPTV best_sorted",
-      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
-      "chans": 633,
-      "cn": 195,
-      "rate": 0.45,
-      "henan": 0,
-      "score": 95.0,
-      "origin": "adopted"
-    },
-    {
-      "name": "lsx9988/my-tvbox-cfg cctv_live",
-      "url": "https://raw.githubusercontent.com/lsx9988/my-tvbox-cfg/main/output/cctv_live.txt",
-      "chans": 44,
-      "cn": 42,
-      "rate": 0.8,
+      "name": "Qingyxiong/live-sources",
+      "url": "https://raw.githubusercontent.com/Qingyxiong/live-sources/main/live.m3u",
+      "chans": 525,
+      "cn": 236,
+      "cn_ratio": 0.45,
+      "rate": 0.682,
+      "rate_lower": 0.4732,
+      "picks": 22,
+      "playable": 15,
       "henan": 1,
-      "score": 92.7,
+      "score": 129.9,
       "origin": "adopted"
     },
     {
-      "name": "gh-proxy.com/live.txt",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
-      "chans": 2076,
-      "cn": 711,
-      "rate": 0.391,
+      "name": "feichangHELI/tvsource valid",
+      "url": "https://raw.githubusercontent.com/feichangHELI/tvsource/main/valid.m3u",
+      "chans": 653,
+      "cn": 213,
+      "cn_ratio": 0.326,
+      "rate": 0.667,
+      "rate_lower": 0.4537,
+      "picks": 21,
+      "playable": 14,
       "henan": 0,
-      "score": 92.1,
+      "score": 126.2,
       "origin": "adopted"
     },
     {
-      "name": "yangxiaoge/tvbox_cust",
-      "url": "https://raw.githubusercontent.com/yangxiaoge/tvbox_cust/master/tvbox/live.txt",
-      "chans": 32983,
-      "cn": 3979,
-      "rate": 0.391,
-      "henan": 0,
-      "score": 92.1,
-      "origin": "adopted"
-    },
-    {
-      "name": "zyq1120/iptv-playlist line1",
-      "url": "https://raw.githubusercontent.com/zyq1120/iptv-playlist/main/aptv/line1.m3u",
-      "chans": 870,
-      "cn": 132,
-      "rate": 0.381,
-      "henan": 0,
-      "score": 91.1,
-      "origin": "adopted"
-    },
-    {
-      "name": "urlzf.zone.id/user_result.m3u",
-      "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
-      "chans": 1010,
-      "cn": 280,
-      "rate": 0.318,
-      "henan": 1,
-      "score": 90.8,
-      "origin": "adopted"
-    },
-    {
-      "name": "vbskycn/iptv iptv4·2",
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
-      "chans": 427,
-      "cn": 136,
-      "rate": 0.55,
-      "henan": 0,
-      "score": 90.6,
-      "origin": "adopted"
-    },
-    {
-      "name": "zyq1120/iptv-playlist iptv-ffprobe-only",
-      "url": "https://raw.githubusercontent.com/zyq1120/iptv-playlist/main/iptv-ffprobe-only.m3u",
-      "chans": 918,
-      "cn": 499,
-      "rate": 0.304,
-      "henan": 1,
-      "score": 89.4,
-      "origin": "adopted"
-    },
-    {
-      "name": "gh-proxy.org/iptv.txt",
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt",
-      "chans": 2049,
-      "cn": 1483,
-      "rate": 0.348,
-      "henan": 0,
-      "score": 87.8,
-      "origin": "adopted"
-    },
-    {
-      "name": "zhaozhaozha/iptv-sources vbsky-huya-vlc",
-      "url": "https://raw.githubusercontent.com/zhaozhaozha/iptv-sources/main/vbsky-huya-vlc.m3u",
-      "chans": 731,
-      "cn": 285,
-      "rate": 0.333,
-      "henan": 0,
-      "score": 86.3,
-      "origin": "adopted"
-    },
-    {
-      "name": "iptv-org.github.io/index.country.m3u",
-      "url": "https://iptv-org.github.io/iptv/index.country.m3u",
-      "chans": 13067,
-      "cn": 42,
-      "rate": 0.35,
-      "henan": 0,
-      "score": 85.0,
-      "origin": "adopted"
-    },
-    {
-      "name": "yangfengln/tvbox-live",
-      "url": "https://raw.githubusercontent.com/yangfengln/tvbox-live/main/live.m3u",
-      "chans": 271,
-      "cn": 141,
+      "name": "WangMCweijia/m3u-auto·2",
+      "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.m3u",
+      "chans": 931,
+      "cn": 343,
+      "cn_ratio": 0.368,
       "rate": 0.591,
-      "henan": 0,
-      "score": 84.7,
+      "rate_lower": 0.3873,
+      "picks": 22,
+      "playable": 13,
+      "henan": 1,
+      "score": 125.5,
       "origin": "adopted"
     },
     {
-      "name": "cdn.jsdelivr.net/live.m3u",
-      "url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox@latest/live.m3u",
-      "chans": 912,
-      "cn": 380,
-      "rate": 0.304,
-      "henan": 0,
-      "score": 83.4,
-      "origin": "adopted"
-    },
-    {
-      "name": "pan.29o.cn/aa846bceb7a1b4adb0385b1f61b19",
-      "url": "https://pan.29o.cn/down.php/aa846bceb7a1b4adb0385b1f61b192e8.txt",
-      "chans": 1578,
-      "cn": 1369,
-      "rate": 0.261,
-      "henan": 0,
-      "score": 79.1,
+      "name": "hejm2000/moontv-live",
+      "url": "https://raw.githubusercontent.com/hejm2000/moontv-live/main/iptv.m3u",
+      "chans": 336,
+      "cn": 127,
+      "cn_ratio": 0.378,
+      "rate": 0.8,
+      "rate_lower": 0.584,
+      "picks": 20,
+      "playable": 16,
+      "henan": 1,
+      "score": 124.6,
       "origin": "adopted"
     },
     {
@@ -468,9 +219,405 @@
       "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
       "chans": 141,
       "cn": 141,
-      "rate": 0.478,
+      "cn_ratio": 1.0,
+      "rate": 0.739,
+      "rate_lower": 0.5353,
+      "picks": 23,
+      "playable": 17,
       "henan": 2,
-      "score": 74.5,
+      "score": 120.7,
+      "origin": "adopted"
+    },
+    {
+      "name": "yy-niuma/live-tv all_merged",
+      "url": "https://raw.githubusercontent.com/yy-niuma/live-tv/main/output/all_merged.m3u",
+      "chans": 1439,
+      "cn": 242,
+      "cn_ratio": 0.168,
+      "rate": 0.522,
+      "rate_lower": 0.3296,
+      "picks": 23,
+      "playable": 12,
+      "henan": 2,
+      "score": 120.6,
+      "origin": "adopted"
+    },
+    {
+      "name": "gh-proxy.org/live.txt",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
+      "chans": 1126,
+      "cn": 360,
+      "cn_ratio": 0.32,
+      "rate": 0.478,
+      "rate_lower": 0.2924,
+      "picks": 23,
+      "playable": 11,
+      "henan": 2,
+      "score": 119.2,
+      "origin": "adopted"
+    },
+    {
+      "name": "vbskycn/iptv iptv4",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
+      "chans": 551,
+      "cn": 201,
+      "cn_ratio": 0.365,
+      "rate": 0.65,
+      "rate_lower": 0.4329,
+      "picks": 20,
+      "playable": 13,
+      "henan": 0,
+      "score": 118.2,
+      "origin": "adopted"
+    },
+    {
+      "name": "g.blfrp.cn/Internet_iTV.m3u",
+      "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/iTCoffe/Collect-iTV/main/Internet_iTV.m3u",
+      "chans": 678,
+      "cn": 227,
+      "cn_ratio": 0.335,
+      "rate": 0.524,
+      "rate_lower": 0.3237,
+      "picks": 21,
+      "playable": 11,
+      "henan": 1,
+      "score": 118.1,
+      "origin": "adopted"
+    },
+    {
+      "name": "ljz704/iptv-hub",
+      "url": "https://raw.githubusercontent.com/ljz704/iptv-hub/main/dist/live.txt",
+      "chans": 464,
+      "cn": 152,
+      "cn_ratio": 0.328,
+      "rate": 0.7,
+      "rate_lower": 0.481,
+      "picks": 20,
+      "playable": 14,
+      "henan": 0,
+      "score": 115.2,
+      "origin": "adopted"
+    },
+    {
+      "name": "ghfast.top/live.m3u",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/ljz704/iptv-hub/main/dist/live.m3u",
+      "chans": 463,
+      "cn": 152,
+      "cn_ratio": 0.328,
+      "rate": 0.7,
+      "rate_lower": 0.481,
+      "picks": 20,
+      "playable": 14,
+      "henan": 0,
+      "score": 115.1,
+      "origin": "adopted"
+    },
+    {
+      "name": "alanhsun/subcast playlist_source",
+      "url": "https://raw.githubusercontent.com/alanhsun/subcast/main/data/playlist_source.txt",
+      "chans": 332,
+      "cn": 161,
+      "cn_ratio": 0.485,
+      "rate": 0.667,
+      "rate_lower": 0.4537,
+      "picks": 21,
+      "playable": 14,
+      "henan": 1,
+      "score": 113.1,
+      "origin": "adopted"
+    },
+    {
+      "name": "zoe.im/vbskycn-iptv4.m3u",
+      "url": "https://zoe.im/tvbox/shared/lives/vbskycn-iptv4.m3u",
+      "chans": 544,
+      "cn": 196,
+      "cn_ratio": 0.36,
+      "rate": 0.524,
+      "rate_lower": 0.3237,
+      "picks": 21,
+      "playable": 11,
+      "henan": 0,
+      "score": 107.9,
+      "origin": "adopted"
+    },
+    {
+      "name": "wnhhh/iptv-list·2",
+      "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
+      "chans": 3167,
+      "cn": 290,
+      "cn_ratio": 0.092,
+      "rate": 0.348,
+      "rate_lower": 0.1881,
+      "picks": 23,
+      "playable": 8,
+      "henan": 3,
+      "score": 107.6,
+      "origin": "adopted"
+    },
+    {
+      "name": "vbskycn/iptv iptv4·2",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
+      "chans": 427,
+      "cn": 136,
+      "cn_ratio": 0.319,
+      "rate": 0.65,
+      "rate_lower": 0.4329,
+      "picks": 20,
+      "playable": 13,
+      "henan": 0,
+      "score": 107.0,
+      "origin": "adopted"
+    },
+    {
+      "name": "pan.29o.cn/aa846bceb7a1b4adb0385b1f61b19",
+      "url": "https://pan.29o.cn/down.php/aa846bceb7a1b4adb0385b1f61b192e8.txt",
+      "chans": 1578,
+      "cn": 1369,
+      "cn_ratio": 0.868,
+      "rate": 0.304,
+      "rate_lower": 0.156,
+      "picks": 23,
+      "playable": 7,
+      "henan": 1,
+      "score": 106.8,
+      "origin": "adopted"
+    },
+    {
+      "name": "zilong7728/Collect-IPTV best_sorted",
+      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+      "chans": 633,
+      "cn": 195,
+      "cn_ratio": 0.308,
+      "rate": 0.5,
+      "rate_lower": 0.2993,
+      "picks": 20,
+      "playable": 10,
+      "henan": 0,
+      "score": 106.2,
+      "origin": "adopted"
+    },
+    {
+      "name": "gh-proxy.com/live.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
+      "chans": 2076,
+      "cn": 711,
+      "cn_ratio": 0.342,
+      "rate": 0.391,
+      "rate_lower": 0.2216,
+      "picks": 23,
+      "playable": 9,
+      "henan": 1,
+      "score": 104.9,
+      "origin": "adopted"
+    },
+    {
+      "name": "jincg99/tvbox",
+      "url": "https://raw.githubusercontent.com/jincg99/tvbox/main/live.txt",
+      "chans": 1339,
+      "cn": 163,
+      "cn_ratio": 0.122,
+      "rate": 0.5,
+      "rate_lower": 0.2993,
+      "picks": 20,
+      "playable": 10,
+      "henan": 0,
+      "score": 102.4,
+      "origin": "adopted"
+    },
+    {
+      "name": "zyq1120/iptv-playlist iptv-ffprobe-only",
+      "url": "https://raw.githubusercontent.com/zyq1120/iptv-playlist/main/iptv-ffprobe-only.m3u",
+      "chans": 918,
+      "cn": 499,
+      "cn_ratio": 0.544,
+      "rate": 0.304,
+      "rate_lower": 0.156,
+      "picks": 23,
+      "playable": 7,
+      "henan": 1,
+      "score": 100.3,
+      "origin": "adopted"
+    },
+    {
+      "name": "gchust/iptv-daily regional",
+      "url": "https://raw.githubusercontent.com/gchust/iptv-daily/main/playlists/regional.m3u",
+      "chans": 112,
+      "cn": 41,
+      "cn_ratio": 0.366,
+      "rate": 0.682,
+      "rate_lower": 0.4732,
+      "picks": 22,
+      "playable": 15,
+      "henan": 2,
+      "score": 99.9,
+      "origin": "adopted"
+    },
+    {
+      "name": "fswws/tvbox-source live_all2",
+      "url": "https://raw.githubusercontent.com/fswws/tvbox-source/main/live_all2.txt",
+      "chans": 588,
+      "cn": 119,
+      "cn_ratio": 0.202,
+      "rate": 0.435,
+      "rate_lower": 0.2563,
+      "picks": 23,
+      "playable": 10,
+      "henan": 0,
+      "score": 99.5,
+      "origin": "adopted"
+    },
+    {
+      "name": "gh-proxy.org/iptv.txt",
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt",
+      "chans": 2049,
+      "cn": 1483,
+      "cn_ratio": 0.724,
+      "rate": 0.304,
+      "rate_lower": 0.156,
+      "picks": 23,
+      "playable": 7,
+      "henan": 0,
+      "score": 97.9,
+      "origin": "adopted"
+    },
+    {
+      "name": "urlzf.zone.id/user_result.m3u",
+      "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
+      "chans": 1010,
+      "cn": 280,
+      "cn_ratio": 0.277,
+      "rate": 0.318,
+      "rate_lower": 0.1636,
+      "picks": 22,
+      "playable": 7,
+      "henan": 1,
+      "score": 96.3,
+      "origin": "adopted"
+    },
+    {
+      "name": "yangxiaoge/tvbox_cust",
+      "url": "https://raw.githubusercontent.com/yangxiaoge/tvbox_cust/master/tvbox/live.txt",
+      "chans": 32983,
+      "cn": 3979,
+      "cn_ratio": 0.121,
+      "rate": 0.391,
+      "rate_lower": 0.2216,
+      "picks": 23,
+      "playable": 9,
+      "henan": 0,
+      "score": 94.5,
+      "origin": "adopted"
+    },
+    {
+      "name": "lsx9988/my-tvbox-cfg cctv_live",
+      "url": "https://raw.githubusercontent.com/lsx9988/my-tvbox-cfg/main/output/cctv_live.txt",
+      "chans": 70,
+      "cn": 68,
+      "cn_ratio": 0.971,
+      "rate": 0.6,
+      "rate_lower": 0.3866,
+      "picks": 20,
+      "playable": 12,
+      "henan": 1,
+      "score": 94.3,
+      "origin": "adopted"
+    },
+    {
+      "name": "zyq1120/iptv-playlist line1",
+      "url": "https://raw.githubusercontent.com/zyq1120/iptv-playlist/main/aptv/line1.m3u",
+      "chans": 870,
+      "cn": 132,
+      "cn_ratio": 0.152,
+      "rate": 0.381,
+      "rate_lower": 0.2075,
+      "picks": 21,
+      "playable": 8,
+      "henan": 0,
+      "score": 94.1,
+      "origin": "adopted"
+    },
+    {
+      "name": "zhaozhaozha/iptv-sources vbsky-huya-vlc",
+      "url": "https://raw.githubusercontent.com/zhaozhaozha/iptv-sources/main/vbsky-huya-vlc.m3u",
+      "chans": 731,
+      "cn": 285,
+      "cn_ratio": 0.39,
+      "rate": 0.333,
+      "rate_lower": 0.1719,
+      "picks": 21,
+      "playable": 7,
+      "henan": 0,
+      "score": 94.1,
+      "origin": "adopted"
+    },
+    {
+      "name": "wnhhh/iptv-list",
+      "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
+      "chans": 3168,
+      "cn": 290,
+      "cn_ratio": 0.092,
+      "rate": 0.261,
+      "rate_lower": 0.1255,
+      "picks": 23,
+      "playable": 6,
+      "henan": 2,
+      "score": 92.9,
+      "origin": "adopted"
+    },
+    {
+      "name": "cdn.jsdelivr.net/live.m3u",
+      "url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox@latest/live.m3u",
+      "chans": 912,
+      "cn": 380,
+      "cn_ratio": 0.417,
+      "rate": 0.304,
+      "rate_lower": 0.156,
+      "picks": 23,
+      "playable": 7,
+      "henan": 0,
+      "score": 91.7,
+      "origin": "adopted"
+    },
+    {
+      "name": "yangfengln/tvbox-live",
+      "url": "https://raw.githubusercontent.com/yangfengln/tvbox-live/main/live.m3u",
+      "chans": 271,
+      "cn": 141,
+      "cn_ratio": 0.52,
+      "rate": 0.545,
+      "rate_lower": 0.3466,
+      "picks": 22,
+      "playable": 12,
+      "henan": 0,
+      "score": 90.5,
+      "origin": "adopted"
+    },
+    {
+      "name": "best-fan/iptv-sources cn_cctv",
+      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+      "chans": 186,
+      "cn": 186,
+      "cn_ratio": 1.0,
+      "rate": 0.55,
+      "rate_lower": 0.3421,
+      "picks": 20,
+      "playable": 11,
+      "henan": 0,
+      "score": 90.5,
+      "origin": "web:github.com"
+    },
+    {
+      "name": "ljz704/iptv-hub live_multi",
+      "url": "https://raw.githubusercontent.com/ljz704/iptv-hub/main/dist/live_multi.m3u",
+      "chans": 426,
+      "cn": 140,
+      "cn_ratio": 0.329,
+      "rate": 0.45,
+      "rate_lower": 0.2582,
+      "picks": 20,
+      "playable": 9,
+      "henan": 0,
+      "score": 87.1,
       "origin": "adopted"
     }
   ],
@@ -480,105 +627,105 @@
       "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay.m3u8",
       "why": "频道太少（7）",
       "chans": 7,
-      "rate": 0.714
+      "rate": 0.857
     },
     {
       "name": "best-fan/iptv-sources cn_pay_status",
       "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay_status.m3u8",
       "why": "频道太少（7）",
       "chans": 7,
-      "rate": 0.714
+      "rate": 0.857
     },
     {
       "name": "best-fan/iptv-sources cn_all_status",
       "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
       "why": "内容重复（与已采纳 https://raw.githubusercontent.com/best-f 频道完全一致）",
       "chans": 334,
-      "rate": 0.609
-    },
-    {
-      "name": "live.zbds.top/iptv4.txt",
-      "url": "https://live.zbds.top/tv/iptv4.txt",
-      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
-      "chans": 551,
-      "rate": 0.6
-    },
-    {
-      "name": "gh-proxy.com/iptv4.txt",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
-      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
-      "chans": 551,
-      "rate": 0.6
-    },
-    {
-      "name": "live.zbds.top/iptv4.m3u",
-      "url": "https://live.zbds.top/tv/iptv4.m3u",
-      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
-      "chans": 427,
-      "rate": 0.55
-    },
-    {
-      "name": "gh-proxy.com/iptv4.m3u",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
-      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
-      "chans": 427,
-      "rate": 0.55
+      "rate": 0.739
     },
     {
       "name": "best-fan/iptv-sources cn_province_status",
       "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province_status.m3u8",
       "why": "内容重复（与已采纳 https://raw.githubusercontent.com/best-f 频道完全一致）",
       "chans": 141,
-      "rate": 0.478
+      "rate": 0.739
     },
     {
-      "name": "best-fan/iptv-sources cn_cctv",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+      "name": "live.zbds.top/iptv4.txt",
+      "url": "https://live.zbds.top/tv/iptv4.txt",
+      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
+      "chans": 551,
+      "rate": 0.65
+    },
+    {
+      "name": "gh-proxy.com/iptv4.txt",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
+      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
+      "chans": 551,
+      "rate": 0.65
+    },
+    {
+      "name": "live.zbds.top/iptv4.m3u",
+      "url": "https://live.zbds.top/tv/iptv4.m3u",
+      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
+      "chans": 427,
+      "rate": 0.65
+    },
+    {
+      "name": "gh-proxy.com/iptv4.m3u",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
+      "why": "内容重复（与已采纳 https://raw.githubusercontent.com/vbskyc 频道完全一致）",
+      "chans": 427,
+      "rate": 0.65
+    },
+    {
+      "name": "best-fan/iptv-sources cn_cctv_status",
+      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv_status.m3u8",
       "why": "内容重复（与已采纳 https://raw.githubusercontent.com/best-f 频道完全一致）",
       "chans": 186,
-      "rate": 0.45
+      "rate": 0.55
+    },
+    {
+      "name": "zo.gt.tc/%E7%A6%81.txt",
+      "url": "http://zo.gt.tc/o/i/%E7%A6%81.txt",
+      "why": "中文频道占比过低（57/3320 = 1.7%）",
+      "chans": 3320,
+      "rate": 0.5
+    },
+    {
+      "name": "iptv-org.github.io/index.country.m3u",
+      "url": "https://iptv-org.github.io/iptv/index.country.m3u",
+      "why": "中文频道占比过低（42/13067 = 0.3%）",
+      "chans": 13067,
+      "rate": 0.35
     },
     {
       "name": "iptv-org/iptv cn",
       "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-      "why": "可播率 10%（2/20）",
+      "why": "可播率 10%（2/20，95% 下限 3%）",
       "chans": 518,
       "rate": 0.1
     },
     {
       "name": "Guovin/iptv-api result",
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-      "why": "可播率 9%（2/23）",
+      "why": "可播率 9%（2/23，95% 下限 2%）",
       "chans": 1619,
       "rate": 0.087
     },
     {
       "name": "Guovin/iptv-api result·2",
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
-      "why": "可播率 9%（2/23）",
+      "why": "可播率 9%（2/23，95% 下限 2%）",
       "chans": 1619,
       "rate": 0.087
     },
     {
       "name": "qist/tvbox tvlive",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/tvlive.txt",
-      "why": "可播率 4%（1/23）",
+      "why": "可播率 4%（1/23，95% 下限 1%）",
       "chans": 1420,
       "rate": 0.043
-    },
-    {
-      "name": "sub.ottiptv.cc/huyayqk.m3u",
-      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
-      "why": "可播率 0%（0/20）",
-      "chans": 1076,
-      "rate": 0.0
-    },
-    {
-      "name": "sub.ottiptv.cc/douyuyqk.m3u",
-      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
-      "why": "可播率 0%（0/20）",
-      "chans": 923,
-      "rate": 0.0
     },
     {
       "name": "live.zbds.top/iptv6.txt",
@@ -618,41 +765,6 @@
     {
       "name": "gitee.com/%E7%A7%BB%E5%8A%A8iptv6.txt",
       "url": "https://gitee.com/explorerromos/zhiboyuandiy/raw/master/%E7%A7%BB%E5%8A%A8iptv6.txt",
-      "why": "频道太少（0）",
-      "chans": 0,
-      "rate": 0.0
-    },
-    {
-      "name": "www.cuiuc.com/01.m3u",
-      "url": "https://www.cuiuc.com/qt/iptv/01.m3u",
-      "why": "频道太少（0）",
-      "chans": 0,
-      "rate": 0.0
-    },
-    {
-      "name": "rrd.me/eTEueCCTV1",
-      "url": "http://rrd.me/eTEueCCTV1",
-      "why": "频道太少（0）",
-      "chans": 0,
-      "rate": 0.0
-    },
-    {
-      "name": "live.fanming.com/ipv6.m3u",
-      "url": "https://live.fanming.com/tv/m3u/ipv6.m3u",
-      "why": "频道太少（0）",
-      "chans": 0,
-      "rate": 0.0
-    },
-    {
-      "name": "api.zgfznews.com/zonghe.m3u8",
-      "url": "https://api.zgfznews.com/fztv/zonghe.m3u8",
-      "why": "频道太少（0）",
-      "chans": 0,
-      "rate": 0.0
-    },
-    {
-      "name": "api.zgfznews.com/gonggong.m3u8",
-      "url": "https://api.zgfznews.com/fztv/gonggong.m3u8",
       "why": "频道太少（0）",
       "chans": 0,
       "rate": 0.0
@@ -721,15 +833,15 @@
       "rate": 0.0
     },
     {
-      "name": "raw.liucn.cc/dm.txt",
-      "url": "https://raw.liucn.cc/box/dm.txt",
+      "name": "fs-im-kefu.7moor-fs1.com/fan.txt",
+      "url": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt",
       "why": "频道太少（0）",
       "chans": 0,
       "rate": 0.0
     },
     {
-      "name": "fs-im-kefu.7moor-fs1.com/fan.txt",
-      "url": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt",
+      "name": "raw.liucn.cc/dm.txt",
+      "url": "https://raw.liucn.cc/box/dm.txt",
       "why": "频道太少（0）",
       "chans": 0,
       "rate": 0.0
@@ -742,13 +854,6 @@
       "rate": 0.0
     },
     {
-      "name": "cdn.waimaimingtang.com/20260414181247-ae",
-      "url": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
-      "why": "频道太少（0）",
-      "chans": 0,
-      "rate": 0.0
-    },
-    {
       "name": "market.goapk.com/countw.txt",
       "url": "https://market.goapk.com/countw.txt",
       "why": "频道太少（0）",
@@ -756,5 +861,5 @@
       "rate": 0.0
     }
   ],
-  "elapsed": 114.2
+  "elapsed": 118.1
 }

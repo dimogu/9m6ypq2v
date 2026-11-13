@@ -1,24 +1,23 @@
-# 河南台实测可播线路 · 2026-11-13 生成 · 22 条线路
+# 河南台实测可播线路 · 2026-11-13 生成 · 21 条线路
 河南台,#genre#
 河南卫视,http://27.129.145.110:4433/hls/33/index.m3u8
-河南卫视·2,http://153.0.171.163:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视·3,http://120.237.39.10:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&down=1
-河南卫视·4,http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+河南卫视·2,http://111.61.236.247:9081/hls/33/index.m3u8
+河南卫视·3,http://153.0.171.163:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+河南卫视·4,http://120.237.39.10:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&down=1
 河南卫视·5,http://124.90.45.52:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视·6,http://222.169.85.8:9901/tsfile/live/0139_1.m3u8
+河南卫视·6,http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 河南卫视高清,http://110.72.84.234:808/hls/49/index.m3u8
 河南卫视高清·2,http://113.9.162.169:9003/hls/49/index.m3u8
 河南梨园频道,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
 河南|河南新闻,https://hngd-cdn-hls-pull-tx-1.hntv.tv/saas_live/6b74358e0b514f8bbe95640403a91445/playlist.m3u8?wsSecret=f0f60173cd9c52c693cc5aec0f98138d&wsTime=1978133090
-河南公共,http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=895459af9c39998f8ca78c837e49176a&wsTime=1794564191
-河南新闻,http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=ad840d2b432594e777a076324fe2ab5c&wsTime=1794564191
-河南民生,http://39.165.39.49:85/tsfile/live/1109_1.m3u8?key=txiptv&playlive=0&authid=0
-河南民生·2,http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=6d4479f4f2acb88e6b2baa57ad50e604&wsTime=1794564191
-河南法治,http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=84f1a2dacc3b83cd831f521516d4d5e3&wsTime=1794564191
-河南电视剧,http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=d6459bfe4fe1a867cfef754bc5f94478&wsTime=1794564191
+河南公共,http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=6d29b6e9fdd6c51a5927855ba48fc06f&wsTime=1794571422
+河南新闻,http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=7ed28cb89e66fead123ac173beb95000&wsTime=1794571422
+河南法治,http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=24d2d672045ee7b7e71214517c7b6d46&wsTime=1794571422
+河南电视剧,http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=039b9c19348fc8aa2cd3f7794e7695cf&wsTime=1794571422
 河南都市,http://zzssw01.55555.io:9901/tsfile/live/1002_1.m3u8
 河南都市·2,http://39.165.39.49:85/tsfile/live/1106_1.m3u8?key=txiptv&playlive=0&authid=0
-河南都市·3,http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=f059fd7d2eae01bc6a8264ba3066a92c&wsTime=1794564191
+河南都市·3,http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=f8d99b9bf450f6d1c1459f834da274da&wsTime=1794571422
 河南都市·4,http://123.207.224.130:123/henan/henan.php?id=hnds
-河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=4035f7ecdb173d68a31f074c54fe958a&wsTime=1794564191
+河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=d569695d07c8f47b53ab3ea2c3d92cf0&wsTime=1794571422
 河南戏曲,http://zh.sqitv.com:888/hls/37/index.m3u8
+河南民生,http://39.165.39.49:85/tsfile/live/1109_1.m3u8?key=txiptv&playlive=0&authid=0

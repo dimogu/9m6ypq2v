@@ -2,16 +2,18 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43377806781",
+    "runner": "43395468385",
     "proxy": false,
-    "generated": "2026-11-13 06:41:42 UTC"
+    "generated": "2026-11-13 09:04:50 UTC"
   },
-  "passed": true,
-  "total": 68,
-  "ok": 68,
-  "failed": 0,
+  "passed": false,
+  "total": 71,
+  "ok": 70,
+  "failed": 1,
   "skipped": 0,
-  "hard_failed": [],
+  "hard_failed": [
+    "B47"
+  ],
   "checks": [
     {
       "id": "A01",
@@ -181,7 +183,7 @@
       "origin": "本轮：git add -f 整条 + || true 会静默吞掉当天全部提交",
       "title": "workflow 提交步骤逐文件判断且不吞错误",
       "ok": true,
-      "detail": "逐文件 git add=True / 无静默吞失败=True / 必需产物显式检查=True",
+      "detail": "逐文件 git add=True / 无静默吞失败=True / 必需产物显式检查=True / 走产物表=True",
       "critical": true
     },
     {
@@ -253,7 +255,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-13 / passed=True，40 项检查，失败 []",
+      "detail": "date=2026-11-13 / passed=True，42 项检查，失败 []",
       "critical": true
     },
     {
@@ -289,7 +291,7 @@
       "origin": "每轮交付前的基础检查",
       "title": "全部 scripts/*.py 可编译",
       "ok": true,
-      "detail": "33 个脚本全部编译通过",
+      "detail": "35 个脚本全部编译通过",
       "critical": true
     },
     {
@@ -585,17 +587,17 @@
       "group": "构建链路",
       "origin": "随机名改造：稳定版指针、配置自引用、发现器状态里残留的私有仓库名会被原样复制进公开产物；任何一处硬编码漏改都会让配置内部仍指向已失效的旧地址",
       "title": "公开产物零泄露 + 分发仓库名全库唯一",
-      "ok": true,
-      "detail": "公开产物零泄露、分发仓库名全库唯一",
+      "ok": false,
+      "detail": "health.json 出现 40 位提交 SHA 31e80f38a2…；health.json 含提交 SHA 字段 ['.stable.commit']（私有历史指针）",
       "critical": true
     },
     {
       "id": "B48",
       "group": "构建链路",
-      "origin": "2026-11-13：健康页校验用整页 @stable- 子串匹配，某上游 URL 偶然含该字样就把与内容无关的一次发布挡在门外，产物整轮未推送",
-      "title": "稳定版指针校验精确匹配链接 + 误报可诊断",
+      "origin": "2026-11-13：健康页校验用整页 @stable- 子串匹配，某上游 URL 偶然含该字样就把与内容无关的一次发布挡在门外，产物整轮未推送；同一条子串匹配还会撞上降级横幅的文案（「稳定版指针不会推进」），让「降级也照常发布」的设计彻底失效",
+      "title": "结构校验精确匹配链接 + 降级横幅放行（行为用例锁定）",
       "ok": true,
-      "detail": "稳定版指针校验只拦真实链接且带诊断",
+      "detail": "结构校验只拦真实链接；降级横幅含「稳定版指针」也放行",
       "critical": true
     },
     {
@@ -623,6 +625,33 @@
       "title": "精播版只认硬证据 + 容量上限 + 置顶豁免",
       "ok": true,
       "detail": "精播版只收硬证据、按容量截断、置顶无条件保留",
+      "critical": true
+    },
+    {
+      "id": "B52",
+      "group": "构建链路",
+      "origin": "2026-11-13 审核：7 天稳定版筛不满就用「全量首页优先版前 200 个」兜底，产物自述 required_home_days=0 却仍在页面写「近 7 天多次可用」；qscore 把 playable/grade/videos/history 四路同源证据重复加权，排序失去区分度",
+      "title": "稳定版降级必须自述且仍经筛选 + qscore 单一证据只计一次",
+      "ok": true,
+      "detail": "稳定版降级自述 + 逐级放宽；qscore 证据不重复计分",
+      "critical": true
+    },
+    {
+      "id": "B53",
+      "group": "构建链路",
+      "origin": "2026-11-13 审核：直播「15% 可播率」在 n=20 时无统计功效，且 MIN_PICKS=8 让 2/8 的偶然样本就能过；「中文频道 >= 5」是绝对数，13066 频道的境外列表（中文 0.3%）照样被采纳并占满限额",
+      "title": "直播采纳按抽样量与比例判定，不用绝对数和小样本点估计",
+      "ok": true,
+      "detail": "直播采纳：抽样下限 20 条 + 中文占比 + Wilson 下限",
+      "critical": true
+    },
+    {
+      "id": "B54",
+      "group": "构建链路",
+      "origin": "2026-11-13 审核：产物清单散落在 workflow 的 rm / git add / git rm 与 health.py 的 report_files 四处，各改各的必然走散 —— 点播发现报告写完即被删、cn-mirror 与 live-sites 的旧报告冒充今日",
+      "title": "清除 / 提交 / 发布由同一份产物表生成",
+      "ok": true,
+      "detail": "清除 / 必需 / 提交 / 发布同源于 artifacts.py",
       "critical": true
     }
   ]

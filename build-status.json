@@ -2,13 +2,12 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43377806781",
+    "runner": "43395468385",
     "proxy": false,
-    "generated": "2026-11-13 06:41:42 UTC"
+    "generated": "2026-11-13 09:04:50 UTC"
   },
   "source": "github-actions",
-  "run_id": "43377806781",
-  "commit": "dfe4102c19fce7cdaea58ff4f238b759d356e122",
+  "run": "807bad699ad5",
   "steps": {
     "audit": "success",
     "home_probe": "success",
@@ -22,13 +21,17 @@
     "live_discover": "success",
     "live_sites": "success",
     "jar_health": "success",
-    "regression": "success"
+    "regression": "failure"
   },
-  "failed_steps": [],
-  "incomplete_steps": [],
-  "status_incomplete": false,
+  "failed_steps": [
+    "regression"
+  ],
+  "incomplete_steps": [
+    "regression"
+  ],
+  "status_incomplete": true,
   "config_steps_failed": [],
   "data_steps_failed": [],
-  "degraded": false,
+  "degraded": true,
   "policy": "探测失败不沿用旧产物：派生配置与每日结论在构建前清除，生成失败即硬阻断；数据类失败照常发布但标记降级，且不推进稳定版 tag"
 }
