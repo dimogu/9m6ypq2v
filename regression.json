@@ -2,13 +2,13 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43435176367",
+    "run": "6eeab2744263",
     "proxy": false,
-    "generated": "2026-11-13 13:58:01 UTC"
+    "generated": "2026-11-13 16:44:36 UTC"
   },
   "passed": true,
-  "total": 74,
-  "ok": 74,
+  "total": 75,
+  "ok": 75,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -253,7 +253,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-13 / passed=True，43 项检查，失败 []",
+      "detail": "date=2026-11-13 / passed=True，44 项检查，失败 []",
       "critical": true
     },
     {
@@ -280,7 +280,7 @@
       "origin": "本轮：健康页 </table> 写在 for 循环体内（线上 33 闭合 / 5 开标签）",
       "title": "生成的健康页 HTML 表格标签平衡",
       "ok": true,
-      "detail": "源码静态检查：10 个表格闭合均在循环外",
+      "detail": "源码静态检查：11 个表格闭合均在循环外",
       "critical": false
     },
     {
@@ -289,7 +289,7 @@
       "origin": "每轮交付前的基础检查",
       "title": "全部 scripts/*.py 可编译",
       "ok": true,
-      "detail": "37 个脚本全部编译通过",
+      "detail": "38 个脚本全部编译通过",
       "critical": true
     },
     {
@@ -583,10 +583,10 @@
     {
       "id": "B47",
       "group": "构建链路",
-      "origin": "随机名改造：稳定版指针、配置自引用、发现器状态里残留的私有仓库名会被原样复制进公开产物；任何一处硬编码漏改都会让配置内部仍指向已失效的旧地址",
-      "title": "公开产物零泄露 + 分发仓库名全库唯一",
+      "origin": "随机名改造：稳定版指针、配置自引用、发现器状态里残留的私有仓库名会被原样复制进公开产物；2026-11-13 又发现 env.runner 把原始 run_id 带进 17 份公开 JSON，而门禁只扫两份文件、键名表不含 runner",
+      "title": "静态口径：公开产物零泄露 + 发布门禁覆盖全量（本轮产物由 site_check 把关）",
       "ok": true,
-      "detail": "公开产物零泄露、分发仓库名全库唯一",
+      "detail": "统一脱敏 + 发布门禁覆盖全量产物 + 分发仓库名全库唯一",
       "critical": true
     },
     {
@@ -677,6 +677,15 @@
       "title": "置顶名单多档备用 + 逐份检查 + 零 jar 版不被污染",
       "ok": true,
       "detail": "10 份配置逐份有置顶 + 零 jar 版保持零 jar",
+      "critical": true
+    },
+    {
+      "id": "B58",
+      "group": "构建链路",
+      "origin": "2026-11-13 全量审核：env.runner 把原始 run_id 带进 17 份公开 JSON 而门禁只扫两份文件；零 jar 版残留 key=csp_ / type=3/4；新增版本需要四处清单同步",
+      "title": "统一脱敏 + 发布清单同源 + 无 jar 精播版全链路",
+      "ok": true,
+      "detail": "统一脱敏 + 门禁全量扫 + 零 jar 四入口 + 清单同源 + 缓存键隔离",
       "critical": true
     }
   ]

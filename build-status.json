@@ -2,14 +2,16 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43435176367",
+    "run": "6eeab2744263",
     "proxy": false,
-    "generated": "2026-11-13 13:58:01 UTC"
+    "generated": "2026-11-13 16:44:36 UTC"
   },
   "source": "github-actions",
-  "run": "5dda7298926e",
+  "run": "6eeab2744263",
   "steps": {
     "audit": "success",
+    "vod_discover": "success",
+    "vod_apply": "success",
     "home_probe": "success",
     "recheck": "success",
     "play_probe": "success",
