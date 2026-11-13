@@ -2,18 +2,16 @@
   "date": "2026-11-13",
   "env": {
     "env": "github-actions",
-    "runner": "43395468385",
+    "runner": "43398997525",
     "proxy": false,
-    "generated": "2026-11-13 09:04:50 UTC"
+    "generated": "2026-11-13 09:29:21 UTC"
   },
-  "passed": false,
+  "passed": true,
   "total": 71,
-  "ok": 70,
-  "failed": 1,
+  "ok": 71,
+  "failed": 0,
   "skipped": 0,
-  "hard_failed": [
-    "B47"
-  ],
+  "hard_failed": [],
   "checks": [
     {
       "id": "A01",
@@ -75,7 +73,7 @@
       "origin": "第一轮：csp 爬虫节点没有 jar",
       "title": "csp 站点缺 jar 比例不超过 30%",
       "ok": true,
-      "detail": "528/2022 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
+      "detail": "528/2116 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
       "critical": true
     },
     {
@@ -228,7 +226,7 @@
       "origin": "第九轮：choose_base 第三列修相对仓库根的路径",
       "title": "sources.txt 格式合法且源数量未塌",
       "ok": true,
-      "detail": "33 个上游源，格式异常 0 条",
+      "detail": "34 个上游源，格式异常 0 条",
       "critical": true
     },
     {
@@ -587,8 +585,8 @@
       "group": "构建链路",
       "origin": "随机名改造：稳定版指针、配置自引用、发现器状态里残留的私有仓库名会被原样复制进公开产物；任何一处硬编码漏改都会让配置内部仍指向已失效的旧地址",
       "title": "公开产物零泄露 + 分发仓库名全库唯一",
-      "ok": false,
-      "detail": "health.json 出现 40 位提交 SHA 31e80f38a2…；health.json 含提交 SHA 字段 ['.stable.commit']（私有历史指针）",
+      "ok": true,
+      "detail": "公开产物零泄露、分发仓库名全库唯一",
       "critical": true
     },
     {

@@ -1,5 +1,5 @@
 #EXTM3U
-# 河南台实测可播线路 · 2026-11-13 生成 · 21 条线路 / 12 个频道
+# 河南台实测可播线路 · 2026-11-13 生成 · 20 条线路 / 12 个频道
 # 同名频道按「·2」「·3」编号，播放失败时逐条切换
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视
 http://27.129.145.110:4433/hls/33/index.m3u8
@@ -12,10 +12,8 @@ http://120.237.39.10:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·5
 http://124.90.45.52:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·6
-http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
+http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南卫视高清" group-title="河南",河南卫视高清
-http://110.72.84.234:808/hls/49/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视高清" group-title="河南",河南卫视高清·2
 http://113.9.162.169:9003/hls/49/index.m3u8
 #EXTINF:-1 tvg-name="河南梨园频道" group-title="河南",河南梨园频道
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
@@ -38,7 +36,7 @@ http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playl
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·4
 http://123.207.224.130:123/henan/henan.php?id=hnds
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="河南",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=d569695d07c8f47b53ab3ea2c3d92cf0&wsTime=1794571422
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=551237dcc192e3d6713ce642ed15f249&wsTime=1794575040
 #EXTINF:-1 tvg-name="河南戏曲" group-title="河南",河南戏曲
 http://zh.sqitv.com:888/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="河南民生" group-title="河南",河南民生
