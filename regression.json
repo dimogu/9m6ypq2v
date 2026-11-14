@@ -2,13 +2,13 @@
   "date": "2026-11-14",
   "env": {
     "env": "github-actions",
-    "run": "1d326a811126",
+    "run": "db0b75cd30a3",
     "proxy": false,
-    "generated": "2026-11-14 02:11:20 UTC"
+    "generated": "2026-11-14 03:54:19 UTC"
   },
   "passed": true,
-  "total": 78,
-  "ok": 78,
+  "total": 79,
+  "ok": 79,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -73,7 +73,7 @@
       "origin": "第一轮：csp 爬虫节点没有 jar",
       "title": "csp 站点缺 jar 比例不超过 30%",
       "ok": true,
-      "detail": "0/1667 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
+      "detail": "0/1638 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
       "critical": true
     },
     {
@@ -253,7 +253,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-14 / passed=True，44 项检查，失败 []",
+      "detail": "date=2026-11-14 / passed=True，46 项检查，失败 []",
       "critical": true
     },
     {
@@ -262,7 +262,7 @@
       "origin": "第十轮：误杀率 52% 证明单日判定不可信",
       "title": "quality.json 保留多日历史与抽样基线",
       "ok": true,
-      "detail": "多日历史 / 连败 / 抽样基线字段齐全（4 天）",
+      "detail": "多日历史 / 连败 / 抽样基线字段齐全（5 天）",
       "critical": true
     },
     {
@@ -298,7 +298,7 @@
       "origin": "本轮：tag 复用时指针 commit 写成当前 HEAD、与不可变 tag 不一致",
       "title": "stable.json 的 commit 指向 tag 实际提交",
       "ok": true,
-      "detail": "tag=stable-20261113 / 指针 commit=31e80f38a2 / tag 实际=31e80f38a2",
+      "detail": "tag=stable-20261114 / 指针 commit=c9901bf1d0 / tag 实际=c9901bf1d0",
       "critical": true
     },
     {
@@ -713,6 +713,15 @@
       "title": "媒体类 jar 的 csp_ 站点整条丢弃（含行为用例 + 阈值未被放宽）",
       "ok": true,
       "detail": "媒体 jar 的 csp 站点整条丢弃 / 阈值 0.30 未被放宽",
+      "critical": true
+    },
+    {
+      "id": "B62",
+      "group": "构建链路",
+      "origin": "2026-11-14 整轮反代未启用：ghproxy.cc 对死链回 200+错误页，被当成最可用的一路；诚实镜像被死链拉低到 50%；退回裸链后线上 3370 处直链、健康页仍全绿",
+      "title": "判活看内容 + 死链按源站真值剔除 + 无镜像达标时回退上一轮方案",
+      "ok": true,
+      "detail": "判活看内容 + 源站真值剔除死链 + 无镜像达标时回退上一轮（含 3 个回退用例、顶层 spider、整源拒收、清单同源）",
       "critical": true
     }
   ]
