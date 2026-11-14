@@ -1,0 +1,1106 @@
+{
+  "date": "2026-11-14",
+  "env": {
+    "env": "github-actions",
+    "run": "1d326a811126",
+    "proxy": false,
+    "generated": "2026-11-14 02:11:21 UTC"
+  },
+  "build": {
+    "sites": 4708,
+    "published": 3094,
+    "lite": 1575,
+    "network": 711,
+    "sources_ok": 35,
+    "observation": 210,
+    "parses": 363,
+    "parses_deduped": 608,
+    "lives": 239,
+    "dropped": 0,
+    "sources": [
+      {
+        "tag": "qist/js",
+        "added": 261,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "qist/jsm",
+        "added": 119,
+        "dup": 24,
+        "note": "ok"
+      },
+      {
+        "tag": "qist/ds",
+        "added": 1,
+        "dup": 143,
+        "note": "ok"
+      },
+      {
+        "tag": "cyao/ok",
+        "added": 55,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "cyao/xs",
+        "added": 52,
+        "dup": 2,
+        "note": "ok"
+      },
+      {
+        "tag": "cyao/m",
+        "added": 7,
+        "dup": 8,
+        "note": "ok"
+      },
+      {
+        "tag": "noimank",
+        "added": 61,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "gao/js",
+        "added": 250,
+        "dup": 15,
+        "note": "ok"
+      },
+      {
+        "tag": "clun",
+        "added": 0,
+        "dup": 0,
+        "note": "拉取失败:JSONDecodeError"
+      },
+      {
+        "tag": "yw88075",
+        "added": 294,
+        "dup": 5,
+        "note": "ok"
+      },
+      {
+        "tag": "ssr/ts888",
+        "added": 226,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/laoliubei",
+        "added": 215,
+        "dup": 7,
+        "note": "ok"
+      },
+      {
+        "tag": "juhe-subhub",
+        "added": 145,
+        "dup": 71,
+        "note": "ok"
+      },
+      {
+        "tag": "hkf/merged",
+        "added": 115,
+        "dup": 19,
+        "note": "ok"
+      },
+      {
+        "tag": "dongli/api",
+        "added": 56,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "ssr/ct",
+        "added": 60,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "jyoketsu/m",
+        "added": 53,
+        "dup": 5,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/xiaoma",
+        "added": 39,
+        "dup": 22,
+        "note": "ok"
+      },
+      {
+        "tag": "fish2018",
+        "added": 107,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/w2x",
+        "added": 87,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/xhb",
+        "added": 98,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/vox",
+        "added": 54,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/aowu",
+        "added": 78,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/wangerxiao",
+        "added": 60,
+        "dup": 1,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/xiaohezi",
+        "added": 47,
+        "dup": 4,
+        "note": "ok"
+      },
+      {
+        "tag": "ysc/4k",
+        "added": 35,
+        "dup": 14,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/xm",
+        "added": 40,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "apaodh/fm",
+        "added": 36,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "jundie/top98",
+        "added": 23,
+        "dup": 0,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-raw-zijian-full",
+        "added": 385,
+        "dup": 74,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-dxawi-0",
+        "added": 36,
+        "dup": 3,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-raw-api",
+        "added": 137,
+        "dup": 6,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-raw-api",
+        "added": 125,
+        "dup": 8,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-raw-yw",
+        "added": 95,
+        "dup": 55,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-raw-tvbox_full",
+        "added": 1029,
+        "dup": 243,
+        "note": "ok"
+      },
+      {
+        "tag": "vod-raw-单仓聚合",
+        "added": 227,
+        "dup": 263,
+        "note": "ok"
+      }
+    ]
+  },
+  "home": {
+    "sites": 1101,
+    "scanned": 3094,
+    "inferred_count": 411,
+    "grades": {
+      "likely": 978,
+      "unknown": 782,
+      "ok": 104,
+      "fail": 1211,
+      "classes_only": 19
+    }
+  },
+  "play": {
+    "sampled": 150,
+    "list_rate": 0.32,
+    "detail_rate": 0.3133,
+    "play_rate": 0.1733,
+    "play_rate_adjusted": 0.1722,
+    "play_rate_adjusted_ci": [
+      0.1354,
+      0.2276
+    ],
+    "search_rate": 0.2333,
+    "playable": 26,
+    "parses_alive_rate": 0.4,
+    "metric_version": "2026-11-14",
+    "sampled_sigs": [
+      {
+        "sig": "6fc5c59695341622",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "8c0ad98802824c4d",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "318c3e53e015d8e1",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "fe5c8ae05658ea4f",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9794a29b9d2910fb",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "ee32d00276c62c38",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "2bd7524f9c561941",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "17f3bc126630b695",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "f3beb64ccf7da690",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "01728bc9079c896f",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "059f8fec45d5bb61",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "398c3eca31b38834",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "655754cbd4e4c12e",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "90faeaf627d8faa7",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "9f17a338fe0510e5",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "6211c248ecef02e1",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "783773e416cd063b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "9f76096c5467e772",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9dc3cea7701ce578",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "cc92b544bfa009c0",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "92e1ec70c4ad9d06",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "86f3aedd5bfde671",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "aa769cc91f85896b",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "e8b66f2f832f3e7d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "392a8f01820c7b09",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "0ee87a47bf9efc0c",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "6315561a2b1ab95e",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "733d95178b9fd93b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "524ba097f379b87b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "2fa4a5143d6a8997",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "2d8f2474e965c4db",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "af9f7f4162bed57b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "1a606dd18f0b01ec",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "a0723201ba05943f",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9b0ce53804129c8e",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "75c3e3b11d67a5ce",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "f51ee51b05ed1660",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "8c9ee7632a42e66b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "59255168a54031a2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ceebbab82bfb8cd1",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "290b64927c969903",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d99270756ab51794",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "d0fb625f3d3e686d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "924239774d8adfb0",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "aeb5a3ac9e836894",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "901889560c109968",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "534f10a8a416aa7c",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "ee232cacc1d095c6",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "5684590b6c256f6b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "1347800f49fb9ff5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ad4618fa1497d5e4",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "c8e3cd2b57059aec",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "7c4b74fcedf5b3ca",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "4239bea617286e3f",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "598e649626964a28",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "c37c054a84fac4d8",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f89664c95fdf6e40",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "3dcd14c686096093",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "26bc5fa2ac1946d1",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "d0505166f9cb6a4d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "318683901c4c7a1b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e42e93a50a5b0545",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "183ab96e54e18e54",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "84bd326243d13cd5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a05ce4c65cad1af3",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "2672f62ef9bac4d6",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9d6eeb4ec34443c2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "0f47819b33212ab3",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b3663c98c5cad5b9",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9919e5173af1b264",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "98fea5cb4a53f612",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "a440f7dcc181cc32",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "acc33a3bcd39cbcd",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "f15ed10aabe0363c",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "76a5fa25b092f1c5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b517167256554731",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "aaf42b45a1508997",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "85ba03a3842aac6e",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f5c4a10adbdef1b3",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6f245b8d1cbfd270",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "2e83e2c1b7e2aa21",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "fd017f0c660bf7d6",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "cebaadad85e1c75b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "33385fd0501132c1",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "ea2644a424208c9e",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d804d9fcdfd4e4dd",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f7e2afb5016cf9c0",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ae97a283b0744ba9",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d4f886945ecd672d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "be7e3ed5d5b4d0a5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ac0c756f13da3403",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "84233ffe8a51c489",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "97376ad907fdda74",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f8d66d6dd8a2ea27",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b8be3f6166f6dd79",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "356ee51d37ae383a",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6b648b00f9d2740c",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "643ef22eb9685a3b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e92f6cc1a73c224b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f104472ba732451b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "1550c7c358e5945f",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a6152524c4c92800",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "071f0028d75d1976",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "559acdc54e7ec7b2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "bc412b9b4cab9165",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b6aa46da825409e7",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "56b209d5e635bdbd",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "85811d4424a30c15",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "91cb496c24d279c3",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a8bb7990b71fa379",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b8b11af99f68c57d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "45b2ad7032a456b5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "4173cec71b871a21",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6b78688f2e6102e6",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "abbb4b8bcf637ea8",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "fd6cbc0559f3994b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "62866a7165fbef2a",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "964e82d16ec0e4ee",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b41c6810ddc48094",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d06ca841280d3fdd",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "587a9fadf10742ab",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "380b7663c90db81e",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e37b5962414b2860",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "3fe1d032a205155d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9cae9200dffde13d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "3bcf916af57b9a28",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "6ac3a16deeb7e04b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b0ef955562fe41f1",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "591477a9ac5b8217",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "558499e1aab11b9b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "78195f2354e7d8d1",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ceeee1ab19151cb2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "b682e5ad54215f57",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "0cb7cd7765d86110",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a9abf61c53ac331e",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "db56ff720f050e24",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "15e290ed84967e8f",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "5b256ec2918cee67",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "fcf35541d6f4a33d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6ed90acc985224af",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "e1d9ba5a9e4757c2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "2119055378043089",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e720d1f1d1579e34",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "356f41493ddd77c4",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ad4bcc929e468d46",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "eeded084509c56c2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e13937638e709f45",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a8a321ddae877379",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "a1d75cd14d7045ee",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "11c6f86690c630e5",
+        "stratum": "other",
+        "play": false
+      }
+    ],
+    "interval_method": "cp-fpc-mc"
+  },
+  "play_coverage": {
+    "total_sites": 3094,
+    "cms_sites": 360,
+    "cms_share": 0.1164,
+    "sampled": 150,
+    "sampled_share_of_cms": 0.4167,
+    "weight_covered": 1.0,
+    "strata": {
+      "home_ok": {
+        "population": 124,
+        "sampled": 52,
+        "playable": 26,
+        "rate": 0.5
+      },
+      "other": {
+        "population": 236,
+        "sampled": 98,
+        "playable": 0,
+        "rate": 0.0
+      }
+    },
+    "note": "可播率只覆盖 CMS 接口类站点，spider/jar 与 drpy 站点无法用「列表→详情→播放地址」这条链路验证；抽样按层规模比例分配，加权估计已按层规模还原，权重覆盖率见 weight_covered"
+  },
+  "recheck": {
+    "checked": 50,
+    "revived": 13,
+    "false_kill_rate": 0.26,
+    "false_kill_rate_ci": [
+      0.1587,
+      0.3955
+    ],
+    "revived_sigs": [
+      "b9eabe32fce2fa81",
+      "4833b2614460430f",
+      "ee6d355e75e44458",
+      "44e1d413e878db5c",
+      "02a262682c847a3c",
+      "938268bb9fe067c7",
+      "3172037ad6cab0e3",
+      "9fc0dfd4b676427c",
+      "aa769cc91f85896b",
+      "93323aad8f227c14",
+      "538f2e80c16b284c",
+      "de7f4b1923c239b6",
+      "b4aa33fad5694a3b"
+    ]
+  },
+  "assertions": {
+    "passed": true,
+    "failed": []
+  },
+  "build_status": {
+    "degraded": false,
+    "failed_steps": [],
+    "config_steps_failed": []
+  },
+  "sample_rates": {
+    "jar": 0.45,
+    "ext": 0.55
+  },
+  "sample_rates_final": {
+    "jar": 0.45,
+    "ext": 0.55
+  },
+  "sample_retry": {
+    "jar": {
+      "tried": 11,
+      "rescued": 0
+    },
+    "ext": {
+      "tried": 9,
+      "rescued": 0
+    }
+  },
+  "files_sha256_16": {
+    "tvbox.json": "b69c84fc26845cf8",
+    "tvbox-lite.json": "11c21765d998d9b3",
+    "tvbox-network.json": "480a2219ee212e95",
+    "tvbox-home.json": "ce2b39547d5252b1",
+    "tvbox-full-homefirst.json": "a0cbac15217f2be3",
+    "tvbox-lite-homefirst.json": "39e438c004b2eb28",
+    "tvbox-network-homefirst.json": "374710e1972220b3",
+    "tvbox-quality.json": "088d943a6e39546a",
+    "tvbox-quality-nojar.json": "c2fdd82fdede9bab",
+    "tvbox-cn-fast.json": "34facc29d6c6cb1e",
+    "tvbox-stable7.json": "d1e14651207521ba"
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "env": {
     "env": "github-actions",
-    "run": "8d08523bcaf6",
+    "run": "1d326a811126",
     "proxy": false,
-    "generated": "2026-11-13 18:33:27 UTC"
+    "generated": "2026-11-14 02:11:20 UTC"
   },
   "passed": true,
-  "total": 77,
-  "ok": 77,
+  "total": 78,
+  "ok": 78,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -73,7 +73,7 @@
       "origin": "第一轮：csp 爬虫节点没有 jar",
       "title": "csp 站点缺 jar 比例不超过 30%",
       "ok": true,
-      "detail": "528/2116 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
+      "detail": "0/1667 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
       "critical": true
     },
     {
@@ -226,7 +226,7 @@
       "origin": "第九轮：choose_base 第三列修相对仓库根的路径",
       "title": "sources.txt 格式合法且源数量未塌",
       "ok": true,
-      "detail": "34 个上游源，格式异常 0 条",
+      "detail": "36 个上游源，格式异常 0 条",
       "critical": true
     },
     {
@@ -253,7 +253,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-13 / passed=True，44 项检查，失败 []",
+      "detail": "date=2026-11-14 / passed=True，44 项检查，失败 []",
       "critical": true
     },
     {
@@ -280,7 +280,7 @@
       "origin": "本轮：健康页 </table> 写在 for 循环体内（线上 33 闭合 / 5 开标签）",
       "title": "生成的健康页 HTML 表格标签平衡",
       "ok": true,
-      "detail": "源码静态检查：11 个表格闭合均在循环外",
+      "detail": "源码静态检查：10 个表格闭合均在循环外",
       "critical": false
     },
     {
@@ -704,6 +704,15 @@
       "title": "区间口径自洽 + 反代多路分摊 + 逐日摘要 + retries 真接通（含行为用例）",
       "ok": true,
       "detail": "区间 CP+FPC / 反代多路分摊 / 逐日摘要可复现 / retries 接通",
+      "critical": true
+    },
+    {
+      "id": "B61",
+      "group": "构建链路",
+      "origin": "2026-11-14 构建被 csp_has_jar 拦下（39.0%）：新源用 .jpg 承载私有加壳 jar，936 个 csp 站点里 899 个依赖它；build 下沉 jar → polish 按媒体文件清空 → 站点变成无 jar 的 csp_ 空壳",
+      "title": "媒体类 jar 的 csp_ 站点整条丢弃（含行为用例 + 阈值未被放宽）",
+      "ok": true,
+      "detail": "媒体 jar 的 csp 站点整条丢弃 / 阈值 0.30 未被放宽",
       "critical": true
     }
   ]
