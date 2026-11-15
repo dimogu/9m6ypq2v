@@ -1,17 +1,19 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "env": {
     "env": "github-actions",
-    "run": "5cd47f9e6cb6",
+    "run": "49250f9520bc",
     "proxy": false,
-    "generated": "2026-11-14 23:54:57 UTC"
+    "generated": "2026-11-15 05:21:09 UTC"
   },
-  "passed": true,
-  "total": 79,
+  "passed": false,
+  "total": 80,
   "ok": 79,
-  "failed": 0,
+  "failed": 1,
   "skipped": 0,
-  "hard_failed": [],
+  "hard_failed": [
+    "A05"
+  ],
   "checks": [
     {
       "id": "A01",
@@ -54,8 +56,8 @@
       "group": "产物契约",
       "origin": "第六轮：图片被当 spider jar（352 站）",
       "title": "jar 不得是图片 / 媒体 URL",
-      "ok": true,
-      "detail": "0 个图片/媒体被塞进 jar 槽",
+      "ok": false,
+      "detail": "2296 个媒体类 jar：tvbox-home.json:AList · AweS, tvbox-home.json:☁️云云┃影视, tvbox-home.json:☁️风云┃多线",
       "critical": true
     },
     {
@@ -73,7 +75,7 @@
       "origin": "第一轮：csp 爬虫节点没有 jar",
       "title": "csp 站点缺 jar 比例不超过 30%",
       "ok": true,
-      "detail": "0/1639 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
+      "detail": "0/2454 个 csp 站点缺 jar（上游本身可能没写，阈值 30%）",
       "critical": true
     },
     {
@@ -253,7 +255,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-14 / passed=True，46 项检查，失败 []",
+      "detail": "date=2026-11-15 / passed=True，46 项检查，失败 []",
       "critical": true
     },
     {
@@ -710,9 +712,9 @@
       "id": "B61",
       "group": "构建链路",
       "origin": "2026-11-14 构建被 csp_has_jar 拦下（39.0%）：新源用 .jpg 承载私有加壳 jar，936 个 csp 站点里 899 个依赖它；build 下沉 jar → polish 按媒体文件清空 → 站点变成无 jar 的 csp_ 空壳",
-      "title": "媒体类 jar 的 csp_ 站点整条丢弃（含行为用例 + 阈值未被放宽）",
+      "title": "确认非 jar 的媒体 jar 清空并整条丢弃（含行为用例 + 阈值未被放宽）",
       "ok": true,
-      "detail": "媒体 jar 的 csp 站点整条丢弃 / 阈值 0.30 未被放宽",
+      "detail": "确认非 jar 的 csp 站点整条丢弃；伪装 jar 保留 / 阈值 0.30 未被放宽",
       "critical": true
     },
     {
@@ -722,6 +724,15 @@
       "title": "判活看内容 + 死链按源站真值剔除 + 无镜像达标时回退上一轮方案",
       "ok": true,
       "detail": "判活看内容 + 源站真值剔除死链 + 无镜像达标时回退上一轮（含 3 个回退用例、顶层 spider、整源拒收、清单同源）",
+      "critical": true
+    },
+    {
+      "id": "B63",
+      "group": "构建链路",
+      "origin": "2026-11-15 健康页天天挂着「837 个空壳站点被丢弃」：10 个顶层 spider 是媒体后缀的源里 9 个托管的是改名成 .png 的真 classes.dex，旧判据只看后缀，每天删掉 837 个能用的站点（全量版 3457 → 2678）",
+      "title": "jar 真假抓前 16 字节看魔数；判不出来保守保留；polish 与发现环节同口径",
+      "ok": true,
+      "detail": "jar 真假按内容判（9 个伪装 jar 源共 1100+ 站点不再误删）；unknown 保守保留；发现环节同口径",
       "critical": true
     }
   ]
