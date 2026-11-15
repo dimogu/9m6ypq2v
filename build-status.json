@@ -2,12 +2,12 @@
   "date": "2026-11-15",
   "env": {
     "env": "github-actions",
-    "run": "49250f9520bc",
+    "run": "1e4131d91568",
     "proxy": false,
-    "generated": "2026-11-15 05:21:09 UTC"
+    "generated": "2026-11-15 05:46:37 UTC"
   },
   "source": "github-actions",
-  "run": "49250f9520bc",
+  "run": "1e4131d91568",
   "steps": {
     "audit": "success",
     "vod_discover": "success",
@@ -23,17 +23,13 @@
     "live_discover": "success",
     "live_sites": "success",
     "jar_health": "success",
-    "regression": "failure"
+    "regression": "success"
   },
-  "failed_steps": [
-    "regression"
-  ],
-  "incomplete_steps": [
-    "regression"
-  ],
-  "status_incomplete": true,
+  "failed_steps": [],
+  "incomplete_steps": [],
+  "status_incomplete": false,
   "config_steps_failed": [],
   "data_steps_failed": [],
-  "degraded": true,
+  "degraded": false,
   "policy": "探测失败不沿用旧产物：派生配置与每日结论在构建前清除，生成失败即硬阻断；数据类失败照常发布但标记降级，且不推进稳定版 tag"
 }

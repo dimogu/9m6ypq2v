@@ -2,18 +2,16 @@
   "date": "2026-11-15",
   "env": {
     "env": "github-actions",
-    "run": "49250f9520bc",
+    "run": "1e4131d91568",
     "proxy": false,
-    "generated": "2026-11-15 05:21:09 UTC"
+    "generated": "2026-11-15 05:46:36 UTC"
   },
-  "passed": false,
+  "passed": true,
   "total": 80,
-  "ok": 79,
-  "failed": 1,
+  "ok": 80,
+  "failed": 0,
   "skipped": 0,
-  "hard_failed": [
-    "A05"
-  ],
+  "hard_failed": [],
   "checks": [
     {
       "id": "A01",
@@ -55,9 +53,9 @@
       "id": "A05",
       "group": "产物契约",
       "origin": "第六轮：图片被当 spider jar（352 站）",
-      "title": "jar 不得是图片 / 媒体 URL",
-      "ok": false,
-      "detail": "2296 个媒体类 jar：tvbox-home.json:AList · AweS, tvbox-home.json:☁️云云┃影视, tvbox-home.json:☁️风云┃多线",
+      "title": "jar 不得指向确认是图片 / 网页的地址",
+      "ok": true,
+      "detail": "0 个确认非 jar 的地址（2292 个媒体后缀的地址已核实内容是 jar）",
       "critical": true
     },
     {
@@ -264,7 +262,7 @@
       "origin": "第十轮：误杀率 52% 证明单日判定不可信",
       "title": "quality.json 保留多日历史与抽样基线",
       "ok": true,
-      "detail": "多日历史 / 连败 / 抽样基线字段齐全（5 天）",
+      "detail": "多日历史 / 连败 / 抽样基线字段齐全（6 天）",
       "critical": true
     },
     {

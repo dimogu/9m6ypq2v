@@ -4,9 +4,9 @@
   "warning": null,
   "env": {
     "env": "github-actions",
-    "run": "49250f9520bc",
+    "run": "1e4131d91568",
     "proxy": false,
-    "generated": "2026-11-15 05:19:53 UTC"
+    "generated": "2026-11-15 05:45:32 UTC"
   },
   "checks": {
     "json_valid_no_dup_key": true,
@@ -95,7 +95,7 @@
     },
     "home_subset_of_full": {
       "ok": true,
-      "detail": "首页版 1695 ⊆ 全量 3498"
+      "detail": "首页版 1694 ⊆ 全量 3498"
     },
     "homefirst_same_site_count": {
       "ok": true,
@@ -111,15 +111,15 @@
     },
     "quality_site_cap": {
       "ok": true,
-      "detail": "精播版 120 个 ≤ 容量 120 + 置顶 4"
+      "detail": "精播版 120 个 ≤ 容量 120 + 置顶 3"
     },
     "stable7_filter_is_real": {
       "ok": true,
-      "detail": "7 天稳定版按历史筛选（need=2，放宽=home_days>=2，历史不足=False）"
+      "detail": "7 天稳定版按历史筛选（need=3，放宽=无，历史不足=False）"
     },
     "play_rate_has_denominator": {
       "ok": true,
-      "detail": "可播率带分母：CMS 144/3498（4.1%），抽样 144，95% CI [0.25, 0.25]，权重覆盖率 1.0，分层样本 {'home_ok': 93, 'other': 51}"
+      "detail": "可播率带分母：CMS 144/3498（4.1%），抽样 144，95% CI [0.1806, 0.1806]，权重覆盖率 1.0，分层样本 {'home_ok': 92, 'other': 52}"
     },
     "all_versions_subset_of_full": {
       "ok": true,
@@ -199,7 +199,7 @@
     },
     "live_sources_sane": {
       "ok": true,
-      "detail": "专列表 17 个频道、收费黑名单 1 条、配置无引用断裂"
+      "detail": "专列表 19 个频道、收费黑名单 1 条、配置无引用断裂"
     },
     "live_discovered_sane": {
       "ok": true,
@@ -215,11 +215,11 @@
     },
     "urls_wellformed": {
       "ok": true,
-      "detail": "核对 6852 条地址，协议/域名/字符均合法"
+      "detail": "核对 6830 条地址，协议/域名/字符均合法"
     },
     "github_mirror_sane": {
       "ok": true,
-      "detail": "反代 https://gh-proxy.com/（1 路分摊），改写 {\"spider\": 5, \"jar\": 3723, \"ext\": 4646, \"lives.url\": 660, \"meta.jar_top\": 15, \"api\": 3052}（原始直链 6854 条）"
+      "detail": "反代 https://ghproxy.net/（2 路分摊），改写 {\"spider\": 5, \"jar\": 3672, \"ext\": 4587, \"lives.url\": 660, \"meta.jar_top\": 13, \"api\": 3022}（原始直链 6770 条）"
     },
     "no_raw_direct_link": {
       "ok": true,
@@ -231,18 +231,18 @@
     },
     "live_sites_sane": {
       "ok": true,
-      "detail": "点播站点 3601 个，其中直播类 200 个（详见 reports/live-sites.json）"
+      "detail": "点播站点 3600 个，其中直播类 200 个（详见 reports/live-sites.json）"
     },
     "jar_sample_reachable": {
       "ok": true,
-      "detail": "13/20 可用 (65%, 阈值 20%，昨日 40%，失败项重测 +0/7)",
-      "sample_delta_pp": -25.0,
+      "detail": "13/20 可用 (65%, 阈值 20%，昨日 65%，失败项重测 +0/7)",
+      "sample_delta_pp": 0.0,
       "sample_drop_warning": false
     },
     "ext_sample_reachable": {
       "ok": true,
-      "detail": "12/20 可用 (60%, 阈值 20%，昨日 65%，失败项重测 +0/8)",
-      "sample_delta_pp": 5.0,
+      "detail": "10/20 可用 (50%, 阈值 20%，昨日 60%，失败项重测 +0/10)",
+      "sample_delta_pp": 10.0,
       "sample_drop_warning": false
     }
   },
@@ -251,7 +251,7 @@
   "sample": {
     "jar": [
       {
-        "url": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png",
         "status": 200,
         "ok": true
       },
@@ -261,26 +261,24 @@
         "ok": true
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/cyao2q/files/master/jar/Rabbit.jar",
         "status": 200,
         "ok": true
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lllyin/assets/master/😀.png",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar",
         "status": 200,
         "ok": true
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/jar/XBPQ_upgraded.jar",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/XBPQ(2).jar",
         "status": 200,
         "ok": true
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/c.jar",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
+        "url": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png",
+        "status": 200,
+        "ok": true
       },
       {
         "url": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/xbpq (3).jar",
@@ -288,57 +286,14 @@
         "ok": true
       },
       {
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
         "url": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/xyq.jar",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/libs/jar/c.jar",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/chitue/dongliTV/main/jar/dongli-spider.jar",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/csp_XBPQ.jar",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/app.jar",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/XBPQ.jar",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/davidlee6628/ssr/main/custom_spider.jar",
         "status": 200,
         "ok": true
       },
@@ -353,11 +308,56 @@
         "ok": true
       },
       {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/Inliang/tvbox/main/libs/jar/XYQH.jar",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/app.jar",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/fix230320.jar",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/Token.jar",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/jar/XYQH.jar",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
         "url": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt",
         "status": 403,
         "ok": false,
         "retried": true,
         "retry_status": 403
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/cyao2q/files/master/jar/Bee.jar",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/aliluya1977/PizazzGYTVBox/main/danmu.jar",
+        "status": 200,
+        "ok": true
       },
       {
         "url": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/jar/HubanTC.jar",
@@ -367,31 +367,48 @@
     ],
     "ext": [
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/皮皮影视.json",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/映迷影院.js",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/libs/hccx/七新影视.json",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/hccx/4k剧院.json",
         "status": 404,
         "ok": false,
         "retried": true,
         "retry_status": 404
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/hccx/小灯塔国学.json",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/js/小宝影院[飞].js",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/libs/hccx/疯狗影视.json",
         "status": 404,
         "ok": false,
         "retried": true,
         "retry_status": 404
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/hccx/黑狐影视.json",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/XBPQ/圣城1080.json",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ufwsss/pizazzgytvbox/main/XBPQ/动漫巴士.json",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
+      },
+      {
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/js/阿布影院.js",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/哆咪.json",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/XBPQ/相声.json",
         "status": 404,
         "ok": false,
         "retried": true,
@@ -403,22 +420,21 @@
         "ok": true
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/NyaFun.js",
-        "status": 200,
-        "ok": true
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/libs/bilibili.json",
+        "status": 404,
+        "ok": false,
+        "retried": true,
+        "retry_status": 404
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/aliluya1977/PizazzGYTVBox/main/JS/欧帝影院.js",
-        "status": 200,
-        "ok": true
+        "url": "https://d.kstore.space/download/6296/json/短剧.json",
+        "status": 0,
+        "ok": false,
+        "retried": true,
+        "retry_status": 0
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/厂长资源.js",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/酷我听书.js",
+        "url": "http://38.76.197.42:25252/仅供测试/lib/三四影视.json",
         "status": 200,
         "ok": true
       },
@@ -430,18 +446,6 @@
         "retry_status": 403
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/XBPQ/布谷4K.json",
-        "status": 404,
-        "ok": false,
-        "retried": true,
-        "retry_status": 404
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/磁力熊[磁].js",
-        "status": 200,
-        "ok": true
-      },
-      {
         "url": "https://byyy5.com/api.php/app/",
         "status": 0,
         "ok": false,
@@ -449,31 +453,31 @@
         "retry_status": 0
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/js/555影视[飞].js",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/qist/tvbox/master/js/酷6网.js",
         "status": 200,
         "ok": true
       },
       {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/人人影视.js",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "http://38.76.197.42:25252/仅供测试/lib/三四影视.json",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/奇优影院.js",
-        "status": 200,
-        "ok": true
-      },
-      {
-        "url": "https://d.kstore.space/download/6296/json/短剧.json",
-        "status": 0,
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/Inliang/tvbox/main/hccx/真不卡影视.json",
+        "status": 404,
         "ok": false,
         "retried": true,
-        "retry_status": 0
+        "retry_status": 404
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/追剧迷.js",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/凌云影视.json",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/映迷影院.json",
+        "status": 200,
+        "ok": true
       },
       {
         "url": "http://www.fuju2024.cc:8013/ruifenglb_api.php/v1.vod",
@@ -486,15 +490,15 @@
   },
   "sample_rates": {
     "jar": 0.65,
-    "ext": 0.6
+    "ext": 0.5
   },
   "sample_rates_final": {
     "jar": 0.65,
-    "ext": 0.6
+    "ext": 0.5
   },
   "sample_retry": {
     "ext": {
-      "tried": 8,
+      "tried": 10,
       "rescued": 0
     },
     "jar": {
@@ -503,8 +507,8 @@
     }
   },
   "sample_delta_pp": {
-    "jar": -25.0,
-    "ext": 5.0
+    "jar": 0.0,
+    "ext": 10.0
   },
   "sample_drop_warning": {
     "jar": false,
@@ -513,32 +517,33 @@
   "sites": 3498,
   "raw_links": {
     "direct": 0,
-    "total": 12918,
+    "total": 12786,
     "ratio": 0.0,
     "mirror_applied": true,
     "mirrors": [
+      "https://ghproxy.net/",
       "https://gh-proxy.com/"
     ],
     "fallback_from": "",
-    "reason": "已替换为 https://gh-proxy.com/"
+    "reason": "已按 2 路反代分摊替换"
   },
   "inputs": {
     "prev_rates": {
-      "jar": 0.4,
-      "ext": 0.65
+      "jar": 0.65,
+      "ext": 0.6
     },
     "prev_rates_final": {
-      "jar": 0.4,
-      "ext": 0.65
+      "jar": 0.65,
+      "ext": 0.6
     },
     "prev_basis": "sample_rates_final（缺失时退回 sample_rates 首轮口径，退回时不给 delta_pp：首轮口径只会偏低，相减会掩盖真实跌幅）",
     "sample_rates_final": {
       "jar": 0.65,
-      "ext": 0.6
+      "ext": 0.5
     },
     "sample_retry": {
       "ext": {
-        "tried": 8,
+        "tried": 10,
         "rescued": 0
       },
       "jar": {

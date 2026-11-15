@@ -3,7 +3,7 @@
 把九轮迭代里真实出现过的故障逐条复核，确认修复仍在、防线没被绕过。
 默认离线，`--online` 追加线上线路比对；判定环境：github-actions。
 
-**结果：80 项检查，79 项通过，1 项未通过（其中阻断 1 项），0 项跳过 —— 存在需处理项**
+**结果：80 项检查，80 项通过，0 项未通过（其中阻断 0 项），0 项跳过 —— 全部通过**
 
 ## 产物契约
 
@@ -13,7 +13,7 @@
 | A02 | 第九轮：导入报 IllegalStateException | style / header 不得是 JSON 对象 | ✅ 通过 | 0 处对象型 style/header（不会抛 IllegalStateException） |
 | A03 | 第九轮 / 第三轮 / 类型契约修复 | 类型契约：sites/parses.type 整数、lives.type 字符串、playerType/gridview 非字符串 | ✅ 通过 | playerType/gridview 为整数，sites/parses.type 为整数，lives.type 为字符串 |
 | A04 | 第九轮：播放期 NullPointerException(String.trim()) | 裸 trim 的 String 字段不得缺失 / null / 非字符串 | ✅ 通过 | 客户端会裸 trim() 的字段全部非 null（不会 NPE 闪退） |
-| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得是图片 / 媒体 URL | ❌ 未通过 | 2296 个媒体类 jar：tvbox-home.json:AList · AweS, tvbox-home.json:☁️云云┃影视, tvbox-home.json:☁️风云┃多线 |
+| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2292 个媒体后缀的地址已核实内容是 jar） |
 | A06 | 第五轮：jar 字段带前后空格（26 站） | jar 值必须已 strip | ✅ 通过 | jar 值无前后空白（不会被误判缺 jar / 拉 404） |
 | A07 | 第一轮：csp 爬虫节点没有 jar | csp 站点缺 jar 比例不超过 30% | ✅ 通过 | 0/2454 个 csp 站点缺 jar（上游本身可能没写，阈值 30%） |
 | A08 | 合并坑：上游相对路径未绝对化 | api/jar/ext/url 不得是相对路径 | ✅ 通过 | 0 处 ./ ../ 相对路径 |
@@ -41,7 +41,7 @@
 | B08 | 第十轮：关键词外置 / 生成物本地只读 | blocklist 非空、.gitignore 覆盖、local_readonly 在位 | ✅ 通过 | blocklist / .gitignore / local_readonly.py 三项齐全 |
 | B09 | 各轮修复必须有硬断言守着，不能只靠文档 | assertions.py 覆盖全部关键回归防线 | ✅ 通过 | 17 条关键硬断言全部在位 |
 | B10 | 每日保险丝结果 | 当日回归断言已通过 | ✅ 通过 | date=2026-11-15 / passed=True，46 项检查，失败 [] |
-| B11 | 第十轮：误杀率 52% 证明单日判定不可信 | quality.json 保留多日历史与抽样基线 | ✅ 通过 | 多日历史 / 连败 / 抽样基线字段齐全（5 天） |
+| B11 | 第十轮：误杀率 52% 证明单日判定不可信 | quality.json 保留多日历史与抽样基线 | ✅ 通过 | 多日历史 / 连败 / 抽样基线字段齐全（6 天） |
 | B12 | 第九轮：README 要求 Pages 主线路；健康页给无版本 CDN 链接 | README 主线路 Pages / health.py 直链带 @main | ✅ 通过 | README 主推 Pages、无无版本号 CDN 直链；健康页直链均带 @main |
 | B13 | 本轮：健康页 </table> 写在 for 循环体内（线上 33 闭合 / 5 开标签） | 生成的健康页 HTML 表格标签平衡 | ✅ 通过 | 源码静态检查：10 个表格闭合均在循环外 |
 | B14 | 每轮交付前的基础检查 | 全部 scripts/*.py 可编译 | ✅ 通过 | 38 个脚本全部编译通过 |
@@ -94,10 +94,6 @@
 | B61 | 2026-11-14 构建被 csp_has_jar 拦下（39.0%）：新源用 .jpg 承载私有加壳 jar，936 个 csp 站点里 899 个依赖它；build 下沉 jar → polish 按媒体文件清空 → 站点变成无 jar 的 csp_ 空壳 | 确认非 jar 的媒体 jar 清空并整条丢弃（含行为用例 + 阈值未被放宽） | ✅ 通过 | 确认非 jar 的 csp 站点整条丢弃；伪装 jar 保留 / 阈值 0.30 未被放宽 |
 | B62 | 2026-11-14 整轮反代未启用：ghproxy.cc 对死链回 200+错误页，被当成最可用的一路；诚实镜像被死链拉低到 50%；退回裸链后线上 3370 处直链、健康页仍全绿 | 判活看内容 + 死链按源站真值剔除 + 无镜像达标时回退上一轮方案 | ✅ 通过 | 判活看内容 + 源站真值剔除死链 + 无镜像达标时回退上一轮（含 3 个回退用例、顶层 spider、整源拒收、清单同源） |
 | B63 | 2026-11-15 健康页天天挂着「837 个空壳站点被丢弃」：10 个顶层 spider 是媒体后缀的源里 9 个托管的是改名成 .png 的真 classes.dex，旧判据只看后缀，每天删掉 837 个能用的站点（全量版 3457 → 2678） | jar 真假抓前 16 字节看魔数；判不出来保守保留；polish 与发现环节同口径 | ✅ 通过 | jar 真假按内容判（9 个伪装 jar 源共 1100+ 站点不再误删）；unknown 保守保留；发现环节同口径 |
-
-## 未通过明细
-
-- **A05 jar 不得是图片 / 媒体 URL**（阻断）：2296 个媒体类 jar：tvbox-home.json:AList · AweS, tvbox-home.json:☁️云云┃影视, tvbox-home.json:☁️风云┃多线
 
 ---
 
