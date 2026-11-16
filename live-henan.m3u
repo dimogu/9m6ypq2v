@@ -1,41 +1,37 @@
 #EXTM3U
-# 河南台实测可播线路 · 2026-11-15 生成 · 19 条线路 / 11 个频道
+# 河南台实测可播线路 · 2026-11-16 生成 · 17 条线路 / 10 个频道
 # 同名频道按「·2」「·3」编号，播放失败时逐条切换
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视
-http://153.0.171.163:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+http://27.129.145.110:4433/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·2
-http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
+http://182.150.23.74:808/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·3
-http://120.237.39.10:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&down=1
+http://111.61.236.247:9081/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·4
-http://124.90.45.52:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
+http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·5
-http://221.7.175.154:8445/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+http://101.66.194.29:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·6
-http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河南卫视高清" group-title="河南",河南卫视高清
-http://110.72.84.64:808/hls/49/index.m3u8
+http://124.90.45.52:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南梨园频道" group-title="河南",河南梨园频道
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
 #EXTINF:-1 tvg-name="河南|河南新闻" group-title="河南",河南|河南新闻
 https://hngd-cdn-hls-pull-tx-1.hntv.tv/saas_live/6b74358e0b514f8bbe95640403a91445/playlist.m3u8?wsSecret=f0f60173cd9c52c693cc5aec0f98138d&wsTime=1978133090
 #EXTINF:-1 tvg-name="河南公共" group-title="河南",河南公共
-http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=88224b8798ae4dd9a2c8b4f163cb65c4&wsTime=1794733457
-#EXTINF:-1 tvg-name="河南新闻" group-title="河南",河南新闻
-http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=0fc92f36ee59bc0cb0968dc4b681aecb&wsTime=1794733457
-#EXTINF:-1 tvg-name="河南民生" group-title="河南",河南民生
-http://39.165.39.49:85/tsfile/live/1109_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="河南民生" group-title="河南",河南民生·2
-http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=9a481164e7adc2958e462c240eab7750&wsTime=1794733457
+http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=c5251e2690bd393d9778f97626363b96&wsTime=1794798253
 #EXTINF:-1 tvg-name="河南法治" group-title="河南",河南法治
-http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=b408ec31fce630f181ff1969d0a0f1d3&wsTime=1794733457
+http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=7db09e0764e864131f3560903f717895&wsTime=1794798253
 #EXTINF:-1 tvg-name="河南电视剧" group-title="河南",河南电视剧
-http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=d8092e5841269f9037103eceed6bb47f&wsTime=1794733457
+http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=71efd26494a70b64365b9da7e11595a6&wsTime=1794798253
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市
 http://zzssw01.55555.io:9901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·2
 http://39.165.39.49:85/tsfile/live/1106_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·3
-http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=fba68e226b1349e2444dac1192f9bbc9&wsTime=1794733457
+http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=41e8bf382d5efc74b7d1923984dc3804&wsTime=1794798253
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="河南",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=3edc3a37ccb56cd886924eb415b0c7a1&wsTime=1794733457
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=e1b29913ae6091340f869175bedabf19&wsTime=1794798253
+#EXTINF:-1 tvg-name="河南卫视（可用）" group-title="河南",河南卫视（可用）
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=cbb0349b5cbfc07e1bb4d0a6771c3564&wsTime=1794787487
+#EXTINF:-1 tvg-name="河南民生" group-title="河南",河南民生
+http://39.165.39.49:85/tsfile/live/1109_1.m3u8?key=txiptv&playlive=0&authid=0

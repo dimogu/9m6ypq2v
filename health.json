@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-15",
-  "date_beijing": "2026-11-15",
+  "date": "2026-11-16",
+  "date_beijing": "2026-11-16",
   "metric_version": "2026-11-14",
   "env": {
     "env": "github-actions",
-    "run": "1e4131d91568",
+    "run": "7ffd9af6f640",
     "proxy": false,
-    "generated": "2026-11-15 05:46:38 UTC"
+    "generated": "2026-11-16 00:03:02 UTC"
   },
   "versions": [
     {
@@ -16,7 +16,7 @@
       "badge": "",
       "sites": 120,
       "home_first": null,
-      "bytes": 122960,
+      "bytes": 122060,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-quality.json"
@@ -28,7 +28,7 @@
       "badge": "",
       "sites": 120,
       "home_first": null,
-      "bytes": 115275,
+      "bytes": 115031,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality-nojar.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-quality-nojar.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-quality-nojar.json"
@@ -38,9 +38,9 @@
       "label": "国内极速版",
       "note": "国内直连、无 spider jar、最多取前 120 个，老盒子开屏最快",
       "badge": "",
-      "sites": 103,
+      "sites": 99,
       "home_first": null,
-      "bytes": 65877,
+      "bytes": 65735,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-cn-fast.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-cn-fast.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-cn-fast.json"
@@ -50,9 +50,9 @@
       "label": "7 天稳定版",
       "note": "近 7 天多次可用且当前无连败，不追新源、不随上游抖动",
       "badge": "",
-      "sites": 215,
+      "sites": 190,
       "home_first": null,
-      "bytes": 155144,
+      "bytes": 146477,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-stable7.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-stable7.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-stable7.json"
@@ -62,9 +62,9 @@
       "label": "全量 + 首页优先",
       "note": "功能最全，推荐桌面/高性能盒子",
       "badge": "",
-      "sites": 3498,
-      "home_first": 1694,
-      "bytes": 1205047,
+      "sites": 3484,
+      "home_first": 1696,
+      "bytes": 1201575,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-full-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-full-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-full-homefirst.json"
@@ -74,9 +74,9 @@
       "label": "精简 + 首页优先",
       "note": "不依赖 spider jar，低性能盒子首选",
       "badge": "",
-      "sites": 1041,
-      "home_first": 92,
-      "bytes": 340635,
+      "sites": 1033,
+      "home_first": 96,
+      "bytes": 339224,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-lite-homefirst.json"
@@ -86,9 +86,9 @@
       "label": "网络优化 + 首页优先",
       "note": "不依赖境外代码托管，国内直连最稳",
       "badge": "",
-      "sites": 265,
-      "home_first": 92,
-      "bytes": 101200,
+      "sites": 257,
+      "home_first": 96,
+      "bytes": 99789,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network-homefirst.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network-homefirst.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-network-homefirst.json"
@@ -98,9 +98,9 @@
       "label": "首页版",
       "note": "只保留能出主界面推荐的节点",
       "badge": "",
-      "sites": 1694,
+      "sites": 1696,
       "home_first": null,
-      "bytes": 644849,
+      "bytes": 645336,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-home.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-home.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-home.json"
@@ -110,9 +110,9 @@
       "label": "全量（原序）",
       "note": "全部节点，原始顺序",
       "badge": "",
-      "sites": 3498,
+      "sites": 3484,
       "home_first": null,
-      "bytes": 1204637,
+      "bytes": 1201165,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox.json"
@@ -122,9 +122,9 @@
       "label": "精简（原序）",
       "note": "仅 http 站点",
       "badge": "",
-      "sites": 1041,
+      "sites": 1033,
       "home_first": null,
-      "bytes": 340258,
+      "bytes": 338847,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-lite.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-lite.json"
@@ -134,9 +134,9 @@
       "label": "网络优化（原序）",
       "note": "仅国内直连友好站点",
       "badge": "",
-      "sites": 265,
+      "sites": 257,
       "home_first": null,
-      "bytes": 100838,
+      "bytes": 99427,
       "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network.json",
       "mirror": "https://fastly.jsdelivr.net/gh/dimogu/9m6ypq2v@main/tvbox-network.json",
       "pages": "https://dimogu.github.io/9m6ypq2v/tvbox-network.json"
@@ -149,7 +149,7 @@
       "dup": 0,
       "note": "拉取失败:JSONDecodeError",
       "failed": true,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "alert": true
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "tag": "apaodh/w2x",
-      "added": 87,
+      "added": 86,
       "dup": 1,
       "note": "ok",
       "failed": false,
@@ -217,7 +217,7 @@
     },
     {
       "tag": "cyao/ok",
-      "added": 55,
+      "added": 54,
       "dup": 0,
       "note": "ok",
       "failed": false,
@@ -253,7 +253,7 @@
     },
     {
       "tag": "gao/js",
-      "added": 250,
+      "added": 249,
       "dup": 15,
       "note": "ok",
       "failed": false,
@@ -262,7 +262,7 @@
     },
     {
       "tag": "hkf/merged",
-      "added": 118,
+      "added": 117,
       "dup": 19,
       "note": "ok",
       "failed": false,
@@ -316,7 +316,7 @@
     },
     {
       "tag": "qist/js",
-      "added": 261,
+      "added": 260,
       "dup": 4,
       "note": "ok",
       "failed": false,
@@ -370,6 +370,15 @@
     },
     {
       "tag": "vod-raw-api",
+      "added": 137,
+      "dup": 6,
+      "note": "ok",
+      "failed": false,
+      "fail_streak": 0,
+      "alert": false
+    },
+    {
+      "tag": "vod-raw-api-2",
       "added": 125,
       "dup": 8,
       "note": "ok",
@@ -388,7 +397,7 @@
     },
     {
       "tag": "vod-raw-zijian-full",
-      "added": 385,
+      "added": 378,
       "dup": 74,
       "note": "ok",
       "failed": false,
@@ -397,7 +406,7 @@
     },
     {
       "tag": "vod-raw-单仓聚合",
-      "added": 227,
+      "added": 226,
       "dup": 263,
       "note": "ok",
       "failed": false,
@@ -424,7 +433,7 @@
     },
     {
       "tag": "ysc/wangerxiao",
-      "added": 60,
+      "added": 59,
       "dup": 1,
       "note": "ok",
       "failed": false,
@@ -464,42 +473,42 @@
     "clun"
   ],
   "home_grades": {
-    "unknown": 770,
-    "likely": 1603,
-    "fail": 1034,
-    "ok": 79,
-    "classes_only": 12
+    "unknown": 765,
+    "likely": 1601,
+    "fail": 1023,
+    "ok": 75,
+    "classes_only": 20
   },
-  "home_inferred": 818,
+  "home_inferred": 810,
   "play": {
-    "sampled": 144,
-    "list_rate": 0.5486,
-    "detail_rate": 0.5486,
-    "play_rate": 0.1806,
-    "play_rate_adjusted": 0.1806,
+    "sampled": 136,
+    "list_rate": 0.5515,
+    "detail_rate": 0.5368,
+    "play_rate": 0.1471,
+    "play_rate_adjusted": 0.1471,
     "play_rate_adjusted_ci": [
-      0.1806,
-      0.1806
+      0.1471,
+      0.1471
     ],
     "coverage": {
-      "total_sites": 3498,
-      "cms_sites": 144,
-      "cms_share": 0.0412,
-      "sampled": 144,
+      "total_sites": 3484,
+      "cms_sites": 136,
+      "cms_share": 0.039,
+      "sampled": 136,
       "sampled_share_of_cms": 1.0,
       "weight_covered": 1.0,
       "strata": {
         "home_ok": {
-          "population": 92,
-          "sampled": 92,
-          "playable": 26,
-          "rate": 0.2826
+          "population": 96,
+          "sampled": 96,
+          "playable": 19,
+          "rate": 0.1979
         },
         "other": {
-          "population": 52,
-          "sampled": 52,
-          "playable": 0,
-          "rate": 0.0
+          "population": 40,
+          "sampled": 40,
+          "playable": 1,
+          "rate": 0.025
         }
       },
       "note": "可播率只覆盖 CMS 接口类站点，spider/jar 与 drpy 站点无法用「列表→详情→播放地址」这条链路验证；抽样按层规模比例分配，加权估计已按层规模还原，权重覆盖率见 weight_covered"
@@ -507,197 +516,7 @@
     "interval_method": "cp-fpc-mc",
     "sampled_sigs": [
       {
-        "sig": "059f8fec45d5bb61",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "1d8af829a63a5c8f",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "318c3e53e015d8e1",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "8c0ad98802824c4d",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "b2b8eaa67b42ae28",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "88cb517cfaf45d54",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "bb3e1d19c6fb5b1c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "f3beb64ccf7da690",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "4734525d13404c4a",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "01cf5180cdd3cc2e",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "cb816e5ef2698a1f",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "e8b66f2f832f3e7d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "1940d6839d54595d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "6fc5c59695341622",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "36bcbc91279ad350",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "4b317a3923774cd1",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "9bab3b2df67e8d47",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ab5d53593e3a5cc1",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "dfac6ce76e9291af",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "5eaed64959bfcb48",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "677391a64d57b510",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "329ed3be5d1119fa",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "15f6c92a3d287c4b",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "2c83543ba4e6d917",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
         "sig": "cbe60343fc42c80c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "667f72fb4e29dd16",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "74320e544218c838",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "3dcd14c686096093",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "9794a29b9d2910fb",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "4d52b352589e772d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "b2ebbbde8695b712",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "921cf5f6a9cc6ae7",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "2468ecee0e4f54da",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "924239774d8adfb0",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "1e305308431d4372",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "44cdd4b3873eda56",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "e38248a96b74ed5e",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "26bc5fa2ac1946d1",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "5ca17866d2b90253",
         "stratum": "home_ok",
         "play": false
       },
@@ -707,122 +526,7 @@
         "play": false
       },
       {
-        "sig": "6ecd4309ba4ad11c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "cc92b544bfa009c0",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "5df2fde6e008f4d9",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "2efbdc387eddbe2e",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "e2b56547d8924948",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "8dbecbe39ae4ab3a",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "8f06c7cd494f00af",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "acc33a3bcd39cbcd",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "e747dcadde871e21",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "84ea491b54c203b9",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "f71c0ec4aaeafa40",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "420693b3628eeec2",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "2bd7524f9c561941",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "07395a642d1c9c08",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ba62eea35ed73f09",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "2d8f2474e965c4db",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "733d95178b9fd93b",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "b8b11af99f68c57d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "79ac3f8a47ceb7f5",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "1a606dd18f0b01ec",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ed04594008de354d",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "534f10a8a416aa7c",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "aeec31d051c64c5b",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "787f6df4eb16f1a5",
+        "sig": "a58307061ab292f7",
         "stratum": "home_ok",
         "play": false
       },
@@ -832,62 +536,27 @@
         "play": false
       },
       {
-        "sig": "4b681d0e397433fb",
+        "sig": "cb816e5ef2698a1f",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "ee32d00276c62c38",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "fa073b5357637c4c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "f8cf71bd6cd14909",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "935251cbba42d76a",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "7602fc770b93b2d5",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ad4bcc929e468d46",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "393e908155aa06bb",
+        "sig": "8c0ad98802824c4d",
         "stratum": "home_ok",
         "play": true
       },
       {
-        "sig": "43e6871e0db38a4c",
-        "stratum": "other",
+        "sig": "e747dcadde871e21",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "31cb93de155289fa",
-        "stratum": "other",
+        "sig": "5eaed64959bfcb48",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "f8d66d6dd8a2ea27",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "9f76096c5467e772",
+        "sig": "a0723201ba05943f",
         "stratum": "home_ok",
         "play": false
       },
@@ -897,13 +566,253 @@
         "play": false
       },
       {
-        "sig": "0ad2b96c6dc8a99e",
-        "stratum": "other",
+        "sig": "1d8af829a63a5c8f",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "84bd326243d13cd5",
-        "stratum": "other",
+        "sig": "5ca17866d2b90253",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "792a6bae7496264d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "5df2fde6e008f4d9",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "990c3dafcc3336cf",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "fcf35541d6f4a33d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "02a5654848eebcc6",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "4b681d0e397433fb",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "b2ebbbde8695b712",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "dfac6ce76e9291af",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "26bc5fa2ac1946d1",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "677391a64d57b510",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "924239774d8adfb0",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "921cf5f6a9cc6ae7",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6ecd4309ba4ad11c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "fa073b5357637c4c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "44cdd4b3873eda56",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "e37b5962414b2860",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "2468ecee0e4f54da",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "92e1ec70c4ad9d06",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6cbecff20bf887d3",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "ed04594008de354d",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "2c83543ba4e6d917",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "71bdd344c0f21077",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "420693b3628eeec2",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "9b0ce53804129c8e",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "36bcbc91279ad350",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "059f8fec45d5bb61",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6211c248ecef02e1",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "aeec31d051c64c5b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "f8cf71bd6cd14909",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "787f6df4eb16f1a5",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "8dbecbe39ae4ab3a",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "01cf5180cdd3cc2e",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "534f10a8a416aa7c",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "1e305308431d4372",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "393e908155aa06bb",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "e38248a96b74ed5e",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9f76096c5467e772",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6ed90acc985224af",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "4b317a3923774cd1",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "2d8f2474e965c4db",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "0ba847b4dede767c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "a213e00c1834be51",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9794a29b9d2910fb",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "bb3e1d19c6fb5b1c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "ddb48b652b30840b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "07395a642d1c9c08",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "d906714226a103a5",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9bab3b2df67e8d47",
+        "stratum": "home_ok",
         "play": false
       },
       {
@@ -912,48 +821,23 @@
         "play": true
       },
       {
-        "sig": "e37b5962414b2860",
+        "sig": "8130c3401be9650a",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "4af353ca2f09b8f8",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "524ba097f379b87b",
+        "sig": "ba62eea35ed73f09",
         "stratum": "home_ok",
         "play": true
       },
       {
-        "sig": "6205bba7c62b9a39",
-        "stratum": "other",
+        "sig": "521dde4e9f5849e1",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "2e83e2c1b7e2aa21",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "aa769cc91f85896b",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "559acdc54e7ec7b2",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "397df9bc2680c156",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "7f9f56e53b1b3a99",
-        "stratum": "other",
+        "sig": "3dcd14c686096093",
+        "stratum": "home_ok",
         "play": false
       },
       {
@@ -962,82 +846,57 @@
         "play": false
       },
       {
-        "sig": "e92f6cc1a73c224b",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "398c3eca31b38834",
+        "sig": "2bd7524f9c561941",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "1db22e40763a2c57",
-        "stratum": "other",
+        "sig": "88cb517cfaf45d54",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "b0ef955562fe41f1",
-        "stratum": "other",
+        "sig": "667f72fb4e29dd16",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "091884987d95fbab",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "78195f2354e7d8d1",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "b01c0fdcd341dd14",
+        "sig": "79ac3f8a47ceb7f5",
         "stratum": "home_ok",
         "play": true
       },
       {
-        "sig": "8f4c542cf609e754",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "a4646fa52b754dfc",
+        "sig": "74320e544218c838",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "521dde4e9f5849e1",
+        "sig": "a312073aaf2cec86",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "5b256ec2918cee67",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "8130c3401be9650a",
+        "sig": "318c3e53e015d8e1",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "7602fc770b93b2d5",
         "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "c6dce91cfe0ff873",
-        "stratum": "other",
+        "sig": "b8b11af99f68c57d",
+        "stratum": "home_ok",
         "play": false
       },
       {
-        "sig": "0696536ef59d5805",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "15ca8ae77975dce8",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "a6152524c4c92800",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "49d7be3ae0fb8f97",
+        "sig": "2e83e2c1b7e2aa21",
         "stratum": "other",
         "play": false
       },
@@ -1047,7 +906,17 @@
         "play": false
       },
       {
-        "sig": "81d0a997e251f4a7",
+        "sig": "3e53ea09f39d48c8",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "84ea491b54c203b9",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "83cfb40ff7b87832",
         "stratum": "other",
         "play": false
       },
@@ -1057,23 +926,58 @@
         "play": false
       },
       {
-        "sig": "f6dfd554badec0a1",
+        "sig": "9919e5173af1b264",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "df25e743740b6eea",
+        "sig": "329ed3be5d1119fa",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "0696536ef59d5805",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "646205e727d9576b",
+        "sig": "4fb92286a78010e7",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "f8d66d6dd8a2ea27",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "9cae9200dffde13d",
+        "sig": "acc33a3bcd39cbcd",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "6205bba7c62b9a39",
         "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "ad4bcc929e468d46",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "49d7be3ae0fb8f97",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "733d95178b9fd93b",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "1a606dd18f0b01ec",
+        "stratum": "home_ok",
         "play": false
       },
       {
@@ -1082,19 +986,24 @@
         "play": false
       },
       {
-        "sig": "3e53ea09f39d48c8",
+        "sig": "7f9f56e53b1b3a99",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "83cfb40ff7b87832",
+        "sig": "b0ef955562fe41f1",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "ddb48b652b30840b",
+        "sig": "8f06c7cd494f00af",
         "stratum": "home_ok",
-        "play": true
+        "play": false
+      },
+      {
+        "sig": "43e6871e0db38a4c",
+        "stratum": "other",
+        "play": false
       },
       {
         "sig": "4ed3b6c3e5dda441",
@@ -1102,18 +1011,68 @@
         "play": false
       },
       {
-        "sig": "9b0ce53804129c8e",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "76a5fa25b092f1c5",
+        "sig": "0ad2b96c6dc8a99e",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "6abe76e16e7502f6",
+        "sig": "1db22e40763a2c57",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "2350f571f18afde5",
+        "stratum": "other",
+        "play": true
+      },
+      {
+        "sig": "81d0a997e251f4a7",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "15ca8ae77975dce8",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "c6dce91cfe0ff873",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "8f4c542cf609e754",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "84bd326243d13cd5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "4c02396a0d8a5791",
         "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "aa769cc91f85896b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "e9b2a08e52dbcca2",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "091884987d95fbab",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "f6dfd554badec0a1",
+        "stratum": "other",
         "play": false
       },
       {
@@ -1122,72 +1081,12 @@
         "play": false
       },
       {
-        "sig": "fd017f0c660bf7d6",
+        "sig": "b01c0fdcd341dd14",
         "stratum": "home_ok",
         "play": true
       },
       {
-        "sig": "4c02396a0d8a5791",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "d55b7e57744b3996",
-        "stratum": "home_ok",
-        "play": true
-      },
-      {
-        "sig": "268da8e9b6312f23",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "aa898270cbdca20c",
-        "stratum": "home_ok",
-        "play": false
-      },
-      {
-        "sig": "ce7991d74a937f1c",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "0cb7cd7765d86110",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "a1d75cd14d7045ee",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "a213e00c1834be51",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "0ba847b4dede767c",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "fcf35541d6f4a33d",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "356ee51d37ae383a",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "6cbecff20bf887d3",
-        "stratum": "other",
-        "play": false
-      },
-      {
-        "sig": "6ed90acc985224af",
+        "sig": "a6152524c4c92800",
         "stratum": "other",
         "play": false
       },
@@ -1197,12 +1096,57 @@
         "play": false
       },
       {
-        "sig": "5b256ec2918cee67",
+        "sig": "268da8e9b6312f23",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "356f41493ddd77c4",
+        "sig": "646205e727d9576b",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "76a5fa25b092f1c5",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "9cae9200dffde13d",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "78195f2354e7d8d1",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "559acdc54e7ec7b2",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "500a6ed5995f4a62",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "9243f25f75b8d818",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "df25e743740b6eea",
+        "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "d55b7e57744b3996",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "0cb7cd7765d86110",
         "stratum": "other",
         "play": false
       },
@@ -1212,13 +1156,38 @@
         "play": false
       },
       {
-        "sig": "02a5654848eebcc6",
+        "sig": "356f41493ddd77c4",
         "stratum": "other",
         "play": false
       },
       {
-        "sig": "500a6ed5995f4a62",
+        "sig": "aa898270cbdca20c",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "fd017f0c660bf7d6",
+        "stratum": "home_ok",
+        "play": true
+      },
+      {
+        "sig": "a1d75cd14d7045ee",
         "stratum": "other",
+        "play": false
+      },
+      {
+        "sig": "356ee51d37ae383a",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "6abe76e16e7502f6",
+        "stratum": "home_ok",
+        "play": false
+      },
+      {
+        "sig": "a4646fa52b754dfc",
+        "stratum": "home_ok",
         "play": false
       },
       {
@@ -1227,27 +1196,27 @@
         "play": false
       }
     ],
-    "search_rate": 0.4722,
-    "playable": 26,
-    "parses_alive_rate": 0.75,
+    "search_rate": 0.4779,
+    "playable": 20,
+    "parses_alive_rate": 0.45,
     "parses_total": 289,
     "weight_covered": 1.0
   },
-  "false_kill_rate": 0.46,
+  "false_kill_rate": 0.5,
   "false_kill_ci": [
-    0.3297,
-    0.596
+    0.3664,
+    0.6336
   ],
   "false_kill_checked": 50,
-  "false_kill_failed_total": 1057,
-  "false_kill_estimated": 486,
+  "false_kill_failed_total": 1048,
+  "false_kill_estimated": 524,
   "false_kill_estimated_ci": [
-    348.4929,
-    629.972
+    383.98720000000003,
+    664.0128000000001
   ],
   "raw_links": {
     "direct": 0,
-    "total": 12786,
+    "total": 12760,
     "ratio": 0.0,
     "mirror_applied": true,
     "mirrors": [
@@ -1259,7 +1228,7 @@
   },
   "assert_passed": true,
   "assert_ran": true,
-  "assert_pass_streak": 6,
+  "assert_pass_streak": 7,
   "assert_warnings": [],
   "build": {
     "available": true,
@@ -1285,12 +1254,12 @@
       "jar_health": "success",
       "regression": "success"
     },
-    "run": "1e4131d91568"
+    "run": "7ffd9af6f640"
   },
   "cdn_stale": null,
   "stable": {
-    "tag": "stable-20261115",
-    "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@stable-20261115/tvbox-full-homefirst.json",
+    "tag": "stable-20261116",
+    "cdn": "https://cdn.jsdelivr.net/gh/dimogu/9m6ypq2v@stable-20261116/tvbox-full-homefirst.json",
     "deprecated_reason": ""
   },
   "trend": [
@@ -1488,12 +1457,52 @@
       "sources_ok": 35,
       "assert_passed": true,
       "degraded": false
+    },
+    {
+      "date": "2026-11-16",
+      "sites": 3605,
+      "published": 3484,
+      "lite": 1123,
+      "network": 343,
+      "home_sites": 1696,
+      "home_ok": 75,
+      "play_rate": 0.1471,
+      "play_rate_adj": 0.1471,
+      "play_cms_share": 0.039,
+      "sample_rates": {
+        "jar": 0.55,
+        "ext": 0.35
+      },
+      "sample_rates_final": {
+        "jar": 0.55,
+        "ext": 0.35
+      },
+      "sample_retry": {
+        "ext": {
+          "tried": 13,
+          "rescued": 0
+        },
+        "jar": {
+          "tried": 9,
+          "rescued": 0
+        }
+      },
+      "false_kill_rate": 0.5,
+      "false_kill_ci": [
+        0.3664,
+        0.6336
+      ],
+      "weight_covered": 1.0,
+      "metric_version": "2026-11-14",
+      "sources_ok": 35,
+      "assert_passed": true,
+      "degraded": false
     }
   ],
   "dedupe": {
     "parses_deduped": 529,
     "blocked": {
-      "sites": 457,
+      "sites": 471,
       "lives": 4,
       "parses": 0
     }
@@ -1502,14 +1511,14 @@
     {
       "label": "全量版",
       "file": "tvbox.json",
-      "keys": 1314,
+      "keys": 1312,
       "content_dup": 1,
-      "client_norm": 1987,
-      "ext": 470,
-      "names": 1702,
+      "client_norm": 1972,
+      "ext": 469,
+      "names": 1697,
       "parse_renamed": 50,
       "parse_capped": 0,
-      "offshore_live": 86,
+      "offshore_live": 87,
       "wallpaper": true
     },
     {
@@ -1517,12 +1526,12 @@
       "file": "tvbox-lite.json",
       "keys": 410,
       "content_dup": 1,
-      "client_norm": 812,
+      "client_norm": 806,
       "ext": 1,
-      "names": 597,
+      "names": 596,
       "parse_renamed": 48,
       "parse_capped": 203,
-      "offshore_live": 86,
+      "offshore_live": 87,
       "wallpaper": true
     },
     {
@@ -1530,50 +1539,50 @@
       "file": "tvbox-network.json",
       "keys": 2,
       "content_dup": 1,
-      "client_norm": 678,
+      "client_norm": 672,
       "ext": 1,
-      "names": 56,
+      "names": 55,
       "parse_renamed": 48,
       "parse_capped": 223,
-      "offshore_live": 86,
+      "offshore_live": 87,
       "wallpaper": true
     }
   ],
   "regression": {
     "ran": true,
     "passed": true,
-    "ok": 80,
-    "total": 80,
+    "ok": 82,
+    "total": 82,
     "failed": 0,
     "hard_failed": [],
     "failed_checks": []
   },
   "live": {
     "ran": true,
-    "henan_playable": 59,
-    "henan_probed": 472,
-    "henan_main": 44,
-    "list_lines": 19,
+    "henan_playable": 65,
+    "henan_probed": 466,
+    "henan_main": 51,
+    "list_lines": 17,
     "list_exists": true,
     "list_txt_exists": true,
-    "sources_total": 153,
+    "sources_total": 154,
     "sources_ok": 88,
     "shells": [],
     "henan_sources": [
       {
         "name": "综合直播",
         "url": "https://ds65.tv1288.xyz",
-        "ok": 9
+        "ok": 12
       },
       {
         "name": "游魂",
         "url": "https://www.iyouhun.com/tv/zb",
-        "ok": 9
+        "ok": 11
       },
       {
         "name": "电视直播",
         "url": "http://gh-proxy.org/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
-        "ok": 9
+        "ok": 10
       },
       {
         "name": "gh-proxy.org/iptv.txt",
@@ -1581,34 +1590,34 @@
         "ok": 9
       },
       {
-        "name": "wnhhh/iptv-list",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
+        "name": "kimwang/白名单",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/kimwang1978/collect-txt/main/assets/blacklist1/whitelist_auto_tv.txt",
         "ok": 7
-      },
-      {
-        "name": "wnhhh/iptv-list·2",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
-        "ok": 7
-      },
-      {
-        "name": "全部频道·聚合",
-        "url": "https://ghproxy.net/https://raw.githubusercontent.com/Inliang/tvbox/main/lib/live-all.m3u",
-        "ok": 6
       },
       {
         "name": "全网聚合·高清",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Inliang/tvbox/main/lib/live-kaige.m3u",
+        "ok": 6
+      },
+      {
+        "name": "wnhhh/iptv-list",
+        "url": "https://ghproxy.net/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
+        "ok": 6
+      },
+      {
+        "name": "wnhhh/iptv-list·2",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.txt",
         "ok": 6
       }
     ],
     "blocklist": 1,
     "source_health": {
       "tested": 88,
-      "ok": 35,
-      "partial": 28,
-      "dead": 25,
+      "ok": 39,
+      "partial": 23,
+      "dead": 26,
       "badlist": 4,
-      "unknown": 61,
+      "unknown": 62,
       "dead_streak_ready": 0,
       "bad_streak_ready": 4,
       "pick_max": 8,
@@ -1620,92 +1629,92 @@
     "discover": {
       "ran": true,
       "adopted": 40,
-      "tested": 84,
-      "pool": 84,
-      "new": 9,
+      "tested": 90,
+      "pool": 90,
+      "new": 13,
       "fresh_days": 3,
       "channels": {
-        "已采纳复测": 38,
-        "站外·网页": 1,
-        "GitHub 活跃仓库": 1
+        "已采纳复测": 33,
+        "站外·网页": 3,
+        "GitHub 活跃仓库": 4
       },
       "offsite": {
         "web_pages": 5,
         "web_links": 20,
         "web_failed": 0,
-        "bili_items": 60,
+        "bili_items": 80,
         "bili_links": 5,
         "bili_pan": 0,
-        "adopted": 1
+        "adopted": 3
       },
       "top": [
         {
+          "name": "ysc.tengxuntaobao.win/live",
+          "url": "https://ysc.tengxuntaobao.win/live",
+          "rate": 0.818,
+          "chans": 328,
+          "henan": 3
+        },
+        {
           "name": "best-fan/iptv-sources cn_all_status",
           "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
-          "rate": 0.913,
+          "rate": 0.87,
           "chans": 253,
           "henan": 2
         },
         {
-          "name": "wnhhh/iptv-list",
-          "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
-          "rate": 0.652,
-          "chans": 3028,
-          "henan": 4
-        },
-        {
-          "name": "ysc.tengxuntaobao.win/live",
-          "url": "https://ysc.tengxuntaobao.win/live",
-          "rate": 0.826,
-          "chans": 230,
-          "henan": 3
-        },
-        {
           "name": "WangMCweijia/m3u-auto",
           "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.txt",
-          "rate": 0.609,
-          "chans": 567,
+          "rate": 0.652,
+          "chans": 559,
           "henan": 1
         },
         {
-          "name": "Qingyxiong/live-sources",
-          "url": "https://raw.githubusercontent.com/Qingyxiong/live-sources/main/live.m3u",
-          "rate": 0.727,
-          "chans": 508,
-          "henan": 1
+          "name": "gh-proxy.com/live.txt",
+          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
+          "rate": 0.565,
+          "chans": 2104,
+          "henan": 3
         },
         {
           "name": "lsx9988/my-tvbox-cfg cctv_live",
           "url": "https://raw.githubusercontent.com/lsx9988/my-tvbox-cfg/main/output/cctv_live.txt",
-          "rate": 0.864,
-          "chans": 137,
+          "rate": 0.818,
+          "chans": 140,
           "henan": 2
         },
         {
           "name": "feichangHELI/tvsource valid",
           "url": "https://raw.githubusercontent.com/feichangHELI/tvsource/main/valid.m3u",
-          "rate": 0.714,
+          "rate": 0.667,
           "chans": 659,
           "henan": 0
         },
         {
-          "name": "WangMCweijia/m3u-auto·2",
-          "url": "https://raw.githubusercontent.com/WangMCweijia/m3u-auto/main/out/live.m3u",
+          "name": "wnhhh/iptv-list",
+          "url": "https://raw.githubusercontent.com/wnhhh/iptv-list/main/iptv.m3u",
+          "rate": 0.522,
+          "chans": 3154,
+          "henan": 3
+        },
+        {
+          "name": "Qingyxiong/live-sources",
+          "url": "https://raw.githubusercontent.com/Qingyxiong/live-sources/main/live.m3u",
           "rate": 0.636,
-          "chans": 926,
+          "chans": 508,
           "henan": 1
         }
       ]
     },
     "sites": {
       "ran": true,
-      "total": 3600,
+      "total": 3586,
       "detected": 246,
       "checked": 200,
-      "alive": 49,
-      "dead": 50,
-      "unreachable": 17,
-      "spider": 83,
+      "alive": 53,
+      "dead": 54,
+      "unreachable": 10,
+      "spider": 82,
       "by_kind": {
         "cms": {
           "sites": 1,
@@ -1713,14 +1722,14 @@
           "dead": 0
         },
         "csp": {
-          "sites": 167,
-          "alive": 26,
-          "dead": 41
+          "sites": 168,
+          "alive": 28,
+          "dead": 48
         },
         "js": {
-          "sites": 30,
-          "alive": 21,
-          "dead": 9
+          "sites": 29,
+          "alive": 23,
+          "dead": 6
         },
         "py": {
           "sites": 2,
@@ -1730,6 +1739,12 @@
       },
       "lists": [],
       "dead_top": [
+        {
+          "name": "玩偶 • 4K · wogg.live",
+          "kind": "csp",
+          "detail": "HTTP403",
+          "target": "https://www.wogg.live"
+        },
         {
           "name": "玩偶 • 4K · wogg.live (2)",
           "kind": "csp",
@@ -1743,40 +1758,34 @@
           "target": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/MTV.json"
         },
         {
-          "name": "玩偶 • 4K · wogg.live",
-          "kind": "csp",
-          "detail": "HTTP403",
-          "target": "https://www.wogg.live"
-        },
-        {
-          "name": "💕电视直播",
-          "kind": "csp",
-          "detail": "返回网页",
-          "target": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬"
-        },
-        {
           "name": "⚽┆看球┆体育",
           "kind": "csp",
           "detail": "返回网页",
           "target": "http://www.88kanqiu.one"
         },
         {
-          "name": "🌏小灯塔科学",
+          "name": "⚽叭叭┃体育",
           "kind": "csp",
-          "detail": "HTTP404",
-          "target": "https://ghproxy.net/https://raw.githubusercontent.com/Inliang/tvbox/main/hccx/小灯塔科学.json"
+          "detail": "返回网页",
+          "target": "https://dm.211.li/nonay"
         },
         {
-          "name": "🅱哔哔┃合集 · Lightconer/tvbox-ysc-config (2)",
+          "name": "⚽瓜子┃体育",
           "kind": "csp",
-          "detail": "HTTP404",
-          "target": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/bilibili.json"
+          "detail": "返回网页",
+          "target": "https://dm.211.li/nonay"
         },
         {
-          "name": "🅱️┃中医┃药区 · Lightconer/tvbox-ysc-config",
+          "name": "🎮游戏┃直播",
           "kind": "csp",
-          "detail": "HTTP404",
-          "target": "https://ghproxy.net/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/hccx/中医.json"
+          "detail": "返回网页",
+          "target": "https://dm.211.li/nonay"
+        },
+        {
+          "name": "📺电视┃直播",
+          "kind": "csp",
+          "detail": "返回网页",
+          "target": "https://dm.211.li/nonay"
         }
       ]
     }
@@ -1784,26 +1793,26 @@
   "jar_health": {
     "probed": true,
     "jar_total": 85,
-    "jar_dead": 39,
-    "jar_alive_rate": 0.5411764705882353,
-    "ext_total": 1703,
-    "ext_dead": 1140,
+    "jar_dead": 37,
+    "jar_alive_rate": 0.5647058823529412,
+    "ext_total": 1701,
+    "ext_dead": 1020,
     "jar_fail_streak": 61,
-    "jar_fail_ge2": 36,
-    "ext_fail_streak": 1933,
-    "ext_fail_ge2": 883
+    "jar_fail_ge2": 37,
+    "ext_fail_streak": 1956,
+    "ext_fail_ge2": 949
   },
   "freshness": {
     "level": "ok",
     "label": "自动更新正常",
-    "hours": 0.3,
+    "hours": 0.2,
     "advice": "",
-    "page_hours": 0.00020041412777370876,
-    "config_hours": 0.25881152523888484,
-    "duration": "16 分钟",
-    "generated": "2026-11-15 05:46:38 UTC",
-    "config_updated": "2026-11-15 05:31:07 UTC",
-    "generated_epoch": 1794721598,
-    "config_epoch": 1794720667
+    "page_hours": 0.0002612017260657416,
+    "config_hours": 0.23915009061495462,
+    "duration": "14 分钟",
+    "generated": "2026-11-16 00:03:02 UTC",
+    "config_updated": "2026-11-15 23:48:42 UTC",
+    "generated_epoch": 1794787382,
+    "config_epoch": 1794786522
   }
 }
