@@ -2,18 +2,16 @@
   "date": "2026-11-16",
   "env": {
     "env": "github-actions",
-    "run": "fc18649785d8",
+    "run": "9f8903dfcb4a",
     "proxy": false,
-    "generated": "2026-11-16 16:19:57 UTC"
+    "generated": "2026-11-16 22:57:28 UTC"
   },
-  "passed": false,
+  "passed": true,
   "total": 85,
-  "ok": 84,
-  "failed": 1,
+  "ok": 85,
+  "failed": 0,
   "skipped": 0,
-  "hard_failed": [
-    "B47"
-  ],
+  "hard_failed": [],
   "checks": [
     {
       "id": "A01",
@@ -57,7 +55,7 @@
       "origin": "第六轮：图片被当 spider jar（352 站）",
       "title": "jar 不得指向确认是图片 / 网页的地址",
       "ok": true,
-      "detail": "0 个确认非 jar 的地址（2286 个媒体后缀的地址已核实内容是 jar）",
+      "detail": "0 个确认非 jar 的地址（2204 个媒体后缀的地址已核实内容是 jar）",
       "critical": true
     },
     {
@@ -587,8 +585,8 @@
       "group": "构建链路",
       "origin": "随机名改造：稳定版指针、配置自引用、发现器状态里残留的私有仓库名会被原样复制进公开产物；2026-11-13 又发现 env.runner 把原始 run_id 带进 17 份公开 JSON，而门禁只扫两份文件、键名表不含 runner",
       "title": "静态口径：公开产物零泄露 + 发布门禁覆盖全量（本轮产物由 site_check 把关）",
-      "ok": false,
-      "detail": "live_discover_state.json 出现非分发仓库名 <private>",
+      "ok": true,
+      "detail": "统一脱敏 + 发布门禁覆盖全量产物 + 分发仓库名全库唯一",
       "critical": true
     },
     {
