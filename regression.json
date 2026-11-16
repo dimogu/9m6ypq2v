@@ -2,16 +2,18 @@
   "date": "2026-11-16",
   "env": {
     "env": "github-actions",
-    "run": "5222f3ac09a5",
+    "run": "fc18649785d8",
     "proxy": false,
-    "generated": "2026-11-16 13:51:22 UTC"
+    "generated": "2026-11-16 16:19:57 UTC"
   },
-  "passed": true,
-  "total": 84,
+  "passed": false,
+  "total": 85,
   "ok": 84,
-  "failed": 0,
+  "failed": 1,
   "skipped": 0,
-  "hard_failed": [],
+  "hard_failed": [
+    "B47"
+  ],
   "checks": [
     {
       "id": "A01",
@@ -55,7 +57,7 @@
       "origin": "第六轮：图片被当 spider jar（352 站）",
       "title": "jar 不得指向确认是图片 / 网页的地址",
       "ok": true,
-      "detail": "0 个确认非 jar 的地址（2283 个媒体后缀的地址已核实内容是 jar）",
+      "detail": "0 个确认非 jar 的地址（2286 个媒体后缀的地址已核实内容是 jar）",
       "critical": true
     },
     {
@@ -585,8 +587,8 @@
       "group": "构建链路",
       "origin": "随机名改造：稳定版指针、配置自引用、发现器状态里残留的私有仓库名会被原样复制进公开产物；2026-11-13 又发现 env.runner 把原始 run_id 带进 17 份公开 JSON，而门禁只扫两份文件、键名表不含 runner",
       "title": "静态口径：公开产物零泄露 + 发布门禁覆盖全量（本轮产物由 site_check 把关）",
-      "ok": true,
-      "detail": "统一脱敏 + 发布门禁覆盖全量产物 + 分发仓库名全库唯一",
+      "ok": false,
+      "detail": "live_discover_state.json 出现非分发仓库名 <private>",
       "critical": true
     },
     {
@@ -763,10 +765,19 @@
     {
       "id": "B67",
       "group": "构建链路",
-      "origin": "2026-11-16 net 版首页顶部无分类栏：首站 CMS api 不带分类、且非凡未置顶到首位",
-      "title": "非凡候补组排首位（改名自动切换），首站补 ?ac=list+categories",
+      "origin": "2026-11-16 net 版首页顶部无分类栏：首站 CMS api 不带分类、且非凡未置顶到首位；非凡+dd 一起失效时退化站也无分类",
+      "title": "非凡候补组排首位（改名自动切换），前10个CMS站补 ?ac=list+categories（含 apijson），jar/直播不动",
       "ok": true,
-      "detail": "非凡首位 + 首页分类兜底正确",
+      "detail": "非凡首位 + 前10位首页分类兜底正确",
+      "critical": true
+    },
+    {
+      "id": "B68",
+      "group": "构建链路",
+      "origin": "2026-11-16 第五轮审核 P0（构建因私有字面量自证放大失败、前10分类未上线）/ P1 / P2 多项修复",
+      "title": "诊断脱敏斩断自证链 + 抽样种子北京日 + is_cms_api 精确化统一 + 子集忽略仅 ac=list + Wilson 健康度 + half-up",
+      "ok": true,
+      "detail": "第五轮修复全锁住",
       "critical": true
     }
   ]
