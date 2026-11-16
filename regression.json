@@ -2,13 +2,13 @@
   "date": "2026-11-16",
   "env": {
     "env": "github-actions",
-    "run": "9b1e77ec2612",
+    "run": "5222f3ac09a5",
     "proxy": false,
-    "generated": "2026-11-16 11:07:03 UTC"
+    "generated": "2026-11-16 13:51:22 UTC"
   },
   "passed": true,
-  "total": 83,
-  "ok": 83,
+  "total": 84,
+  "ok": 84,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -758,6 +758,15 @@
       "title": "client_compat 统一删 hide，产物置顶项无 hide",
       "ok": true,
       "detail": "client_compat 清 hide + 全站重生成后无 hide",
+      "critical": true
+    },
+    {
+      "id": "B67",
+      "group": "构建链路",
+      "origin": "2026-11-16 net 版首页顶部无分类栏：首站 CMS api 不带分类、且非凡未置顶到首位",
+      "title": "非凡候补组排首位（改名自动切换），首站补 ?ac=list+categories",
+      "ok": true,
+      "detail": "非凡首位 + 首页分类兜底正确",
       "critical": true
     }
   ]
