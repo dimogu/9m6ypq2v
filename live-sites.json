@@ -2,13 +2,13 @@
   "date": "2026-11-16",
   "env": {
     "env": "github-actions",
-    "run": "7ffd9af6f640",
+    "run": "cdba578e890c",
     "proxy": false,
-    "generated": "2026-11-16 00:01:39 UTC"
+    "generated": "2026-11-16 03:15:34 UTC"
   },
-  "total_sites": 3586,
+  "total_sites": 3623,
   "live_sites": 200,
-  "detected": 246,
+  "detected": 247,
   "by_kind": {
     "cms": {
       "sites": 1,
@@ -20,10 +20,10 @@
     "csp": {
       "sites": 168,
       "alive": 28,
-      "dead": 48,
-      "spider": 82,
+      "dead": 42,
+      "spider": 84,
       "unsupported": 0,
-      "unreachable": 10
+      "unreachable": 14
     },
     "js": {
       "sites": 29,
@@ -302,6 +302,32 @@
       "probe": null
     },
     {
+      "key": "BiliXiqu",
+      "name": "🎉戏曲┃Bili",
+      "api": "csp_BiliAmns",
+      "kind": "csp",
+      "target": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100913-7601517540.aowu",
+      "status": null,
+      "bytes": 964,
+      "verdict": "alive",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "MTV-4",
+      "name": "🎶明星┃MV · nos.netease.com",
+      "api": "csp_BiliGuard",
+      "kind": "csp",
+      "target": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt",
+      "status": null,
+      "bytes": 21954,
+      "verdict": "alive",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
       "key": "初中课堂-6",
       "name": "🌈｜初中｜课堂 · Bili",
       "api": "csp_Bili",
@@ -354,32 +380,6 @@
       "probe": null
     },
     {
-      "key": "BiliXiqu",
-      "name": "🎉戏曲┃Bili",
-      "api": "csp_BiliAmns",
-      "kind": "csp",
-      "target": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100913-7601517540.aowu",
-      "status": null,
-      "bytes": 964,
-      "verdict": "alive",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "MTV-4",
-      "name": "🎶明星┃MV · nos.netease.com",
-      "api": "csp_BiliGuard",
-      "kind": "csp",
-      "target": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt",
-      "status": null,
-      "bytes": 21954,
-      "verdict": "alive",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
       "key": "小学课堂-6",
       "name": "🌈｜小学｜课堂 · Bili",
       "api": "csp_Bili",
@@ -406,19 +406,6 @@
       "probe": null
     },
     {
-      "key": "xiaoma_Bili",
-      "name": "🅱哔哔合集┃弹幕 · szyyds.cn (2)",
-      "api": "csp_BiliGuard",
-      "kind": "csp",
-      "target": "https://szyyds.cn/tv/jx/bilibiliheji.txt",
-      "status": null,
-      "bytes": 47957,
-      "verdict": "alive",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
       "key": "少儿教育-6",
       "name": "🌈｜少儿｜教育 · Bili",
       "api": "csp_Bili",
@@ -427,6 +414,19 @@
       "status": null,
       "bytes": 0,
       "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "xiaoma_Bili",
+      "name": "🅱哔哔合集┃弹幕 · szyyds.cn (2)",
+      "api": "csp_BiliGuard",
+      "kind": "csp",
+      "target": "https://szyyds.cn/tv/jx/bilibiliheji.txt",
+      "status": null,
+      "bytes": 47957,
+      "verdict": "alive",
       "detail": "",
       "channels": null,
       "probe": null
@@ -536,9 +536,9 @@
       "probe": null
     },
     {
-      "key": "ALLLive",
-      "name": "🌟┆星河┆共影",
-      "api": "csp_ALLLive",
+      "key": "Wexbiliys-2",
+      "name": "🅱‍哔哔┃影视🅱‍ · WexbiliysGuard (2)",
+      "api": "csp_WexbiliysGuard",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -549,9 +549,9 @@
       "probe": null
     },
     {
-      "key": "Wexbiliys-2",
-      "name": "🅱‍哔哔┃影视🅱‍ · WexbiliysGuard (2)",
-      "api": "csp_WexbiliysGuard",
+      "key": "ALLLive",
+      "name": "🌟┆星河┆共影",
+      "api": "csp_ALLLive",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -620,9 +620,9 @@
       "kind": "csp",
       "target": "https://dm.211.li/nonay",
       "status": null,
-      "bytes": 120000,
-      "verdict": "dead",
-      "detail": "返回网页",
+      "bytes": 0,
+      "verdict": "unreachable",
+      "detail": "网络不可达",
       "channels": null,
       "probe": null
     },
@@ -633,9 +633,9 @@
       "kind": "csp",
       "target": "https://dm.211.li/nonay",
       "status": null,
-      "bytes": 120000,
-      "verdict": "dead",
-      "detail": "返回网页",
+      "bytes": 0,
+      "verdict": "unreachable",
+      "detail": "网络不可达",
       "channels": null,
       "probe": null
     },
@@ -672,9 +672,22 @@
       "kind": "csp",
       "target": "https://dm.211.li/nonay",
       "status": null,
-      "bytes": 120000,
-      "verdict": "dead",
-      "detail": "返回网页",
+      "bytes": 0,
+      "verdict": "unreachable",
+      "detail": "网络不可达",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "直播",
+      "name": "📺电视┃直播",
+      "api": "csp_MiGu",
+      "kind": "csp",
+      "target": "https://dm.211.li/nonay",
+      "status": null,
+      "bytes": 0,
+      "verdict": "unreachable",
+      "detail": "网络不可达",
       "channels": null,
       "probe": null
     },
@@ -705,15 +718,28 @@
       "probe": null
     },
     {
-      "key": "直播",
-      "name": "📺电视┃直播",
-      "api": "csp_MiGu",
+      "key": "快手直播",
+      "name": "😎快手┃直播",
+      "api": "csp_AweSomeGuard",
       "kind": "csp",
-      "target": "https://dm.211.li/nonay",
+      "target": "",
       "status": null,
-      "bytes": 120000,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "Biliych-4",
+      "name": "🅱哔哔┃歌曲 · Lightconer/tvbox-ysc-config (2)",
+      "api": "csp_Bili",
+      "kind": "csp",
+      "target": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/biliych.json",
+      "status": null,
+      "bytes": 0,
       "verdict": "dead",
-      "detail": "返回网页",
+      "detail": "HTTP404",
       "channels": null,
       "probe": null
     },
@@ -725,19 +751,6 @@
       "target": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt",
       "status": null,
       "bytes": 17580,
-      "verdict": "alive",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "xiaohezi_相声小品",
-      "name": "🅱️相声小品 · xhztv.top (2)",
-      "api": "csp_Bili",
-      "kind": "csp",
-      "target": "http://xhztv.top/xhz/sub/Blixs.json",
-      "status": null,
-      "bytes": 5655,
       "verdict": "alive",
       "detail": "",
       "channels": null,
@@ -783,58 +796,6 @@
       "probe": null
     },
     {
-      "key": "快手直播",
-      "name": "😎快手┃直播",
-      "api": "csp_AweSomeGuard",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "biliych-2",
-      "name": "🅱哔哔┃歌曲🅱 · support-chat.rongcloud.cn (2)",
-      "api": "csp_BiliGuard",
-      "kind": "csp",
-      "target": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt",
-      "status": null,
-      "bytes": 17580,
-      "verdict": "alive",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "alllive-3",
-      "name": "🎮┃游戏┃直播 · Alllive (2)",
-      "api": "csp_Alllive",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "虎牙直播",
-      "name": "🐯虎牙┃直播 · AweSomeGuard",
-      "api": "csp_AweSomeGuard",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
       "key": "88看球-3",
       "name": "88 • 看球",
       "api": "csp_Sports88",
@@ -851,6 +812,19 @@
       "key": "B站直播",
       "name": "B站|直播",
       "api": "csp_BilibiliLiveCAT",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "JustLive",
+      "name": "JustLive直播",
+      "api": "csp_JustLive",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -913,21 +887,34 @@
       "probe": null
     },
     {
-      "key": "瓜子体育-2",
-      "name": "⚽｜瓜子｜体育",
-      "api": "csp_GuaziTY",
+      "key": "biliych-2",
+      "name": "🅱哔哔┃歌曲🅱 · support-chat.rongcloud.cn (2)",
+      "api": "csp_BiliGuard",
       "kind": "csp",
-      "target": "",
+      "target": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt",
       "status": null,
-      "bytes": 0,
-      "verdict": "spider",
+      "bytes": 17580,
+      "verdict": "alive",
       "detail": "",
       "channels": null,
       "probe": null
     },
     {
-      "key": "alllive",
-      "name": "一直播LIVE",
+      "key": "xiaohezi_相声小品",
+      "name": "🅱️相声小品 · xhztv.top (2)",
+      "api": "csp_Bili",
+      "kind": "csp",
+      "target": "http://xhztv.top/xhz/sub/Blixs.json",
+      "status": null,
+      "bytes": 5655,
+      "verdict": "alive",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "alllive-3",
+      "name": "🎮┃游戏┃直播 · Alllive (2)",
       "api": "csp_Alllive",
       "kind": "csp",
       "target": "",
@@ -939,35 +926,9 @@
       "probe": null
     },
     {
-      "key": "咖啡体育",
-      "name": "咖啡 • 体育",
-      "api": "csp_SportsKafei",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "球通体育",
-      "name": "球通 • 体育",
-      "api": "csp_SportQiutong",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "瓜子体育-3",
-      "name": "瓜子 • 体育",
-      "api": "csp_SportsGuazi",
+      "key": "虎牙直播",
+      "name": "🐯虎牙┃直播 · AweSomeGuard",
+      "api": "csp_AweSomeGuard",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -1017,9 +978,87 @@
       "probe": null
     },
     {
+      "key": "瓜子体育-2",
+      "name": "⚽｜瓜子｜体育",
+      "api": "csp_GuaziTY",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
       "key": "88看球-2",
       "name": "⚽｜看球｜直播",
       "api": "csp_Kanqiu",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "alllive",
+      "name": "一直播LIVE",
+      "api": "csp_Alllive",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "体育",
+      "name": "体育|实时",
+      "api": "csp_KanqiuCAT",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "咖啡体育",
+      "name": "咖啡 • 体育",
+      "api": "csp_SportsKafei",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "球通体育",
+      "name": "球通 • 体育",
+      "api": "csp_SportQiutong",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "瓜子体育-3",
+      "name": "瓜子 • 体育",
+      "api": "csp_SportsGuazi",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -1420,6 +1459,32 @@
       "probe": null
     },
     {
+      "key": "csp_Live2Vod_1",
+      "name": "💕电视直播",
+      "api": "csp_Live2Vod",
+      "kind": "csp",
+      "target": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬",
+      "status": null,
+      "bytes": 114,
+      "verdict": "dead",
+      "detail": "返回网页",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "csp_Yj1211-3",
+      "name": "💕直播综合",
+      "api": "csp_Yj1211",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
+      "channels": null,
+      "probe": null
+    },
+    {
       "key": "瓜子-4",
       "name": "🏀┃瓜子┃体育 · GuaziTY (2)",
       "api": "csp_GuaziTY",
@@ -1459,32 +1524,6 @@
       "probe": null
     },
     {
-      "key": "csp_Live2Vod_1",
-      "name": "💕电视直播",
-      "api": "csp_Live2Vod",
-      "kind": "csp",
-      "target": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬",
-      "status": null,
-      "bytes": 114,
-      "verdict": "dead",
-      "detail": "返回网页",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "csp_Yj1211-3",
-      "name": "💕直播综合",
-      "api": "csp_Yj1211",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
       "key": "laoliubei_alllive",
       "name": "📽️┃一直播┃LIVE · Alllive (2)",
       "api": "csp_Alllive",
@@ -1498,9 +1537,9 @@
       "probe": null
     },
     {
-      "key": "GuaziTY",
-      "name": "🥜┆瓜子┆体育",
-      "api": "csp_GuaziTY",
+      "key": "csp_Yj1211-4",
+      "name": "📽️在线直播",
+      "api": "csp_Yj1211",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -1511,9 +1550,9 @@
       "probe": null
     },
     {
-      "key": "csp_Yj1211-4",
-      "name": "📽️在线直播",
-      "api": "csp_Yj1211",
+      "key": "GuaziTY",
+      "name": "🥜┆瓜子┆体育",
+      "api": "csp_GuaziTY",
       "kind": "csp",
       "target": "",
       "status": null,
@@ -1719,19 +1758,6 @@
       "probe": null
     },
     {
-      "key": "csp_Bili-2",
-      "name": "🅱️合集┃[哗哩]",
-      "api": "csp_BiliJs",
-      "kind": "csp",
-      "target": "",
-      "status": null,
-      "bytes": 0,
-      "verdict": "spider",
-      "detail": "",
-      "channels": null,
-      "probe": null
-    },
-    {
       "key": "csp_Bili_zyy",
       "name": "🅱️┃中医┃药区 · Inliang/tvbox",
       "api": "csp_Bili",
@@ -1767,6 +1793,19 @@
       "bytes": 0,
       "verdict": "dead",
       "detail": "HTTP404",
+      "channels": null,
+      "probe": null
+    },
+    {
+      "key": "csp_Bili-2",
+      "name": "🅱️合集┃[哗哩]",
+      "api": "csp_BiliJs",
+      "kind": "csp",
+      "target": "",
+      "status": null,
+      "bytes": 0,
+      "verdict": "spider",
+      "detail": "",
       "channels": null,
       "probe": null
     },
@@ -2564,19 +2603,6 @@
       "probe": null
     },
     {
-      "key": "Biliych-4",
-      "name": "🅱哔哔┃歌曲 · Lightconer/tvbox-ysc-config (2)",
-      "api": "csp_Bili",
-      "kind": "csp",
-      "target": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/biliych.json",
-      "status": null,
-      "bytes": 0,
-      "verdict": "dead",
-      "detail": "HTTP404",
-      "channels": null,
-      "probe": null
-    },
-    {
       "key": "csp_Bili_TYjs-2",
       "name": "🅱️┃体育┃健身 · Lightconer/tvbox-ysc-config",
       "api": "csp_Bili",
@@ -2614,34 +2640,8 @@
       "detail": "HTTP404",
       "channels": null,
       "probe": null
-    },
-    {
-      "key": "csp_Bili_xiangsh-2",
-      "name": "🅱️┃相声┃小品 · Lightconer/tvbox-ysc-config",
-      "api": "csp_Bili",
-      "kind": "csp",
-      "target": "https://gh-proxy.com/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/libs/hccx/相声.json",
-      "status": null,
-      "bytes": 0,
-      "verdict": "dead",
-      "detail": "HTTP404",
-      "channels": null,
-      "probe": null
-    },
-    {
-      "key": "csp_Bili_xiangsh",
-      "name": "🅱️┃相声┃小品 · Inliang/tvbox",
-      "api": "csp_Bili",
-      "kind": "csp",
-      "target": "https://ghproxy.net/https://raw.githubusercontent.com/Inliang/tvbox/main/libs/hccx/相声.json",
-      "status": null,
-      "bytes": 0,
-      "verdict": "dead",
-      "detail": "HTTP404",
-      "channels": null,
-      "probe": null
     }
   ],
   "lists": [],
-  "elapsed": 15.3
+  "elapsed": 23.4
 }

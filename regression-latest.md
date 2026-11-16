@@ -13,9 +13,9 @@
 | A02 | 第九轮：导入报 IllegalStateException | style / header 不得是 JSON 对象 | ✅ 通过 | 0 处对象型 style/header（不会抛 IllegalStateException） |
 | A03 | 第九轮 / 第三轮 / 类型契约修复 | 类型契约：sites/parses.type 整数、lives.type 字符串、playerType/gridview 非字符串 | ✅ 通过 | playerType/gridview 为整数，sites/parses.type 为整数，lives.type 为字符串 |
 | A04 | 第九轮：播放期 NullPointerException(String.trim()) | 裸 trim 的 String 字段不得缺失 / null / 非字符串 | ✅ 通过 | 客户端会裸 trim() 的字段全部非 null（不会 NPE 闪退） |
-| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2278 个媒体后缀的地址已核实内容是 jar） |
+| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2286 个媒体后缀的地址已核实内容是 jar） |
 | A06 | 第五轮：jar 字段带前后空格（26 站） | jar 值必须已 strip | ✅ 通过 | jar 值无前后空白（不会被误判缺 jar / 拉 404） |
-| A07 | 第一轮：csp 爬虫节点没有 jar | csp 站点缺 jar 比例不超过 30% | ✅ 通过 | 0/2448 个 csp 站点缺 jar（上游本身可能没写，阈值 30%） |
+| A07 | 第一轮：csp 爬虫节点没有 jar | csp 站点缺 jar 比例不超过 30% | ✅ 通过 | 0/2485 个 csp 站点缺 jar（上游本身可能没写，阈值 30%） |
 | A08 | 合并坑：上游相对路径未绝对化 | api/jar/ext/url 不得是相对路径 | ✅ 通过 | 0 处 ./ ../ 相对路径 |
 | A09 | 第九轮：yw88075 相对仓库根拼错（138 站首页空白） | 无相邻重复路径段（跳过 raw 的 owner/repo 同名） | ✅ 通过 | 0 处 XBPQ/XBPQ 类基准拼错 |
 | A10 | 第八轮：换皮名 / raw-jsdelivr-gh-proxy 别名重复 | 站点 / 直播 / 解析按内容指向去重 | ✅ 通过 | 10 份配置按内容指向判重后均无重复 |
