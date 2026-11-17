@@ -3,7 +3,7 @@
 把九轮迭代里真实出现过的故障逐条复核，确认修复仍在、防线没被绕过。
 默认离线，`--online` 追加线上线路比对；判定环境：github-actions。
 
-**结果：86 项检查，86 项通过，0 项未通过（其中阻断 0 项），0 项跳过 —— 全部通过**
+**结果：87 项检查，87 项通过，0 项未通过（其中阻断 0 项），0 项跳过 —— 全部通过**
 
 ## 产物契约
 
@@ -13,7 +13,7 @@
 | A02 | 第九轮：导入报 IllegalStateException | style / header 不得是 JSON 对象 | ✅ 通过 | 0 处对象型 style/header（不会抛 IllegalStateException） |
 | A03 | 第九轮 / 第三轮 / 类型契约修复 | 类型契约：sites/parses.type 整数、lives.type 字符串、playerType/gridview 非字符串 | ✅ 通过 | playerType/gridview 为整数，sites/parses.type 为整数，lives.type 为字符串 |
 | A04 | 第九轮：播放期 NullPointerException(String.trim()) | 裸 trim 的 String 字段不得缺失 / null / 非字符串 | ✅ 通过 | 客户端会裸 trim() 的字段全部非 null（不会 NPE 闪退） |
-| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2367 个媒体后缀的地址已核实内容是 jar） |
+| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2433 个媒体后缀的地址已核实内容是 jar） |
 | A06 | 第五轮：jar 字段带前后空格（26 站） | jar 值必须已 strip | ✅ 通过 | jar 值无前后空白（不会被误判缺 jar / 拉 404） |
 | A07 | 第一轮：csp 爬虫节点没有 jar | csp 站点缺 jar 比例不超过 30% | ✅ 通过 | 0/2540 个 csp 站点缺 jar（上游本身可能没写，阈值 30%） |
 | A08 | 合并坑：上游相对路径未绝对化 | api/jar/ext/url 不得是相对路径 | ✅ 通过 | 0 处 ./ ../ 相对路径 |
@@ -41,11 +41,11 @@
 | B08 | 第十轮：关键词外置 / 生成物本地只读 | blocklist 非空、.gitignore 覆盖、local_readonly 在位 | ✅ 通过 | blocklist / .gitignore / local_readonly.py 三项齐全 |
 | B09 | 各轮修复必须有硬断言守着，不能只靠文档 | assertions.py 覆盖全部关键回归防线 | ✅ 通过 | 18 条关键硬断言全部在位 |
 | B10 | 每日保险丝结果 | 当日回归断言已通过 | ✅ 通过 | date=2026-11-17 / passed=True，49 项检查，失败 [] |
-| B11 | 第十轮：误杀率 52% 证明单日判定不可信 | quality.json 保留多日历史与抽样基线 | ✅ 通过 | 多日历史 / 连败 / 抽样基线字段齐全（7 天） |
+| B11 | 第十轮：误杀率 52% 证明单日判定不可信 | quality.json 保留多日历史与抽样基线 | ✅ 通过 | 多日历史 / 连败 / 抽样基线字段齐全（8 天） |
 | B12 | 第九轮：README 要求 Pages 主线路；健康页给无版本 CDN 链接 | README 主线路 Pages / health.py 直链带 @main | ✅ 通过 | README 主推 Pages、无无版本号 CDN 直链；健康页直链均带 @main |
 | B13 | 本轮：健康页 </table> 写在 for 循环体内（线上 33 闭合 / 5 开标签） | 生成的健康页 HTML 表格标签平衡 | ✅ 通过 | 源码静态检查：10 个表格闭合均在循环外 |
 | B14 | 每轮交付前的基础检查 | 全部 scripts/*.py 可编译 | ✅ 通过 | 38 个脚本全部编译通过 |
-| B15 | 本轮：tag 复用时指针 commit 写成当前 HEAD、与不可变 tag 不一致 | stable.json 的 commit 指向 tag 实际提交 | ✅ 通过 | tag=stable-20261116 / 指针 commit=33bf604119 / tag 实际=33bf604119 |
+| B15 | 本轮：tag 复用时指针 commit 写成当前 HEAD、与不可变 tag 不一致 | stable.json 的 commit 指向 tag 实际提交 | ✅ 通过 | tag=stable-20261117 / 指针 commit=8b8e455bb5 / tag 实际=8b8e455bb5 |
 | B16 | 本轮：lives/parses 半量兜底误伤设计内解析截断（已被断言拦下） | polish 的集合兜底只在被清空时触发 | ✅ 通过 | 兜底只判「清空」，不会把 parse_cap 的配额截断当异常回退 |
 | B17 | 本轮：上游改版返回 JSON 数组让整个每日构建崩溃 | build.py 对非对象 JSON 与非法 URL 有兜底 | ✅ 通过 | 非 dict JSON 跳过该源 + fetch 先 percent-encode，单源坏数据不再拖垮整天构建 |
 | B18 | 本轮：`or len(body) > 0` 让可播率判定完全失效（虚高） | play_probe 媒体判定排除 HTML | ✅ 通过 | 魔数白名单 + HTML 黑名单，不再「任何非空 200 都算媒体」 |
@@ -100,6 +100,7 @@
 | B67 | 2026-11-16 net 版首页顶部无分类栏：首站 CMS api 不带分类、且非凡未置顶到首位；非凡+dd 一起失效时退化站也无分类 | 非凡候补组排首位（改名自动切换），前10个CMS站补 ?ac=list+categories（含 apijson），jar/直播不动 | ✅ 通过 | 非凡首位 + 前10位首页分类兜底正确 |
 | B68 | 2026-11-16 第五轮审核 P0（构建因私有字面量自证放大失败、前10分类未上线）/ P1 / P2 多项修复 | 诊断脱敏斩断自证链 + 抽样种子北京日 + is_cms_api 精确化统一 + 子集忽略仅 ac=list + Wilson 健康度 + half-up | ✅ 通过 | 第五轮修复全锁住 |
 | B69 | 2026-11-17 FongMi 点播页分类栏只剩 6 个（上游值），接口真实 31 个分类因按名过滤而显示不出来 | 构建时探 ac=list 取真实分类名写入 categories；失败保留原值、幂等 | ✅ 通过 | 首页分类探测锁住 |
+| B70 | 2026-11-17 电视分类栏出现空白类目（父级栏目无片）与「伦理片」标签；CK资源 为成人站点 | 首站实测 0 部的类目摘除（失败保留）+ 分类名只屏蔽伦理 + CK 名字/域名拉黑 | ✅ 通过 | 分类只摘伦理片、空类目只探首站、CK 整条拉黑 |
 
 ---
 
