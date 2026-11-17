@@ -1,18 +1,18 @@
 #EXTM3U
-# 河南台实测可播线路 · 2026-11-17 生成 · 17 条线路 / 10 个频道
+# 河南台实测可播线路 · 2026-11-17 生成 · 18 条线路 / 10 个频道
 # 同名频道按「·2」「·3」编号，播放失败时逐条切换
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视
-http://27.129.145.110:4433/hls/33/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·2
 http://111.61.236.247:9081/hls/33/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·3
+#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·2
 http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·4
+#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·3
 http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·5
-http://222.169.85.8:9901/tsfile/live/0139_1.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·6
+#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·4
 http://61.136.172.236:9901/tsfile/live/0139_1.m3u8
+#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·5
+http://61.136.172.236:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·6
+http://124.90.45.52:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南卫视高清" group-title="河南",河南卫视高清
 http://110.72.61.23:808/hls/49/index.m3u8
 #EXTINF:-1 tvg-name="河南梨园频道" group-title="河南",河南梨园频道
@@ -32,6 +32,8 @@ http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playl
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市
 http://zzssw01.55555.io:9901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·2
+http://39.165.39.49:85/tsfile/live/1106_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·3
 http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=88170e222ae162f529b43e5dbd1f84a2&wsTime=1794906265
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="河南",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=c452361d48946a742c25905db28c9e79&wsTime=1794909882
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=f3a693ab9ca131adc346d0ac7fb4ab26&wsTime=1794917014
