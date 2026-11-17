@@ -2,12 +2,12 @@
   "date": "2026-11-17",
   "env": {
     "env": "github-actions",
-    "run": "498919c81803",
+    "run": "9d056b47cfa4",
     "proxy": false,
-    "generated": "2026-11-17 08:31:33 UTC"
+    "generated": "2026-11-17 10:40:24 UTC"
   },
   "source": "github-actions",
-  "run": "498919c81803",
+  "run": "9d056b47cfa4",
   "trigger": "manual",
   "steps": {
     "audit": "success",
@@ -21,6 +21,7 @@
     "search_rank": "success",
     "cn_mirror": "success",
     "live_audit": "success",
+    "live_merge": "success",
     "live_discover": "success",
     "live_sites": "success",
     "jar_health": "success",

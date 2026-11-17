@@ -2,13 +2,13 @@
   "date": "2026-11-17",
   "env": {
     "env": "github-actions",
-    "run": "498919c81803",
+    "run": "9d056b47cfa4",
     "proxy": false,
-    "generated": "2026-11-17 08:31:33 UTC"
+    "generated": "2026-11-17 10:40:24 UTC"
   },
   "passed": true,
-  "total": 89,
-  "ok": 89,
+  "total": 90,
+  "ok": 90,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -55,7 +55,7 @@
       "origin": "第六轮：图片被当 spider jar（352 站）",
       "title": "jar 不得指向确认是图片 / 网页的地址",
       "ok": true,
-      "detail": "0 个确认非 jar 的地址（2178 个媒体后缀的地址已核实内容是 jar）",
+      "detail": "0 个确认非 jar 的地址（2184 个媒体后缀的地址已核实内容是 jar）",
       "critical": true
     },
     {
@@ -289,7 +289,7 @@
       "origin": "每轮交付前的基础检查",
       "title": "全部 scripts/*.py 可编译",
       "ok": true,
-      "detail": "38 个脚本全部编译通过",
+      "detail": "39 个脚本全部编译通过",
       "critical": true
     },
     {
@@ -812,6 +812,15 @@
       "title": "参考无双IPTV 的频道库思路：频道名归一后按组等距抽样，用「组数×可播率」估真活频道数，纳入门槛与排序（不增加探测请求）",
       "ok": true,
       "detail": "频道归一/组级抽样/真活频道数门槛与排序全部生效",
+      "critical": true
+    },
+    {
+      "id": "B73",
+      "group": "构建链路",
+      "origin": "2026-11-17 用户要「点进去就是那个台」，而不是在 40 条源之间挨个试；合并表上线后若线路数超限、没排首位或探测没预算，会退回原样甚至拖垮构建",
+      "title": "新增 live_merge.py：跨源归并按频道合并、逐条实测最多留 3 条，写入 live-merged.m3u/txt 并插到每份配置 lives 首位（原 40 条与河南台专列表保留）",
+      "ok": true,
+      "detail": "合并表：≤3 线路/台、同名合并、首位注入且幂等、预算与自我引用过滤均在位",
       "critical": true
     }
   ]
