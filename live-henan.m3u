@@ -10,34 +10,34 @@ http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·4
 http://120.198.95.220:9901/tsfile/live/1055_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·5
-http://61.136.172.236:9901/tsfile/live/0139_1.m3u8
+http://120.198.95.220:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-name="河南卫视" group-title="河南",河南卫视·6
-http://61.136.172.236:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河南卫视高清" group-title="河南",河南卫视高清
-http://110.72.61.23:808/hls/49/index.m3u8
+http://61.136.172.236:9901/tsfile/live/0139_1.m3u8
 #EXTINF:-1 tvg-name="河南梨园频道" group-title="河南",河南梨园频道
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
 #EXTINF:-1 tvg-name="河南新闻" group-title="河南",河南新闻
 https://hngd-cdn-hls-pull-tx-1.hntv.tv/saas_live/6b74358e0b514f8bbe95640403a91445/playlist.m3u8?wsSecret=f0f60173cd9c52c693cc5aec0f98138d&wsTime=1978133090
 #EXTINF:-1 tvg-name="河南新闻" group-title="河南",河南新闻·2
-http://121.199.48.54/live1/hatv.m3u8?id=hatv6&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv6&usign=nq1l6-i9J2mfYW__rTYAsw
 #EXTINF:-1 tvg-name="河南乡村" group-title="河南",河南乡村
-http://121.199.48.54/live1/hatv.m3u8?id=hatv9&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv9&usign=nq1l6-i9J2mfYW__rTYAsw
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="河南",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=8b06106389975452d151417eca3f9c85&wsTime=1794924239
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=7145674de51b146311d75bd6f5e7f7f7&wsTime=1794938684
 #EXTINF:-1 tvg-name="河南公共" group-title="河南",河南公共
-http://121.199.48.54/live1/hatv.m3u8?id=hatv8&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv8&usign=nq1l6-i9J2mfYW__rTYAsw
+#EXTINF:-1 tvg-name="河南卫视（可用）" group-title="河南",河南卫视（可用）
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=6535b8d4227fdd6c542dfa1a19a86b37&wsTime=1794931459
 #EXTINF:-1 tvg-name="河南民生" group-title="河南",河南民生
 http://39.165.39.49:85/tsfile/live/1109_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河南民生" group-title="河南",河南民生·2
-http://121.199.48.54/live1/hatv.m3u8?id=hatv3&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv3&usign=nq1l6-i9J2mfYW__rTYAsw
 #EXTINF:-1 tvg-name="河南法治" group-title="河南",河南法治
-http://121.199.48.54/live1/hatv.m3u8?id=hatv4&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv4&usign=nq1l6-i9J2mfYW__rTYAsw
 #EXTINF:-1 tvg-name="河南电视剧" group-title="河南",河南电视剧
-http://121.199.48.54/live1/hatv.m3u8?id=hatv5&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv5&usign=nq1l6-i9J2mfYW__rTYAsw
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市
 http://zzssw01.55555.io:9901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·2
 http://39.165.39.49:85/tsfile/live/1106_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河南都市" group-title="河南",河南都市·3
-http://121.199.48.54/live1/hatv.m3u8?id=hatv2&usign=_vko-yJ5lU7N_KtGd4EuDg
+http://121.199.48.54/live1/hatv.m3u8?id=hatv2&usign=nq1l6-i9J2mfYW__rTYAsw
