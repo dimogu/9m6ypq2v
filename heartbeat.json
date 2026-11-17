@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-17 01:40:33 UTC",
-  "generated_epoch": 1794879633,
-  "config_updated": "2026-11-17 01:26:03 UTC",
-  "config_epoch": 1794878763,
+  "generated": "2026-11-17 06:23:21 UTC",
+  "generated_epoch": 1794896601,
+  "config_updated": "2026-11-17 06:07:17 UTC",
+  "config_epoch": 1794895637,
   "state": "ok",
   "degraded": false,
-  "sites": 3571,
+  "sites": 3482,
   "check": "generated_epoch 超过 30 小时未变化视为更新延迟，超过 50 小时判停更；本文件由健康页随每次成功构建重写",
   "ok_hours": 30,
   "late_hours": 50
