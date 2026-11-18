@@ -1,17 +1,19 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "env": {
     "env": "github-actions",
-    "run": "1f7729bcd140",
+    "run": "035127be2697",
     "proxy": false,
-    "generated": "2026-11-17 14:26:26 UTC"
+    "generated": "2026-11-18 00:51:10 UTC"
   },
-  "passed": true,
+  "passed": false,
   "total": 91,
-  "ok": 91,
-  "failed": 0,
+  "ok": 90,
+  "failed": 1,
   "skipped": 0,
-  "hard_failed": [],
+  "hard_failed": [
+    "B73"
+  ],
   "checks": [
     {
       "id": "A01",
@@ -55,7 +57,7 @@
       "origin": "第六轮：图片被当 spider jar（352 站）",
       "title": "jar 不得指向确认是图片 / 网页的地址",
       "ok": true,
-      "detail": "0 个确认非 jar 的地址（2178 个媒体后缀的地址已核实内容是 jar）",
+      "detail": "0 个确认非 jar 的地址（2175 个媒体后缀的地址已核实内容是 jar）",
       "critical": true
     },
     {
@@ -253,7 +255,7 @@
       "origin": "每日保险丝结果",
       "title": "当日回归断言已通过",
       "ok": true,
-      "detail": "date=2026-11-17 / passed=True，49 项检查，失败 []",
+      "detail": "date=2026-11-18 / passed=True，49 项检查，失败 []",
       "critical": true
     },
     {
@@ -819,8 +821,8 @@
       "group": "构建链路",
       "origin": "2026-11-17 用户要「点进去就是那个台」，而不是在 40 条源之间挨个试；合并表上线后若线路数超限、没排首位或探测没预算，会退回原样甚至拖垮构建",
       "title": "新增 live_merge.py：跨源归并按频道合并、逐条实测最多留 3 条，写入 live-merged.m3u/txt 并插到每份配置 lives 首位（原 40 条与河南台专列表保留）",
-      "ok": true,
-      "detail": "合并表：≤3 线路/台、同名合并、首位注入且幂等、预算与自我引用过滤均在位",
+      "ok": false,
+      "detail": "复核脚本异常：ValueError: too many values to unpack (expected 6)",
       "critical": true
     },
     {
@@ -829,7 +831,7 @@
       "origin": "2026-11-17 用户报「CCTV 频道好多播的不是正确节目，河南卫视也是」。合并且只验「能不能出画面」，验不了「画面是不是这个台」：实测同一个 IPTV 转发源 hls/15 标着 CCTV15 实际播湖北卫视、hls/36 标着湖北卫视实际播重庆卫视，河南卫视有一条线路挂在联通 IPTV 的健康讲座上",
       "title": "新增 live_curated.txt：重点台逐条抓帧、裁台标放大核实后再写进去，构建时插到候选最前；同时加错标黑名单、DRM 流剔除、一地址只归一台、同流去重，断言侧锁「不得跨台重复 / 不得有加密流 / 不得有非频道名」",
       "ok": true,
-      "detail": "精选源 44 个台 / 49 条线路，格式与黑名单一致，多数已进合并表",
+      "detail": "精选源 49 个台 / 59 条线路，格式与黑名单一致，多数已进合并表",
       "critical": true
     }
   ]
