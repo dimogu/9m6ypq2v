@@ -2,13 +2,13 @@
   "date": "2026-11-18",
   "env": {
     "env": "github-actions",
-    "run": "a8af03e8536d",
+    "run": "61dd4e963802",
     "proxy": false,
-    "generated": "2026-11-18 06:10:52 UTC"
+    "generated": "2026-11-18 08:06:40 UTC"
   },
   "passed": true,
-  "total": 94,
-  "ok": 94,
+  "total": 96,
+  "ok": 96,
   "failed": 0,
   "skipped": 0,
   "hard_failed": [],
@@ -55,7 +55,7 @@
       "origin": "第六轮：图片被当 spider jar（352 站）",
       "title": "jar 不得指向确认是图片 / 网页的地址",
       "ok": true,
-      "detail": "0 个确认非 jar 的地址（2282 个媒体后缀的地址已核实内容是 jar）",
+      "detail": "0 个确认非 jar 的地址（2290 个媒体后缀的地址已核实内容是 jar）",
       "critical": true
     },
     {
@@ -857,6 +857,24 @@
       "title": "sync_tag 降级为 warning（可下轮幂等补建）；收尾四步改 always() && mirror 成功；post_publish 增加 tag 存在性只读校验",
       "ok": true,
       "detail": "sync_tag 非致命 + 收尾解耦 + tag 校验",
+      "critical": true
+    },
+    {
+      "id": "B78",
+      "group": "构建链路",
+      "origin": "2026-11-18 全面审核：等距抽样 int(i*step) 在 N=n+1（21 组抽 20）时漏掉末位频道，偏差方向固定（永远漏末尾地方台）使可播率估计偏高",
+      "title": "even_indices 用 round(i*(N-1)/(n-1)) 覆盖首尾，pick_channels 与 spread_groups 共用唯一口径",
+      "ok": true,
+      "detail": "等距抽样首尾覆盖（21 抽 20 含末位）",
+      "critical": true
+    },
+    {
+      "id": "B79",
+      "group": "构建链路",
+      "origin": "2026-11-18 全面审核：首站空白类目探测默认 limit=32 而输入 tree 上限60，33+ 位的空白父级漏剔；真实分类 >60 写不进 categories，FongMi 少显示",
+      "title": "探测上限与写入上限都放宽到 200，首站显式按 len(tree) 全覆盖",
+      "ok": true,
+      "detail": "类目上限放宽到 200、首站探测全覆盖",
       "critical": true
     }
   ]

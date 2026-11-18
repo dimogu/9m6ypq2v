@@ -3,7 +3,7 @@
 把九轮迭代里真实出现过的故障逐条复核，确认修复仍在、防线没被绕过。
 默认离线，`--online` 追加线上线路比对；判定环境：github-actions。
 
-**结果：94 项检查，94 项通过，0 项未通过（其中阻断 0 项），0 项跳过 —— 全部通过**
+**结果：96 项检查，96 项通过，0 项未通过（其中阻断 0 项），0 项跳过 —— 全部通过**
 
 ## 产物契约
 
@@ -13,7 +13,7 @@
 | A02 | 第九轮：导入报 IllegalStateException | style / header 不得是 JSON 对象 | ✅ 通过 | 0 处对象型 style/header（不会抛 IllegalStateException） |
 | A03 | 第九轮 / 第三轮 / 类型契约修复 | 类型契约：sites/parses.type 整数、lives.type 字符串、playerType/gridview 非字符串 | ✅ 通过 | playerType/gridview 为整数，sites/parses.type 为整数，lives.type 为字符串 |
 | A04 | 第九轮：播放期 NullPointerException(String.trim()) | 裸 trim 的 String 字段不得缺失 / null / 非字符串 | ✅ 通过 | 客户端会裸 trim() 的字段全部非 null（不会 NPE 闪退） |
-| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2282 个媒体后缀的地址已核实内容是 jar） |
+| A05 | 第六轮：图片被当 spider jar（352 站） | jar 不得指向确认是图片 / 网页的地址 | ✅ 通过 | 0 个确认非 jar 的地址（2290 个媒体后缀的地址已核实内容是 jar） |
 | A06 | 第五轮：jar 字段带前后空格（26 站） | jar 值必须已 strip | ✅ 通过 | jar 值无前后空白（不会被误判缺 jar / 拉 404） |
 | A07 | 第一轮：csp 爬虫节点没有 jar | csp 站点缺 jar 比例不超过 30% | ✅ 通过 | 0/2455 个 csp 站点缺 jar（上游本身可能没写，阈值 30%） |
 | A08 | 合并坑：上游相对路径未绝对化 | api/jar/ext/url 不得是相对路径 | ✅ 通过 | 0 处 ./ ../ 相对路径 |
@@ -108,6 +108,8 @@
 | B75 | 2026-11-18 全面审核：死源连败计数只按含 name 的 sig 累积，上游换个 emoji 就清零，「连续失败 3 次淘汰」被无限推迟，死源永久滞留搜索前排 | 新增 content_sig（不含 name）+ 双写取 max，改名不断链、换源仍能区分 | ✅ 通过 | 改名不重置连败（sig 变 / content_sig 不变 / 取 max） |
 | B76 | 2026-11-18 全面审核：可播率判据过宽，以 G 开头的文本 / JSON 错误 / 非 HTML 200 都被当媒体流，play_rate 与排序分系统性虚高 | 去掉裸 0x47 单字节 OR 分支，改 Content-Type / #EXTM3U / ftyp / FLV 白名单，metric_version 推进 2026-11-18 | ✅ 通过 | 可播率判据改白名单、裸 0x47 已去 |
 | B77 | 2026-11-18 全面审核：sync_tag 排在 PATCH 主分支之后，tag API 重试耗尽抛 SystemExit 会让整个 mirror step 失败，其后自检/源码仓 push/CDN 全被跳过，留下「配置已发布但 tag/CDN/源码仓没跟上」的中间态 | sync_tag 降级为 warning（可下轮幂等补建）；收尾四步改 always() && mirror 成功；post_publish 增加 tag 存在性只读校验 | ✅ 通过 | sync_tag 非致命 + 收尾解耦 + tag 校验 |
+| B78 | 2026-11-18 全面审核：等距抽样 int(i*step) 在 N=n+1（21 组抽 20）时漏掉末位频道，偏差方向固定（永远漏末尾地方台）使可播率估计偏高 | even_indices 用 round(i*(N-1)/(n-1)) 覆盖首尾，pick_channels 与 spread_groups 共用唯一口径 | ✅ 通过 | 等距抽样首尾覆盖（21 抽 20 含末位） |
+| B79 | 2026-11-18 全面审核：首站空白类目探测默认 limit=32 而输入 tree 上限60，33+ 位的空白父级漏剔；真实分类 >60 写不进 categories，FongMi 少显示 | 探测上限与写入上限都放宽到 200，首站显式按 len(tree) 全覆盖 | ✅ 通过 | 类目上限放宽到 200、首站探测全覆盖 |
 
 ---
 
